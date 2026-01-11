@@ -1,0 +1,21 @@
+
+
+class SearchObject{
+    constructor(page){
+        this.page = page
+        this.searchIcon = this.page.locator('button.cdx-search-input__end-button').first()
+        this.searchInput = this.page.locator('div.cdx-text-input input.cdx-text-input__input').first()
+        this.images = this.page.locator('tbody tr td div div.center')
+    
+        this.possibleSearchTerms = ['italian language', 'stepan bandera', 'vitruvian man']
+    }
+
+
+
+    enterSearchTermNumberFromArray(number){
+    return this.possibleSearchTerms[number]
+    
+}
+}
+
+module.exports = {SearchObject}
