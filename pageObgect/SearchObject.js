@@ -1,6 +1,6 @@
 
 
-class SearchObject{
+export default class SearchObject{
     constructor(page){
         this.page = page
         this.searchIcon = this.page.locator('button.cdx-search-input__end-button').first()
@@ -18,4 +18,3 @@ class SearchObject{
 }
 }
 
-module.exports = {SearchObject}

@@ -1,5 +1,5 @@
 
-class PageWithContent{
+export class PageWithContent{
     constructor(page) {
         this.page = page
         this.sectionWithContent = this.page.locator('div.mw-body-content div.mw-content-ltr')
@@ -17,4 +17,3 @@ class PageWithContent{
         this.previewsDialog = this.page.locator('div section#mwe-popups-settings') 
     }
 }
-module.exports = {PageWithContent}

@@ -1,5 +1,5 @@
 
-class MainMenu{
+export class MainMenu{
     constructor(page){
     this.page = page
     this.mainMenuBtn = this.page.locator('header input#vector-main-menu-dropdown-checkbox')
@@ -13,4 +13,3 @@ class MainMenu{
 
 }
 
-module.exports = {MainMenu}

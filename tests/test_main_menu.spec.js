@@ -1,5 +1,5 @@
-const {test, expect} = require('@playwright/test')
-const {MainMenu} = require('../pageObgect/MainMenu')
+import {test, expect}  from '@playwright/test'
+import {MainMenu} from'../pageObgect/MainMenu'
 
 
 test('@regression test Current event from main menu', async({page})=>{

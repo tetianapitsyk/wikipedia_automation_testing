@@ -1,5 +1,5 @@
 const {test, expect} = require("@playwright/test")
-const {PageWithContent} = require('../pageObgect/PageWithContent')
+import {PageWithContent} from '../pageObgect/PageWithContent'
 
 // 2 regression
 // -	 Search

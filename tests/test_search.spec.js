@@ -1,6 +1,6 @@
 // 1 smoke 
 const {test, expect} = require("@playwright/test")
-const {SearchObject} = require("../pageObgect/SearchObject")
+import SearchObject from "../pageObgect/SearchObject"
 // const searchDataset = JSON.parse(JSON.stringify(require("../utils/data"))) doesnt work
 // console.log(searchDataset)
 
