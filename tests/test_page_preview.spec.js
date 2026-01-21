@@ -1,4 +1,4 @@
-const {test, expect} = require("@playwright/test")
+import {test, expect} from '@playwright/test'
 import {PageWithContent} from '../pageObgect/PageWithContent'
 
 // 2 regression
@@ -25,7 +25,7 @@ test('@smoke all default sections are present on main screen', async({page})=>{
 
 
 
-test('observe link preview', async({page})=>{
+test('@regression observe link preview @regression', async({page})=>{
     await page.goto('https://en.wikipedia.org/wiki/Main_Page')
     const pageWithContent = new PageWithContent(page)
     await page.locator('h2#mp-otd-h2').waitFor()

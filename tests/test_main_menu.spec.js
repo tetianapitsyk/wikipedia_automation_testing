@@ -1,8 +1,10 @@
 import {test, expect}  from '@playwright/test'
-import {MainMenu} from'../pageObgect/MainMenu'
+import {MainMenu} from '../pageObgect/MainMenu'
 
 
 test('@regression test Current event from main menu', async({page})=>{
+    console.log(test.info().project.use.baseURL);
+
     await page.goto('https://en.wikipedia.org/wiki/Main_Page')
     const mainMenu = new MainMenu(page)
     await mainMenu.mainMenuBtn.click()
