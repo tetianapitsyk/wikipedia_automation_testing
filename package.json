@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "regression": "npx playwright test --grep '@regression'",
+    "smokeTests": "npx playwright test --grep @smoke" 
+
+
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
