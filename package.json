@@ -1,13 +1,14 @@
 {
+
   "name": "wikipedia",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {},
-  "author": "",
+  "author": "tetiana",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.3"
+    "@types/node": "^25.0.3"  
   }
 }
