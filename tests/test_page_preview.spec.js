@@ -1,17 +1,11 @@
 import {test, expect} from '@playwright/test'
 import {PageWithContent} from '../pageObgect/PageWithContent'
 
-// 2 regression
-// -	 Search
-// -	Light/dark theme
-// -	Page preview settings
-// -	- tools printable version
-
 
 
 
 test('@smoke all default sections are present on main screen', async({page})=>{
-    await page.goto('https://en.wikipedia.org/wiki/Main_Page')
+    await page.goto('/wiki/Main_Page')
     const pageWithContentt = new PageWithContent(page)
     await expect(pageWithContentt.banner1).toContainText('Welcome')
     await expect(pageWithContentt.bannerLeft).toBeVisible()
@@ -25,7 +19,7 @@ test('@smoke all default sections are present on main screen', async({page})=>{
 
 
 
-test('@regression observe link preview @regression', async({page})=>{
+test('@regression observe link preview', async({page})=>{
     await page.goto('https://en.wikipedia.org/wiki/Main_Page')
     const pageWithContent = new PageWithContent(page)
     await page.locator('h2#mp-otd-h2').waitFor()
