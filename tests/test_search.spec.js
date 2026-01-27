@@ -1,43 +1,16 @@
-// 1 smoke 
-const {test, expect} = require("@playwright/test")
-const {SearchObject} = require("../pageObgect/SearchObject")
-// const searchDataset = JSON.parse(JSON.stringify(require("../utils/data"))) doesnt work
-// console.log(searchDataset)
+import { test, expect } from '@playwright/test'
+import SearchObject from '../pageObgect/SearchObject'
 
-// 2 regression
-// -	Search
-// -	Light/dark theme
-// -	Page preview settings
-// -	tools printable version
+const searchTerms = ['italian language', 'stepan bandera', 'vitruvian man', 'java script']
+for (const term of searchTerms) {
+  test(`@smoke wiki searching for ${term}`, async ({ page }) => {
+    await page.goto('/wiki/Main_Page')
+    const searchBlock = new SearchObject(page)
+    await searchBlock.searchAndOpenLvivPageFromDropdown()
+    await searchBlock.testShowAllBtnForImages()
+    await searchBlock.searchInput.fill(term)
+    await expect(searchBlock.searchReccomendation).toContainText('Search for pages containing ' + term)
+    await searchBlock.searchReccomendation.filter({ hasText: term }).click()
 
-
-
-//for (const data of searchDataset){  doesnt work
-test('@smoke wiki search', async({page})=>{
-  await page.goto('https://en.wikipedia.org/wiki/Main_Page')
-  const searchBlock = new SearchObject(page)
-  await searchBlock.searchIcon.click()
-  await searchBlock.searchInput.fill('lvi')
-
- await page.locator('ul.cdx-menu__listbox li').filter({hasText: 'Lviv'}).first().click()
- await page.locator('ul #ca-nstab-main').waitFor()
-
-  //verify that 3 img are shown when show all is selected
-  await page.locator('div').locator('.switcher-container label').filter({hasText: 'Show all'}).click()
-  let numberOfMap = await searchBlock.images.count()
-  expect(numberOfMap).toBe(3)
-
-   //verify entered word combination appear in search results, you can select the word combination from array of 3 elements which is in pageObject
-    const selectedSearchtermFromArray = searchBlock.enterSearchTermNumberFromArray(2)  //data
-    await searchBlock.searchInput.fill(selectedSearchtermFromArray)
-    await expect(page.locator('a.cdx-menu-item__content span span').last()).toContainText('Search for pages containing '+selectedSearchtermFromArray)
-    await page.locator('a.cdx-menu-item__content span span').last().filter({hasText: selectedSearchtermFromArray}).click()
-
-
-
-
-
-
-  
-})
-//}
+  })
+}
