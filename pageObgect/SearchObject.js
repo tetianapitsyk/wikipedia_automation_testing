@@ -7,7 +7,6 @@ export default class SearchObject {
         this.searchInput = this.page.locator('div.cdx-text-input input.cdx-text-input__input').first()
         this.images = this.page.locator('tbody tr td div div.center')
         this.searchReccomendation = this.page.locator('a.cdx-menu-item__content span span').last()
-       
     }
 
     async searchAndOpenLvivPageFromDropdown() {
@@ -16,14 +15,11 @@ export default class SearchObject {
         await this.page.locator('ul.cdx-menu__listbox li').filter({ hasText: 'Lviv' }).first().click()
     }
 
-    async testShowAllBtnForImages(){
+    async testShowAllBtnForImages() {
         //verify that 3 img are shown when show all is selected
-          await this.page.locator('ul #ca-nstab-main').waitFor()          
-          await this.page.locator('div').locator('.switcher-container label').filter({ hasText: 'Show all' }).click()
-          let numberOfMap = await this.images.count()
-          expect(numberOfMap).toBe(3)
+        await this.page.locator('ul #ca-nstab-main').waitFor()
+        await this.page.locator('div').locator('.switcher-container label').filter({ hasText: 'Show all' }).click()
+        let numberOfMap = await this.images.count()
+        expect(numberOfMap).toBe(3)
     }
-
 }
-
-//module.exports = { SearchObject }
