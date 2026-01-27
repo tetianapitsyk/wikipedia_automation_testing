@@ -2,8 +2,6 @@ import { test, expect } from '@playwright/test'
 import Tools from '../pageObgect/Tools'
 
 
-
-
 test('@regression test tools dropd', async ({ page }) => {
     await page.goto('/wiki/Main_Page')
     const tools = new Tools(page)
@@ -13,9 +11,8 @@ test('@regression test tools dropd', async ({ page }) => {
     //await tools.infoTable.waitFor()
     await expect(await tools.infoPageTitle).toHaveText('Information for "Main Page"')
     await tools.verifyIfTableOfContentOpensNecessaryChapter()
-
-
 })
+
 
 test('@UI test text radiobtns', async ({ page }) => {
     await page.goto('/wiki/Main_Page')
@@ -28,6 +25,8 @@ test('@UI test text radiobtns', async ({ page }) => {
     await expect(tools.standartlRB).toBeChecked()
 
 })
+
+
 test('@UI test color radiobtns', async ({ page }) => {
     await page.goto('/wiki/Main_Page')
     const tools = new Tools(page)

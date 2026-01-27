@@ -9,7 +9,7 @@
 
 
   },
-  "author": "",
+  "author": "tania",
   "license": "ISC",
   "devDependencies": {
     "@playwright/test": "^1.57.0",

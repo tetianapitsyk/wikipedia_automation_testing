@@ -13,6 +13,7 @@ test('@regression test Hide\Move main menu', async ({ page }) => {
 
 })
 
+
 test('@regression test Current event from main menu', async ({ page }) => {
 
     await page.goto('/wiki/Main_Page')
@@ -24,6 +25,8 @@ test('@regression test Current event from main menu', async ({ page }) => {
     await mainMenu.calendarDay.filter({ hasText: day }).click()
     await expect(page.locator('.current-events span.summary').filter({ hasText: day })).toBeInViewport()
 })
+
+
 test('@regression test contactUs from main menu', async ({ page }) => {
     await page.goto('/wiki/Main_Page')
     const mainMenu = new MainMenu(page)
@@ -31,9 +34,8 @@ test('@regression test contactUs from main menu', async ({ page }) => {
     await mainMenu.contactUs.click()
     await mainMenu.contactUsHeader.waitFor()
     await expect(mainMenu.contactUsHeader).toHaveText('Wikipedia:Contact us')
-
-
 })
+
 
 test('@regression test Language Settings from main menu', async ({ page }) => {
     await page.goto('/wiki/Main_Page')
@@ -48,14 +50,11 @@ test('@regression test Language Settings from main menu', async ({ page }) => {
     await mainMenu.cancelButton.click()
     await expect(mainMenu.languageSettingDialog).toBeHidden()
 
-    // await mainMenu.contactUsHeader.waitFor()
-    // await expect(mainMenu.contactUsHeader).toHaveText('Wikipedia:Contact us')
-
-
 })
 
-test.skip('@regression test Recent changes page from Main Menu', async ({ page }) => {
 
+test.skip('@regression test Recent changes page from Main Menu', async ({ page }) => {
+//wiki restrictions cant automate
     await page.goto('/wiki/Main_Page')
     const mainMenu = new MainMenu(page)
     await mainMenu.mainMenuBtn.click()
@@ -65,4 +64,3 @@ test.skip('@regression test Recent changes page from Main Menu', async ({ page }
     await mainMenu.filterOptCheckbox.click()
 
 })
-

@@ -1,12 +1,12 @@
 import { expect } from "@playwright/test"
 export default class Tools {
-    constructor(page){
-        this.page=page
+    constructor(page) {
+        this.page = page
         this.toolsButton = this.page.locator('#vector-page-tools-dropdown-checkbox')
-        this.infoButton = this.page.locator('a').filter({hasText:'Page information'})
+        this.infoButton = this.page.locator('a').filter({ hasText: 'Page information' })
         this.infoTable = this.page.locator('.wikitable mw-page-info')
         this.infoPageTitle = this.page.locator('h1#firstHeading')
-        this.contentsLocation=this.page.locator('.hlist')
+        this.contentsLocation = this.page.locator('.hlist')
         this.basicInformation = this.contentsLocation.locator('ul a').first()
         this.pageProtection = this.contentsLocation.locator('ul a').nth(1)
         this.editHistory = this.contentsLocation.locator('ul a').nth(2)
@@ -30,22 +30,18 @@ export default class Tools {
         this.lightColor = this.appearanceBlock.locator('input#skin-client-pref-skin-theme-value-day')
         this.darkColor = this.appearanceBlock.locator('input#skin-client-pref-skin-theme-value-night')
 
-
     }
 
     async verifyIfTableOfContentOpensNecessaryChapter() {
-        let buttons= [this.basicInformation, this.pageProtection , this.editHistory , this.pageProperties ,this.externalTools ]
-        let tables = [this.basicInformationTable, this.pageProtectionTable , this.editHistoryTable , this.pagePropertiesTable ,this.externalToolsTable ]
-        for(let n=0;n<buttons.length; n++){
-            if(buttons[n].textContent()=='Basic information'){
-            await buttons[n].click()
-            await expect(tables[n]).toBeVisible()
+        let buttons = [this.basicInformation, this.pageProtection, this.editHistory, this.pageProperties, this.externalTools]
+        let tables = [this.basicInformationTable, this.pageProtectionTable, this.editHistoryTable, this.pagePropertiesTable, this.externalToolsTable]
+        for (let n = 0; n < buttons.length; n++) {
+            if (buttons[n].textContent() == 'Basic information') {
+                await buttons[n].click()
+                await expect(tables[n]).toBeVisible()
             }
             await buttons[n].click()
             await expect(tables[n]).toBeInViewport()
         }
-        
     }
-
-
 }
