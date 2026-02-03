@@ -15,7 +15,7 @@ test('@smoke all default sections are present on main screen', async ({ page }) 
 })
 
 
-test('@regression observe link preview @regression', async ({ page }) => {
+test('@regression observe link preview', async ({ page }) => {
     await page.goto('https://en.wikipedia.org/wiki/Main_Page')
     const pageWithContent = new PageWithContent(page)
     await page.locator('h2#mp-otd-h2').waitFor()
