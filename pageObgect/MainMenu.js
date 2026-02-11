@@ -10,3 +10,17 @@ export class MainMenu {
         this.calendarDay = this.calendar.locator('tr td')
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
