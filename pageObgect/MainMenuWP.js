@@ -26,7 +26,7 @@ export class MainMenuWP {
         this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
         this.cancelButton = this.languageSettingDialog.locator('button').filter({ hasText: 'Cancel' })
 
-         this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
         this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
         this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
 
@@ -43,15 +43,3 @@ export class MainMenuWP {
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-       

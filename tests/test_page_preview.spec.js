@@ -1,4 +1,3 @@
-import { test, expect } from '@playwright/test'
 import { PageWithContent } from '../pageObgect/PageWithContent'
 
 test('@smoke all default sections are present on main screen', async ({ page }) => {
