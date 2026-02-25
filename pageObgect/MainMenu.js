@@ -40,3 +40,17 @@ export class MainMenu {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
+        this.fontsButton = this.languageSettingDialog.locator('#uls-display-settings-fonts-tab')
