@@ -16,12 +16,12 @@ export class MainMenuWM {
         this.HideButtonOnMainMenuOnSideBar = this.page.locator('button').filter({ hasText: 'hide' }).first()
         this.specialPages = this.page.locator('li').filter({ hasText: 'Special pages' }).first()
         this.recentChanges = this.page.locator('li').filter({ hasText: 'Recent changes' }).first()
-        
-        
-        
+
+
+
 
     }
 
-    
-   
+
+
 }

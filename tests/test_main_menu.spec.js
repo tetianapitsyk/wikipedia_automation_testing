@@ -6,7 +6,7 @@ test('@regression test Move main menu', async ({ page, wikiHeader, mainMenuWP })
     await mainMenuWP.moveToSideBarButton.click()
     await expect(mainMenuWP.mainMenuOnSideBar).toBeVisible()
     await mainMenuWP.verifyAllMenuOptionsArePresent()
-    
+
 })
 
 test('@regression test Hide main menu', async ({ page, wikiHeader, mainMenuWP }) => {
@@ -20,7 +20,7 @@ test('@regression test Hide main menu', async ({ page, wikiHeader, mainMenuWP })
 
 
 
-test('@regression test Current event from main menu', async ({ page, wikiHeader,mainMenuWP, currentEventsPage }) => {
+test('@regression test Current event from main menu', async ({ page, wikiHeader, mainMenuWP, currentEventsPage }) => {
 
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
@@ -32,7 +32,7 @@ test('@regression test Current event from main menu', async ({ page, wikiHeader,
 })
 
 
-test('@regression test contactUs from main menu', async ({ page, wikiHeader,mainMenuWP, contactUsPage }) => {
+test('@regression test contactUs from main menu', async ({ page, wikiHeader, mainMenuWP, contactUsPage }) => {
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.contactUs.click()
@@ -41,7 +41,7 @@ test('@regression test contactUs from main menu', async ({ page, wikiHeader,main
 })
 
 
-test('@regression test Language Settings from special pages', async ({ page, wikiHeader,mainMenuWP, specialPages }) => {
+test('@regression test Language Settings from special pages', async ({ page, wikiHeader, mainMenuWP, specialPages }) => {
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.specialPages.click()
