@@ -10,6 +10,10 @@ export class MainMenuWM {
 
         this.contactUsHeader = page.locator('.mw-content-container header h1')
 
+
+
+
+
         this.moveToSideBarButton = this.page.locator('button').filter({ hasText: 'move to sidebar' }).first()
         this.mainMenuOnSideBar = page.locator('.vector-column-start')
         this.mainMenuOnSideBarLI = this.mainMenuOnSideBar.locator('li')
@@ -18,10 +22,6 @@ export class MainMenuWM {
         this.recentChanges = this.page.locator('li').filter({ hasText: 'Recent changes' }).first()
 
 
-
-
     }
-
-
 
 }

@@ -9,6 +9,7 @@ test('@regression test Move main menu', async ({ page, wikiHeader, mainMenuWP })
 
 })
 
+
 test('@regression test Hide main menu', async ({ page, wikiHeader, mainMenuWP }) => {
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
@@ -33,6 +34,7 @@ test('@regression test Current event from main menu', async ({ page, wikiHeader,
 
 
 test('@regression test contactUs from main menu', async ({ page, wikiHeader, mainMenuWP, contactUsPage }) => {
+  
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.contactUs.click()
