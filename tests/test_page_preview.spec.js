@@ -1,9 +1,8 @@
 import { test, expect } from '@playwright/test'
 import { PageWithContent } from '../pageObgect/PageWithContent'
 
-
 test('@smoke all default sections are present on main screen', async ({ page }) => {
-    await page.goto('/wiki/Main_Page')
+    await page.goto('https://en.wikipedia.org/wiki/Main_Page')
     const pageWithContentt = new PageWithContent(page)
     await expect(pageWithContentt.banner1).toContainText('Welcome')
     await expect(pageWithContentt.bannerLeft).toBeVisible()
@@ -31,5 +30,4 @@ test('@regression observe link preview', async ({ page }) => {
     await pageWithContent.bannerLeftUp.locator('a').nth(5).hover()
     await expect(pageWithContent.linkPreviewFrame).toBeHidden()
     await page.pause()
-
 })
