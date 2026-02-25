@@ -1,4 +1,5 @@
 
+>>>>>>> 1436ed7f4ddecddd1274941c31308a608f0ce26d
 export class PageWithContent {
     constructor(page) {
         this.page = page
@@ -16,4 +17,9 @@ export class PageWithContent {
         this.linkPreviewFrame = this.page.locator('div.mwe-popups-container')
         this.previewsDialog = this.page.locator('div section#mwe-popups-settings')
     }
+<<<<<<< HEAD
 }
+//comment
+=======
+}
+>>>>>>> 1436ed7f4ddecddd1274941c31308a608f0ce26d
