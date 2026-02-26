@@ -5,5 +5,5 @@ test(' @smoke wiki search', async ({ page, searchBlock }) => {
   let word = "Lviv"
   await searchBlock.enterAWordIntoSearch(word)
   await expect(searchBlock.searchFooter).toContainText('Search for pages containing ' + word)
-  await page.locator('a.cdx-menu-item__content span span').last().filter({ hasText: word }).click()
+  await searchBlock.proposedContent.filter({ hasText: word }).click()
 })
