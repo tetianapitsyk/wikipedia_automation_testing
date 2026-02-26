@@ -47,8 +47,11 @@ test('@regression test Language Settings from special pages', async ({ page, wik
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.specialPages.click()
+    await page.locator('h1.firstHeading').waitFor()
+    await expect(page.locator('h1.firstHeading')).toContainText('pecial page')
     await specialPages.specialPagesMainMenu.waitFor()
-    await specialPages.mainMenuBtn.click()
+
+    await specialPages.specialPagesMainMenu.click()
     await specialPages.languageSettingButton.click()
     await specialPages.languageSettingDialog.waitFor()
     await specialPages.fontsButton.click()
