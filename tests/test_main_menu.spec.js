@@ -20,7 +20,6 @@ test('@regression test Hide main menu', async ({ page, wikiHeader, mainMenuWP })
 })
 
 
-
 test('@regression test Current event from main menu', async ({ page, wikiHeader, mainMenuWP, currentEventsPage }) => {
 
     await page.goto('/wiki/Main_Page')
@@ -34,7 +33,7 @@ test('@regression test Current event from main menu', async ({ page, wikiHeader,
 
 
 test('@regression test contactUs from main menu', async ({ page, wikiHeader, mainMenuWP, contactUsPage }) => {
-  
+
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.contactUs.click()
@@ -50,7 +49,6 @@ test('@regression test Language Settings from special pages', async ({ page, wik
     await page.locator('h1.firstHeading').waitFor()
     await expect(page.locator('h1.firstHeading')).toContainText('pecial page')
     await specialPages.specialPagesMainMenu.waitFor()
-
     await specialPages.specialPagesMainMenu.click()
     await specialPages.languageSettingButton.click()
     await specialPages.languageSettingDialog.waitFor()
@@ -60,16 +58,3 @@ test('@regression test Language Settings from special pages', async ({ page, wik
     await expect(specialPages.languageSettingDialog).toBeHidden()
 
 })
-
-
-// test.skip('@regression test Recent changes page from Main Menu', async ({ page }) => {
-// //wiki restrictions cant automate
-//     await page.goto('/wiki/Main_Page')
-//     const mainMenu = new MainMenu(page)
-//     await mainMenu.mainMenuBtn.click()
-//     await mainMenu.recentChanges.click()
-//     await mainMenu.panelWithBubbles.waitFor({ state: 'visible' })
-//     await mainMenu.filterButton.click()
-//     await mainMenu.filterOptCheckbox.click()
-
-// })

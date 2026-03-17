@@ -1,5 +1,4 @@
-import { expect } from "@playwright/test"
-export default class Tools {
+export class Tools {
     constructor(page) {
         this.page = page
         this.toolsButton = this.page.locator('#vector-page-tools-dropdown-checkbox')
