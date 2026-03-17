@@ -16,5 +16,6 @@ export class SearchBlock extends WikiHeader {
 
     }
 
-}
 
+
+}

@@ -7,6 +7,7 @@ import { SpecialPages } from '../pageObgect/SpecialPages';
 import { PageWithContent } from '../pageObgect/PageWithContent';
 import { SearchBlock } from '../pageObgect/SearchBlock';
 import { Tools } from '../pageObgect/Tools';
+import { WikiAppearance } from '../pageObgect/WikiAppearance';
 
 type MyFixtures = {
   wikiHeader: WikiHeader;
@@ -17,6 +18,7 @@ type MyFixtures = {
   pageWithContent: PageWithContent;
   searchBlock: SearchBlock;
   tools: Tools;
+  wikiAppearance: WikiAppearance;
 };
 
 export const test = base.extend<MyFixtures>({
@@ -57,6 +59,11 @@ export const test = base.extend<MyFixtures>({
   tools: async ({ page }, use) => {
     await use(new Tools(page))
   },
+
+
+  wikiAppearance: async({page}, use)=>{
+    await use (new WikiAppearance(page))
+  }
 
 });
 
