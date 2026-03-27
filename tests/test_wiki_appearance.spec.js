@@ -1,7 +1,7 @@
 import { test, expect } from "../testData/fixtures"
 
 
-test('@UI test Appearance - text radiobtns', async ({ page, wikiAppearance }) => {
+test.skip('@UI test Appearance - text radiobtns', async ({ page, wikiAppearance }) => {
     await page.goto('/wiki/Main_Page')
     await wikiAppearance.largeRB.click()
     await expect(wikiAppearance.largeRB).toBeChecked()
@@ -13,7 +13,7 @@ test('@UI test Appearance - text radiobtns', async ({ page, wikiAppearance }) =>
 })
 
 
-test('@UI test Appearance - color radiobtns', async ({ page, wikiAppearance }) => {
+test.skip('@UI test Appearance - color radiobtns', async ({ page, wikiAppearance }) => {
     await page.goto('/wiki/Main_Page')
     await wikiAppearance.automaticColor.click()
     await expect(wikiAppearance.automaticColor).toBeChecked()

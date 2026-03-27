@@ -1,6 +1,21 @@
 import { test, expect } from '../testData/fixtures'
+import { MainMenuWP } from '../pageObgect/MainMenuWP'
+import { WikiHeader } from '../componentObject/WikiHeader'
 
-test('@regression test Move main menu', async ({ page, wikiHeader, mainMenuWP }) => {
+
+test('@regression test Move main menu before refactoring', async ({ page }) => {
+    await page.goto('/wiki/Main_Page')
+    let mainMenu = new MainMenuWP(page)
+    let header = new WikiHeader(page)
+    await header.mainMenuBtn.click()
+    await mainMenu.moveToSideBarButton.click()
+    await expect(mainMenu.mainMenuOnSideBar).toBeVisible()
+    await mainMenu.verifyAllMenuOptionsArePresent()
+})
+
+
+
+test('@regression test Move main menu after refactoring', async ({ page, wikiHeader, mainMenuWP }) => {
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.moveToSideBarButton.click()

@@ -1,13 +1,15 @@
 import { test as base } from '@playwright/test';
-import { WikiHeader } from '../pageObgect/WikiHeader';
+import { WikiHeader } from '../componentObject/WikiHeader';
 import { MainMenuWP } from '../pageObgect/MainMenuWP';
 import { CurrentEventsPage } from '../pageObgect/CurrentEventsPage';
 import { ContactUsPage } from '../pageObgect/ContactUsPage';
 import { SpecialPages } from '../pageObgect/SpecialPages';
 import { PageWithContent } from '../pageObgect/PageWithContent';
 import { SearchBlock } from '../pageObgect/SearchBlock';
-import { Tools } from '../pageObgect/Tools';
+import { PageInformation } from '../pageObgect/PageInformation';
 import { WikiAppearance } from '../pageObgect/WikiAppearance';
+import { LogIn } from '../pageObgect/LogIn';
+import { ToolsDropdown } from '../pageObgect/ToolsDropdown';
 
 type MyFixtures = {
   wikiHeader: WikiHeader;
@@ -17,8 +19,10 @@ type MyFixtures = {
   specialPages: SpecialPages;
   pageWithContent: PageWithContent;
   searchBlock: SearchBlock;
-  tools: Tools;
+  pageInformation: PageInformation;
   wikiAppearance: WikiAppearance;
+  login: LogIn;
+  toolsDropdown: ToolsDropdown
 };
 
 export const test = base.extend<MyFixtures>({
@@ -56,13 +60,21 @@ export const test = base.extend<MyFixtures>({
     await use(new SearchBlock(page))
   },
 
-  tools: async ({ page }, use) => {
-    await use(new Tools(page))
+  pageInformation: async ({ page }, use) => {
+    await use(new PageInformation(page))
   },
 
 
   wikiAppearance: async({page}, use)=>{
     await use (new WikiAppearance(page))
+  },
+
+  login: async({page}, use)=>{
+    await use (new LogIn(page))
+  },
+
+  toolsDropdown: async({page}, use)=>{
+    await use (new ToolsDropdown(page))
   }
 
 });
