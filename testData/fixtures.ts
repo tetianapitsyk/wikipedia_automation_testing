@@ -8,7 +8,7 @@ import { PageWithContent } from '../pageObgect/PageWithContent';
 import { SearchBlock } from '../pageObgect/SearchBlock';
 import { PageInformation } from '../pageObgect/PageInformation';
 import { WikiAppearance } from '../pageObgect/WikiAppearance';
-import { LogIn } from '../pageObgect/LogIn';
+import { LogInPage } from '../pageObgect/LogInPage';
 import { ToolsDropdown } from '../pageObgect/ToolsDropdown';
 
 type MyFixtures = {
@@ -21,7 +21,7 @@ type MyFixtures = {
   searchBlock: SearchBlock;
   pageInformation: PageInformation;
   wikiAppearance: WikiAppearance;
-  login: LogIn;
+  login: LogInPage;
   toolsDropdown: ToolsDropdown
 };
 
@@ -70,7 +70,7 @@ export const test = base.extend<MyFixtures>({
   },
 
   login: async({page}, use)=>{
-    await use (new LogIn(page))
+    await use (new LogInPage(page))
   },
 
   toolsDropdown: async({page}, use)=>{

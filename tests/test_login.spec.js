@@ -6,6 +6,6 @@ test('@regression test LogIn page by getBy... locators', async ({ page, wikiHead
     await login.userLoginBox.waitFor()
     await login.username.fill('taniausername')
     await login.password.fill('taniapassword')
-    await login.keepMe.check()
+    await login.keepMeCHkBox.check()
 }
 )
