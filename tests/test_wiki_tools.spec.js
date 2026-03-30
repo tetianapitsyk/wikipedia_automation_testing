@@ -20,7 +20,6 @@ test('@regression test get Shortened URL by XPASS', async ({ page, toolsDropdown
     await pageInformation.copyBtn.waitFor()
     await pageInformation.copyBtn.click()
     await expect(pageInformation.confirmationMessage).toHaveText("URL copied to clipboard.")
-
 }
 )
 

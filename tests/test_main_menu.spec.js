@@ -71,5 +71,4 @@ test('@regression test Language Settings from special pages', async ({ page, wik
     await expect(specialPages.languageSettingDialog).toContainText('Download fonts when needed')
     await specialPages.cancelButton.click()
     await expect(specialPages.languageSettingDialog).toBeHidden()
-
 })

@@ -9,7 +9,6 @@ test('@smoke all default sections are present on main screen', async ({ page, pa
     await expect(pageWithContent.bannerRight).toBeVisible()
     await expect(pageWithContent.bannerRightUp).toBeVisible()
     await expect(pageWithContent.bannerRightDown).toBeVisible()
-
 })
 
 
@@ -20,7 +19,6 @@ test('@regression observe link preview', async ({ page, pageWithContent }) => {
     await expect(pageWithContent.linkPreviewFrame).toBeVisible()
     await pageWithContent.settingsOnLinkPreviewFrame.click()
     await expect(pageWithContent.previewsDialog).toContainText('Get quick previews of a topic while reading a page.')
-
 })
 
 test('@regression disable link preview', async ({ page, pageWithContent }) => {
