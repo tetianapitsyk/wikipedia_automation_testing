@@ -26,10 +26,10 @@ export class PageInformation {
         let buttons = [this.basicInformation, this.pageProtection, this.editHistory, this.pageProperties, this.externalTools]
         let tables = [this.basicInformationTable, this.pageProtectionTable, this.editHistoryTable, this.pagePropertiesTable, this.externalToolsTable]
         for (let n = 0; n < buttons.length; n++) {
-            if (buttons[n].textContent() == 'Basic information') {
-                await buttons[n].click()
-                await expect(tables[n]).toBeVisible()
-            }
+            // if (buttons[n].textContent() == 'Basic information') {
+            //     await buttons[n].click()
+            //     await expect(tables[n]).toBeInViewport()
+            // }
             await buttons[n].click()
             await expect(tables[n]).toBeInViewport()
         }

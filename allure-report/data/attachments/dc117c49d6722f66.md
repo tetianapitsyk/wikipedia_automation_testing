@@ -1,0 +1,853 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [active] [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: Main menu
+              - button "move to sidebar" [ref=e17] [cursor=pointer]
+            - list [ref=e20]:
+              - listitem [ref=e21]:
+                - link "Main page" [ref=e22] [cursor=pointer]:
+                  - /url: /wiki/Main_Page
+                  - generic [ref=e23]: Main page
+              - listitem [ref=e24]:
+                - link "Contents" [ref=e25] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:Contents
+                  - generic [ref=e26]: Contents
+              - listitem [ref=e27]:
+                - link "Current events" [ref=e28] [cursor=pointer]:
+                  - /url: /wiki/Portal:Current_events
+                  - generic [ref=e29]: Current events
+              - listitem [ref=e30]:
+                - link "Random article" [ref=e31] [cursor=pointer]:
+                  - /url: /wiki/Special:Random
+                  - generic [ref=e32]: Random article
+              - listitem [ref=e33]:
+                - link "About Wikipedia" [ref=e34] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:About
+                  - generic [ref=e35]: About Wikipedia
+              - listitem [ref=e36]:
+                - link "Contact us" [ref=e37] [cursor=pointer]:
+                  - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+                  - generic [ref=e38]: Contact us
+            - generic [ref=e39]:
+              - generic [ref=e40]: Contribute
+              - list [ref=e42]:
+                - listitem [ref=e43]:
+                  - link "Help" [ref=e44] [cursor=pointer]:
+                    - /url: /wiki/Help:Contents
+                    - generic [ref=e45]: Help
+                - listitem [ref=e46]:
+                  - link "Learn to edit" [ref=e47] [cursor=pointer]:
+                    - /url: /wiki/Help:Introduction
+                    - generic [ref=e48]: Learn to edit
+                - listitem [ref=e49]:
+                  - link "Community portal" [ref=e50] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:Community_portal
+                    - generic [ref=e51]: Community portal
+                - listitem [ref=e52]:
+                  - link "Recent changes" [ref=e53] [cursor=pointer]:
+                    - /url: /wiki/Special:RecentChanges
+                    - generic [ref=e54]: Recent changes
+                - listitem [ref=e55]:
+                  - link "Upload file" [ref=e56] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:File_upload_wizard
+                    - generic [ref=e57]: Upload file
+                - listitem [ref=e58]:
+                  - link "Special pages" [ref=e59] [cursor=pointer]:
+                    - /url: /wiki/Special:SpecialPages
+                    - generic [ref=e60]: Special pages
+      - link "Wikipedia The Free Encyclopedia" [ref=e61] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e62]:
+          - img "Wikipedia" [ref=e63]
+          - img "The Free Encyclopedia" [ref=e64]
+    - generic [ref=e65]:
+      - search [ref=e66]:
+        - generic [ref=e69]:
+          - searchbox "Search Wikipedia" [ref=e72]
+          - button "Search" [ref=e74]
+      - navigation "Personal tools" [ref=e75]:
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Donate" [ref=e81] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e82]:
+            - link "Create account" [ref=e83] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Special%3ASpecialPages
+          - listitem [ref=e84]:
+            - link "Log in" [ref=e85] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Special%3ASpecialPages
+  - generic [ref=e87]:
+    - navigation "Contents" [ref=e91]:
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "Contents" [level=2] [ref=e95]
+          - button "hide" [ref=e96] [cursor=pointer]
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "(Top)" [ref=e99] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e100]: (Top)
+          - listitem [ref=e101]:
+            - link "Maintenance reports" [ref=e102] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-maintenance"
+              - generic [ref=e103]: Maintenance reports
+            - list
+          - listitem [ref=e104]:
+            - link "Lists of pages" [ref=e105] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-pages"
+              - generic [ref=e106]: Lists of pages
+            - list
+          - listitem [ref=e107]:
+            - link "Account management" [ref=e108] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-login"
+              - generic [ref=e109]: Account management
+            - list
+          - listitem [ref=e110]:
+            - link "Users and rights" [ref=e111] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-users"
+              - generic [ref=e112]: Users and rights
+            - list
+          - listitem [ref=e113]:
+            - link "Recent changes and logs" [ref=e114] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-changes"
+              - generic [ref=e115]: Recent changes and logs
+            - list
+          - listitem [ref=e116]:
+            - link "Media reports and uploads" [ref=e117] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-media"
+              - generic [ref=e118]: Media reports and uploads
+            - list
+          - listitem [ref=e119]:
+            - link "Data and tools" [ref=e120] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-wiki"
+              - generic [ref=e121]: Data and tools
+            - list
+          - listitem [ref=e122]:
+            - link "Redirecting special pages" [ref=e123] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-redirects"
+              - generic [ref=e124]: Redirecting special pages
+            - list
+          - listitem [ref=e125]:
+            - link "High use pages" [ref=e126] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-highuse"
+              - generic [ref=e127]: High use pages
+            - list
+          - listitem [ref=e128]:
+            - link "Page tools" [ref=e129] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-pagetools"
+              - generic [ref=e130]: Page tools
+            - list
+          - listitem [ref=e131]:
+            - link "Spam tools" [ref=e132] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-spam"
+              - generic [ref=e133]: Spam tools
+            - list
+          - listitem [ref=e134]:
+            - link "Growth tools" [ref=e135] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-growth-tools"
+              - generic [ref=e136]: Growth tools
+            - list
+          - listitem [ref=e137]:
+            - link "Events" [ref=e138] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-campaignevents"
+              - generic [ref=e139]: Events
+            - list
+          - listitem [ref=e140]:
+            - link "Pending changes" [ref=e141] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-quality"
+              - generic [ref=e142]: Pending changes
+            - list
+          - listitem [ref=e143]:
+            - link "Other special pages" [ref=e144] [cursor=pointer]:
+              - /url: "#mw-specialpagesgroup-other"
+              - generic [ref=e145]: Other special pages
+            - list
+    - main [ref=e147]:
+      - generic [ref=e148]:
+        - heading "Special pages" [level=1] [ref=e149]
+        - link "Help" [ref=e152] [cursor=pointer]:
+          - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Special_pages
+          - text: Help
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - navigation "Namespaces"
+        - generic [ref=e157]:
+          - navigation "Views"
+          - navigation "Page tools" [ref=e158]:
+            - generic [ref=e159]:
+              - button "Tools" [ref=e160] [cursor=pointer]
+              - generic [ref=e162] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e165]:
+        - generic [ref=e167]:
+          - generic [ref=e168]:
+            - generic [ref=e169]: Appearance
+            - button "hide" [ref=e170] [cursor=pointer]
+          - generic [ref=e171]:
+            - generic [ref=e172]: Birthday mode (Baby Globe)
+            - list [ref=e174]:
+              - listitem [ref=e175]:
+                - generic [ref=e176]:
+                  - generic [ref=e177]:
+                    - generic [ref=e178]:
+                      - radio "Disabled" [ref=e179]
+                      - generic [ref=e182]: Disabled
+                    - generic [ref=e183]:
+                      - radio "Enabled" [checked] [ref=e184]
+                      - generic [ref=e187]: Enabled
+                  - link "Learn more about Birthday mode" [ref=e189] [cursor=pointer]:
+                    - /url: https://wikimediafoundation.org/wikipedia25/wikipedia-mascot/?utm_campaign=wpam&utm_source=wpam&utm_medium=wpamen
+          - generic [ref=e190]:
+            - generic [ref=e191]: Text
+            - list [ref=e193]:
+              - listitem [ref=e194]:
+                - generic [ref=e195]:
+                  - generic [ref=e196]:
+                    - generic [ref=e197]:
+                      - radio "Small" [disabled] [ref=e198]
+                      - generic [ref=e201]: Small
+                    - generic [ref=e202]:
+                      - radio "Standard" [disabled] [ref=e203]
+                      - generic [ref=e206]: Standard
+                    - generic [ref=e207]:
+                      - radio "Large" [disabled] [ref=e208]
+                      - generic [ref=e211]: Large
+                  - paragraph [ref=e212]: This page always uses small font size
+          - generic [ref=e213]:
+            - generic [ref=e214]: Width
+            - list [ref=e216]:
+              - listitem [ref=e217]:
+                - generic [ref=e219]:
+                  - generic [ref=e220]:
+                    - radio "Standard" [checked] [ref=e221]
+                    - generic [ref=e224]: Standard
+                  - generic [ref=e225]:
+                    - radio "Wide" [ref=e226]
+                    - generic [ref=e229]: Wide
+          - generic [ref=e230]:
+            - generic [ref=e231]:
+              - text: Color
+              - generic [ref=e232]: (beta)
+            - list [ref=e234]:
+              - listitem [ref=e235]:
+                - generic [ref=e237]:
+                  - generic [ref=e238]:
+                    - radio "Automatic" [ref=e239]
+                    - generic [ref=e242]: Automatic
+                  - generic [ref=e243]:
+                    - radio "Light" [checked] [ref=e244]
+                    - generic [ref=e247]: Light
+                  - generic [ref=e248]:
+                    - radio "Dark" [ref=e249]
+                    - generic [ref=e252]: Dark
+      - generic "Special pages" [ref=e253]:
+        - generic [ref=e254]:
+          - generic [ref=e255]:
+            - paragraph [ref=e256]:
+              - text: This page contains a list of
+              - link "special pages" [ref=e257] [cursor=pointer]:
+                - /url: /wiki/Help:Special_page
+              - text: . Most of the content of these pages is automatically generated and cannot be edited. To suggest a change to the parts that can be edited, find the appropriate text on
+              - link "Special:AllMessages" [ref=e258] [cursor=pointer]:
+                - /url: /wiki/Special:AllMessages
+              - text: "and then request your change on the talk page of the message (using {{"
+              - link "editprotected" [ref=e259] [cursor=pointer]:
+                - /url: /wiki/Template:Edit_fully-protected
+              - text: "}} to draw the attention of administrators)."
+            - paragraph [ref=e260]:
+              - text: You can also see what message names are used on a page by adding
+              - code [ref=e261]: "?uselang=qqx"
+              - text: to the end of its URL, e.g.
+              - link "https://en.wikipedia.org/wiki/Special:SpecialPages?uselang=qqx" [ref=e263] [cursor=pointer]:
+                - /url: https://en.wikipedia.org/wiki/Special:SpecialPages?uselang=qqx
+              - text: will show
+              - code [ref=e264]: (specialpages-summary)
+              - text: in place of this message, which allows you to find
+              - link "MediaWiki:Specialpages-summary" [ref=e265] [cursor=pointer]:
+                - /url: /wiki/MediaWiki:Specialpages-summary
+              - text: .
+            - paragraph [ref=e266]:
+              - text: For an index of special pages, see
+              - link "Help:SpecialPages" [ref=e267] [cursor=pointer]:
+                - /url: /wiki/Help:SpecialPages#Alphabetical_order
+              - text: .
+          - generic [ref=e269]:
+            - generic "Search special pages" [ref=e270]
+            - searchbox "Search special pages" [ref=e273]
+          - heading "Maintenance reports" [level=2] [ref=e275]
+          - list [ref=e277]:
+            - listitem [ref=e278]:
+              - link "Broken redirects" [ref=e279] [cursor=pointer]:
+                - /url: /wiki/Special:BrokenRedirects
+            - listitem [ref=e280]:
+              - link "Dead-end pages" [ref=e281] [cursor=pointer]:
+                - /url: /wiki/Special:DeadendPages
+            - listitem [ref=e282]:
+              - link "Dormant pages" [ref=e283] [cursor=pointer]:
+                - /url: /wiki/Special:AncientPages
+            - listitem [ref=e284]:
+              - link "Double redirects" [ref=e285] [cursor=pointer]:
+                - /url: /wiki/Special:DoubleRedirects
+            - listitem [ref=e286]:
+              - link "Lint errors" [ref=e287] [cursor=pointer]:
+                - /url: /wiki/Special:LintErrors
+            - listitem [ref=e288]:
+              - link "Long pages" [ref=e289] [cursor=pointer]:
+                - /url: /wiki/Special:LongPages
+            - listitem [ref=e290]:
+              - link "Orphaned pages" [ref=e291] [cursor=pointer]:
+                - /url: /wiki/Special:LonelyPages
+            - listitem [ref=e292]:
+              - link "Pages not connected to items" [ref=e293] [cursor=pointer]:
+                - /url: /wiki/Special:UnconnectedPages
+            - listitem [ref=e294]:
+              - link "Pages with the fewest revisions" [ref=e295] [cursor=pointer]:
+                - /url: /wiki/Special:FewestRevisions
+            - listitem [ref=e296]:
+              - link "Pages without language links" [ref=e297] [cursor=pointer]:
+                - /url: /wiki/Special:WithoutInterwiki
+            - listitem [ref=e298]:
+              - link "Protected pages" [ref=e299] [cursor=pointer]:
+                - /url: /wiki/Special:ProtectedPages
+            - listitem [ref=e300]:
+              - link "Protected titles" [ref=e301] [cursor=pointer]:
+                - /url: /wiki/Special:ProtectedTitles
+            - listitem [ref=e302]:
+              - link "Short pages" [ref=e303] [cursor=pointer]:
+                - /url: /wiki/Special:ShortPages
+            - listitem [ref=e304]:
+              - link "Uncategorized categories" [ref=e305] [cursor=pointer]:
+                - /url: /wiki/Special:UncategorizedCategories
+            - listitem [ref=e306]:
+              - link "Uncategorized files" [ref=e307] [cursor=pointer]:
+                - /url: /wiki/Special:UncategorizedFiles
+            - listitem [ref=e308]:
+              - link "Uncategorized pages" [ref=e309] [cursor=pointer]:
+                - /url: /wiki/Special:UncategorizedPages
+            - listitem [ref=e310]:
+              - link "Uncategorized templates" [ref=e311] [cursor=pointer]:
+                - /url: /wiki/Special:UncategorizedTemplates
+            - listitem [ref=e312]:
+              - link "Unused categories" [ref=e313] [cursor=pointer]:
+                - /url: /wiki/Special:UnusedCategories
+            - listitem [ref=e314]:
+              - link "Unused files" [ref=e315] [cursor=pointer]:
+                - /url: /wiki/Special:UnusedFiles
+            - listitem [ref=e316]:
+              - link "Unused templates" [ref=e317] [cursor=pointer]:
+                - /url: /wiki/Special:UnusedTemplates
+            - listitem [ref=e318]:
+              - link "Wanted categories" [ref=e319] [cursor=pointer]:
+                - /url: /wiki/Special:WantedCategories
+            - listitem [ref=e320]:
+              - link "Wanted files" [ref=e321] [cursor=pointer]:
+                - /url: /wiki/Special:WantedFiles
+            - listitem [ref=e322]:
+              - link "Wanted pages" [ref=e323] [cursor=pointer]:
+                - /url: /wiki/Special:WantedPages
+            - listitem [ref=e324]:
+              - link "Wanted templates" [ref=e325] [cursor=pointer]:
+                - /url: /wiki/Special:WantedTemplates
+          - heading "Lists of pages" [level=2] [ref=e326]
+          - list [ref=e328]:
+            - listitem [ref=e329]:
+              - link "All pages" [ref=e330] [cursor=pointer]:
+                - /url: /wiki/Special:AllPages
+            - listitem [ref=e331]:
+              - link "All pages with prefix" [ref=e332] [cursor=pointer]:
+                - /url: /wiki/Special:PrefixIndex
+            - listitem [ref=e333]:
+              - link "Categories" [ref=e334] [cursor=pointer]:
+                - /url: /wiki/Special:Categories
+            - listitem [ref=e335]:
+              - link "Category tree" [ref=e336] [cursor=pointer]:
+                - /url: /wiki/Special:CategoryTree
+            - listitem [ref=e337]:
+              - link "Disambiguation pages" [ref=e338] [cursor=pointer]:
+                - /url: /wiki/Special:DisambiguationPages
+            - listitem [ref=e339]:
+              - link "Entity usage" [ref=e340] [cursor=pointer]:
+                - /url: /wiki/Special:EntityUsage
+            - listitem [ref=e341]:
+              - link "External links search" [ref=e342] [cursor=pointer]:
+                - /url: /wiki/Special:LinkSearch
+            - listitem [ref=e343]:
+              - link "Pages linking to disambiguation pages" [ref=e344] [cursor=pointer]:
+                - /url: /wiki/Special:DisambiguationPageLinks
+            - listitem [ref=e345]:
+              - link "Pages on topics near you" [ref=e346] [cursor=pointer]:
+                - /url: /wiki/Special:Nearby
+            - listitem [ref=e347]:
+              - link "Pages with a page property" [ref=e348] [cursor=pointer]:
+                - /url: /wiki/Special:PagesWithProp
+            - listitem [ref=e349]:
+              - link "Pages with badges" [ref=e350] [cursor=pointer]:
+                - /url: /wiki/Special:PagesWithBadges
+            - listitem [ref=e351]:
+              - link "Redirects" [ref=e352] [cursor=pointer]:
+                - /url: /wiki/Special:ListRedirects
+            - listitem [ref=e353]:
+              - link "Search" [ref=e354] [cursor=pointer]:
+                - /url: /wiki/Special:Search
+            - listitem [ref=e355]:
+              - link "Tracking categories" [ref=e356] [cursor=pointer]:
+                - /url: /wiki/Special:TrackingCategories
+          - heading "Account management" [level=2] [ref=e357]
+          - list [ref=e359]:
+            - listitem [ref=e360]:
+              - link "Bot passwords" [ref=e361] [cursor=pointer]:
+                - /url: /wiki/Special:BotPasswords
+            - listitem [ref=e362]:
+              - link "Change credentials" [ref=e363] [cursor=pointer]:
+                - /url: /wiki/Special:ChangeCredentials
+            - listitem [ref=e364]:
+              - link "Change or remove email address" [ref=e365] [cursor=pointer]:
+                - /url: /wiki/Special:ChangeEmail
+            - listitem [ref=e366]:
+              - link "Global preferences" [ref=e367] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalPreferences
+            - listitem [ref=e368]:
+              - link "Global user account rename request" [ref=e369] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalRenameRequest
+            - listitem [ref=e370]:
+              - link "Global user account vanish request" [ref=e371] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalVanishRequest
+            - listitem [ref=e372]:
+              - link "Log in" [ref=e373] [cursor=pointer]:
+                - /url: /wiki/Special:UserLogin
+            - listitem [ref=e374]:
+              - link "Log out" [ref=e375] [cursor=pointer]:
+                - /url: /wiki/Special:UserLogout
+            - listitem [ref=e376]:
+              - link "Login unification status" [ref=e377] [cursor=pointer]:
+                - /url: /wiki/Special:MergeAccount
+            - listitem [ref=e378]:
+              - link "Notifications" [ref=e379] [cursor=pointer]:
+                - /url: /wiki/Special:Notifications
+            - listitem [ref=e380]:
+              - link "Preferences" [ref=e381] [cursor=pointer]:
+                - /url: /wiki/Special:Preferences
+            - listitem [ref=e382]:
+              - link "Remove credentials" [ref=e383] [cursor=pointer]:
+                - /url: /wiki/Special:RemoveCredentials
+            - listitem [ref=e384]:
+              - link "Reset password" [ref=e385] [cursor=pointer]:
+                - /url: /wiki/Special:PasswordReset
+            - listitem [ref=e386]:
+              - link "Reset tokens" [ref=e387] [cursor=pointer]:
+                - /url: /wiki/Special:ResetTokens
+            - listitem [ref=e388]:
+              - link "Topic subscriptions" [ref=e389] [cursor=pointer]:
+                - /url: /wiki/Special:TopicSubscriptions
+          - heading "Users and rights" [level=2] [ref=e390]
+          - list [ref=e392]:
+            - listitem [ref=e393]:
+              - link "Active users list" [ref=e394] [cursor=pointer]:
+                - /url: /wiki/Special:ActiveUsers
+            - listitem [ref=e395]:
+              - link "Autoblocks" [ref=e396] [cursor=pointer]:
+                - /url: /wiki/Special:AutoblockList
+            - listitem [ref=e397]:
+              - link "Blocked users" [ref=e398] [cursor=pointer]:
+                - /url: /wiki/Special:BlockList
+            - listitem [ref=e399]:
+              - link "Create account" [ref=e400] [cursor=pointer]:
+                - /url: /wiki/Special:CreateAccount
+            - listitem [ref=e401]:
+              - link "Email user" [ref=e402] [cursor=pointer]:
+                - /url: /wiki/Special:EmailUser
+            - listitem [ref=e403]:
+              - link "Global account manager" [ref=e404] [cursor=pointer]:
+                - /url: /wiki/Special:CentralAuth
+            - listitem [ref=e405]:
+              - link "Global accounts list" [ref=e406] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalUsers
+            - listitem [ref=e407]:
+              - link "Global group management" [ref=e408] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalGroupPermissions
+            - listitem [ref=e409]:
+              - link "Grants" [ref=e410] [cursor=pointer]:
+                - /url: /wiki/Special:ListGrants
+            - listitem [ref=e411]:
+              - link "List OAuth applications" [ref=e412] [cursor=pointer]:
+                - /url: /wiki/Special:OAuthListConsumers
+            - listitem [ref=e413]:
+              - link "List of globally blocked IP addresses and accounts" [ref=e414] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalBlockList
+            - listitem [ref=e415]:
+              - link "Membership in global groups" [ref=e416] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalUserRights
+            - listitem [ref=e417]:
+              - link "OAuth consumer registration" [ref=e418] [cursor=pointer]:
+                - /url: /wiki/Special:OAuthConsumerRegistration
+            - listitem [ref=e419]:
+              - link "Password policies" [ref=e420] [cursor=pointer]:
+                - /url: /wiki/Special:PasswordPolicies
+            - listitem [ref=e421]:
+              - link "Search for global contributions" [ref=e422] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalContributions
+            - listitem [ref=e423]:
+              - link "User contributions" [ref=e424] [cursor=pointer]:
+                - /url: /wiki/Special:Contributions
+            - listitem [ref=e425]:
+              - link "User group rights" [ref=e426] [cursor=pointer]:
+                - /url: /wiki/Special:ListGroupRights
+            - listitem [ref=e427]:
+              - link "User groups management" [ref=e428] [cursor=pointer]:
+                - /url: /wiki/Special:UserRights
+            - listitem [ref=e429]:
+              - link "Users" [ref=e430] [cursor=pointer]:
+                - /url: /wiki/Special:ListUsers
+          - heading "Recent changes and logs" [level=2] [ref=e431]
+          - list [ref=e433]:
+            - listitem [ref=e434]:
+              - link "Edit Recovery" [ref=e435] [cursor=pointer]:
+                - /url: /wiki/Special:EditRecovery
+            - listitem [ref=e436]:
+              - link "Edit filter log" [ref=e437] [cursor=pointer]:
+                - /url: /wiki/Special:AbuseLog
+            - listitem [ref=e438]:
+              - link "Gallery of new files" [ref=e439] [cursor=pointer]:
+                - /url: /wiki/Special:NewFiles
+            - listitem [ref=e440]:
+              - link "New pages" [ref=e441] [cursor=pointer]:
+                - /url: /wiki/Special:NewPages
+            - listitem [ref=e442]:
+              - link "New pages feed" [ref=e443] [cursor=pointer]:
+                - /url: /wiki/Special:NewPagesFeed
+            - listitem [ref=e444]:
+              - link "Recent changes" [ref=e445] [cursor=pointer]:
+                - /url: /wiki/Special:RecentChanges
+            - listitem [ref=e446]:
+              - link "Related changes" [ref=e447] [cursor=pointer]:
+                - /url: /wiki/Special:RecentChangesLinked
+            - listitem [ref=e448]:
+              - link "User logs" [ref=e449] [cursor=pointer]:
+                - /url: /wiki/Special:Log
+            - listitem [ref=e450]:
+              - link "Valid change tags" [ref=e451] [cursor=pointer]:
+                - /url: /wiki/Special:Tags
+          - heading "Media reports and uploads" [level=2] [ref=e452]
+          - list [ref=e454]:
+            - listitem [ref=e455]:
+              - link "File list" [ref=e456] [cursor=pointer]:
+                - /url: /wiki/Special:ListFiles
+            - listitem [ref=e457]:
+              - link "Global data usage" [ref=e458] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalJsonLinks
+            - listitem [ref=e459]:
+              - link "Global file usage" [ref=e460] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalUsage
+            - listitem [ref=e461]:
+              - link "List of files with duplicates" [ref=e462] [cursor=pointer]:
+                - /url: /wiki/Special:ListDuplicatedFiles
+            - listitem [ref=e463]:
+              - link "MIME search" [ref=e464] [cursor=pointer]:
+                - /url: /wiki/Special:MIMESearch
+            - listitem [ref=e465]:
+              - link "Media statistics" [ref=e466] [cursor=pointer]:
+                - /url: /wiki/Special:MediaStatistics
+            - listitem [ref=e467]:
+              - link "Orphaned TimedText pages" [ref=e468] [cursor=pointer]:
+                - /url: /wiki/Special:OrphanedTimedText
+            - listitem [ref=e469]:
+              - link "Search for duplicate files" [ref=e470] [cursor=pointer]:
+                - /url: /wiki/Special:FileDuplicateSearch
+          - heading "Data and tools" [level=2] [ref=e471]
+          - list [ref=e473]:
+            - listitem [ref=e474]:
+              - link "API feature usage" [ref=e475] [cursor=pointer]:
+                - /url: /wiki/Special:ApiFeatureUsage
+            - listitem [ref=e476]:
+              - link "API sandbox" [ref=e477] [cursor=pointer]:
+                - /url: /wiki/Special:ApiSandbox
+            - listitem [ref=e478]:
+              - link "Book sources" [ref=e479] [cursor=pointer]:
+                - /url: /wiki/Special:BookSources
+            - listitem [ref=e480]:
+              - link "Edit checks" [ref=e481] [cursor=pointer]:
+                - /url: /wiki/Special:EditChecks
+            - listitem [ref=e482]:
+              - link "Edit filter configuration" [ref=e483] [cursor=pointer]:
+                - /url: /wiki/Special:AbuseFilter
+            - listitem [ref=e484]:
+              - link "Expand templates" [ref=e485] [cursor=pointer]:
+                - /url: /wiki/Special:ExpandTemplates
+            - listitem [ref=e486]:
+              - link "Gadget usage statistics" [ref=e487] [cursor=pointer]:
+                - /url: /wiki/Special:GadgetUsage
+            - listitem [ref=e488]:
+              - link "Gadgets" [ref=e489] [cursor=pointer]:
+                - /url: /wiki/Special:Gadgets
+            - listitem [ref=e490]:
+              - link "Namespace information" [ref=e491] [cursor=pointer]:
+                - /url: /wiki/Special:NamespaceInfo
+            - listitem [ref=e492]:
+              - link "REST Sandbox" [ref=e493] [cursor=pointer]:
+                - /url: /wiki/Special:RestSandbox
+            - listitem [ref=e494]:
+              - link "Statistics" [ref=e495] [cursor=pointer]:
+                - /url: /wiki/Special:Statistics
+            - listitem [ref=e496]:
+              - link "System messages" [ref=e497] [cursor=pointer]:
+                - /url: /wiki/Special:AllMessages
+            - listitem [ref=e498]:
+              - link "Template sandbox" [ref=e499] [cursor=pointer]:
+                - /url: /wiki/Special:TemplateSandbox
+            - listitem [ref=e500]:
+              - link "Try hieroglyph markup" [ref=e501] [cursor=pointer]:
+                - /url: /wiki/Special:Hieroglyphs
+            - listitem [ref=e502]:
+              - link "Version" [ref=e503] [cursor=pointer]:
+                - /url: /wiki/Special:Version
+            - listitem [ref=e504]:
+              - link "View interwiki data" [ref=e505] [cursor=pointer]:
+                - /url: /wiki/Special:Interwiki
+            - listitem [ref=e506]:
+              - link "Wiki sets" [ref=e507] [cursor=pointer]:
+                - /url: /wiki/Special:WikiSets
+            - listitem [ref=e508]:
+              - link "Wikimedia wikis" [ref=e509] [cursor=pointer]:
+                - /url: /wiki/Special:SiteMatrix
+          - heading "Redirecting special pages" [level=2] [ref=e510]
+          - list [ref=e512]:
+            - listitem [ref=e513]:
+              - link "Delete a page" [ref=e514] [cursor=pointer]:
+                - /url: /wiki/Special:DeletePage
+            - listitem [ref=e515]:
+              - link "Differences" [ref=e516] [cursor=pointer]:
+                - /url: /wiki/Special:Diff
+            - listitem [ref=e517]:
+              - link "Edit a page" [ref=e518] [cursor=pointer]:
+                - /url: /wiki/Special:EditPage
+            - listitem [ref=e519]:
+              - link "New section" [ref=e520] [cursor=pointer]:
+                - /url: /wiki/Special:NewSection
+            - listitem [ref=e521]:
+              - link "Page history" [ref=e522] [cursor=pointer]:
+                - /url: /wiki/Special:PageHistory
+            - listitem [ref=e523]:
+              - link "Page info" [ref=e524] [cursor=pointer]:
+                - /url: /wiki/Special:PageInfo
+            - listitem [ref=e525]:
+              - link "Permanent link" [ref=e526] [cursor=pointer]:
+                - /url: /wiki/Special:PermanentLink
+            - listitem [ref=e527]:
+              - link "Protect a page" [ref=e528] [cursor=pointer]:
+                - /url: /wiki/Special:ProtectPage
+            - listitem [ref=e529]:
+              - link "Purge" [ref=e530] [cursor=pointer]:
+                - /url: /wiki/Special:Purge
+            - listitem [ref=e531]:
+              - link "Random article" [ref=e532] [cursor=pointer]:
+                - /url: /wiki/Special:Random
+            - listitem [ref=e533]:
+              - link "Random page in category" [ref=e534] [cursor=pointer]:
+                - /url: /wiki/Special:RandomInCategory
+            - listitem [ref=e535]:
+              - link "Random redirect" [ref=e536] [cursor=pointer]:
+                - /url: /wiki/Special:RandomRedirect
+            - listitem [ref=e537]:
+              - link "Random root page" [ref=e538] [cursor=pointer]:
+                - /url: /wiki/Special:RandomRootpage
+            - listitem [ref=e539]:
+              - link "Redirect by file, user, page, revision, or log ID" [ref=e540] [cursor=pointer]:
+                - /url: /wiki/Special:Redirect
+          - heading "High use pages" [level=2] [ref=e541]
+          - list [ref=e543]:
+            - listitem [ref=e544]:
+              - link "Most linked-to categories" [ref=e545] [cursor=pointer]:
+                - /url: /wiki/Special:MostLinkedCategories
+            - listitem [ref=e546]:
+              - link "Most linked-to files" [ref=e547] [cursor=pointer]:
+                - /url: /wiki/Special:MostLinkedFiles
+            - listitem [ref=e548]:
+              - link "Most linked-to pages" [ref=e549] [cursor=pointer]:
+                - /url: /wiki/Special:MostLinkedPages
+            - listitem [ref=e550]:
+              - link "Most transcluded pages" [ref=e551] [cursor=pointer]:
+                - /url: /wiki/Special:MostTranscludedPages
+            - listitem [ref=e552]:
+              - link "Pages with the most categories" [ref=e553] [cursor=pointer]:
+                - /url: /wiki/Special:MostCategories
+            - listitem [ref=e554]:
+              - link "Pages with the most interwikis" [ref=e555] [cursor=pointer]:
+                - /url: /wiki/Special:MostInterwikis
+            - listitem [ref=e556]:
+              - link "Pages with the most revisions" [ref=e557] [cursor=pointer]:
+                - /url: /wiki/Special:MostRevisions
+          - heading "Page tools" [level=2] [ref=e558]
+          - list [ref=e560]:
+            - listitem [ref=e561]:
+              - link "Book" [ref=e562] [cursor=pointer]:
+                - /url: /wiki/Special:Book
+            - listitem [ref=e563]:
+              - link "Cite This Page" [ref=e564] [cursor=pointer]:
+                - /url: /wiki/Special:CiteThisPage
+            - listitem [ref=e565]:
+              - link "Compare pages" [ref=e566] [cursor=pointer]:
+                - /url: /wiki/Special:ComparePages
+            - listitem [ref=e567]:
+              - link "Export pages" [ref=e568] [cursor=pointer]:
+                - /url: /wiki/Special:Export
+            - listitem [ref=e569]:
+              - link "Mass delete" [ref=e570] [cursor=pointer]:
+                - /url: /wiki/Special:Nuke
+            - listitem [ref=e571]:
+              - link "Page assessments" [ref=e572] [cursor=pointer]:
+                - /url: /wiki/Special:PageAssessments
+            - listitem [ref=e573]:
+              - link "URL shortener" [ref=e574] [cursor=pointer]:
+                - /url: /wiki/Special:UrlShortener
+            - listitem [ref=e575]:
+              - link "What links here" [ref=e576] [cursor=pointer]:
+                - /url: /wiki/Special:WhatLinksHere
+          - heading "Spam tools" [level=2] [ref=e577]
+          - list [ref=e579]:
+            - listitem [ref=e580]:
+              - link "Blocked External Domains" [ref=e581] [cursor=pointer]:
+                - /url: /wiki/Special:BlockedExternalDomains
+          - heading "Growth tools" [level=2] [ref=e582]
+          - list [ref=e584]:
+            - listitem [ref=e585]:
+              - link "Impact" [ref=e586] [cursor=pointer]:
+                - /url: /wiki/Special:Impact
+            - listitem [ref=e587]:
+              - link "Manage mentors" [ref=e588] [cursor=pointer]:
+                - /url: /wiki/Special:ManageMentors
+            - listitem [ref=e589]:
+              - link "Mentor dashboard" [ref=e590] [cursor=pointer]:
+                - /url: /wiki/Special:MentorDashboard
+            - listitem [ref=e591]:
+              - link "Newcomer Tasks" [ref=e592] [cursor=pointer]:
+                - /url: /wiki/Special:NewcomerTasksInfo
+          - heading "Events" [level=2] [ref=e593]
+          - list [ref=e595]:
+            - listitem [ref=e596]:
+              - link "All events" [ref=e597] [cursor=pointer]:
+                - /url: /wiki/Special:AllEvents
+            - listitem [ref=e598]:
+              - link "Cancel your registration for an event" [ref=e599] [cursor=pointer]:
+                - /url: /wiki/Special:CancelEventRegistration
+            - listitem [ref=e600]:
+              - link "Delete event registration" [ref=e601] [cursor=pointer]:
+                - /url: /wiki/Special:DeleteEventRegistration
+            - listitem [ref=e602]:
+              - link "Edit event registration" [ref=e603] [cursor=pointer]:
+                - /url: /wiki/Special:EditEventRegistration
+            - listitem [ref=e604]:
+              - link "Event details" [ref=e605] [cursor=pointer]:
+                - /url: /wiki/Special:EventDetails
+            - listitem [ref=e606]:
+              - link "Generate invitation list" [ref=e607] [cursor=pointer]:
+                - /url: /wiki/Special:GenerateInvitationList
+            - listitem [ref=e608]:
+              - link "Invitation list" [ref=e609] [cursor=pointer]:
+                - /url: /wiki/Special:InvitationList
+            - listitem [ref=e610]:
+              - link "Register for an event" [ref=e611] [cursor=pointer]:
+                - /url: /wiki/Special:RegisterForEvent
+            - listitem [ref=e612]:
+              - link "Your events" [ref=e613] [cursor=pointer]:
+                - /url: /wiki/Special:MyEvents
+            - listitem [ref=e614]:
+              - link "Your invitation lists" [ref=e615] [cursor=pointer]:
+                - /url: /wiki/Special:MyInvitationLists
+          - heading "Pending changes" [level=2] [ref=e616]
+          - list [ref=e618]:
+            - listitem [ref=e619]:
+              - link "Page review statistics" [ref=e620] [cursor=pointer]:
+                - /url: /wiki/Special:ValidationStatistics
+            - listitem [ref=e621]:
+              - link "Pages using Pending Changes" [ref=e622] [cursor=pointer]:
+                - /url: /wiki/Special:StablePages
+            - listitem [ref=e623]:
+              - link "Pages with edits awaiting review" [ref=e624] [cursor=pointer]:
+                - /url: /wiki/Special:PendingChanges
+          - heading "Other special pages" [level=2] [ref=e625]
+          - list [ref=e627]:
+            - listitem [ref=e628]:
+              - link "Automatic translation" [ref=e629] [cursor=pointer]:
+                - /url: /wiki/Special:AutomaticTranslation
+            - listitem [ref=e630]:
+              - link "Community Configuration" [ref=e631] [cursor=pointer]:
+                - /url: /wiki/Special:CommunityConfiguration
+            - listitem [ref=e632]:
+              - link "Contribute" [ref=e633] [cursor=pointer]:
+                - /url: /wiki/Special:Contribute
+            - listitem [ref=e634]:
+              - link "Discussion tools data structure" [ref=e635] [cursor=pointer]:
+                - /url: /wiki/Special:DiscussionToolsDebug
+            - listitem [ref=e636]:
+              - link "Find comment" [ref=e637] [cursor=pointer]:
+                - /url: /wiki/Special:FindComment
+            - listitem [ref=e638]:
+              - link "Global rename progress" [ref=e639] [cursor=pointer]:
+                - /url: /wiki/Special:GlobalRenameProgress
+            - listitem [ref=e640]:
+              - link "Math Formula Information" [ref=e641] [cursor=pointer]:
+                - /url: /wiki/Special:MathWikibase
+            - listitem [ref=e642]:
+              - link "ORES model statistics" [ref=e643] [cursor=pointer]:
+                - /url: /wiki/Special:ORESModels
+            - listitem [ref=e644]:
+              - link "SecurePoll" [ref=e645] [cursor=pointer]:
+                - /url: /wiki/Special:SecurePoll
+            - listitem [ref=e646]:
+              - link "Transclusions containing lint errors" [ref=e647] [cursor=pointer]:
+                - /url: /wiki/Special:LintTemplateErrors
+    - contentinfo [ref=e649]:
+      - list
+      - list:
+        - listitem [ref=e650]:
+          - link "Privacy policy" [ref=e651] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e652]:
+          - link "About Wikipedia" [ref=e653] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e654]:
+          - link "Disclaimers" [ref=e655] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e656]:
+          - link "Contact Wikipedia" [ref=e657] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e658]:
+          - link "Legal & safety contacts" [ref=e659] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e660]:
+          - link "Code of Conduct" [ref=e661] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e662]:
+          - link "Developers" [ref=e663] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e664]:
+          - link "Statistics" [ref=e665] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e666]:
+          - link "Cookie statement" [ref=e667] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e668]:
+          - link "Mobile view" [ref=e669] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Special:SpecialPages&mobileaction=toggle_view_mobile
+      - list [ref=e670]:
+        - listitem [ref=e671]:
+          - link "Wikimedia Foundation" [ref=e672] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e674]
+        - listitem [ref=e675]:
+          - link "Powered by MediaWiki" [ref=e676] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e678]
+  - generic [ref=e679]:
+    - list
+```

@@ -25,6 +25,8 @@ type MyFixtures = {
   toolsDropdown: ToolsDropdown
 };
 
+
+//lang capabilities of playwrighth
 export const test = base.extend<MyFixtures>({
 
 

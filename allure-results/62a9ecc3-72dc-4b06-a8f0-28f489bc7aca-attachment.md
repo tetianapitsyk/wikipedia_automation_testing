@@ -1,0 +1,5032 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/Main_Page
+        - generic [ref=e13]:
+          - img "Wikipedia" [ref=e14]
+          - img "The Free Encyclopedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Search Wikipedia" [ref=e23]
+          - button "Search" [ref=e25]
+      - navigation "Personal tools" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Donate" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=en.wikipedia.org&uselang=en
+          - listitem [ref=e33]:
+            - link "Create account" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:CreateAccount&returnto=Portal%3ACurrent+events
+          - listitem [ref=e35]:
+            - link "Log in" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=Special:UserLogin&returnto=Portal%3ACurrent+events
+  - generic [ref=e38]:
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Portal:Current events" [level=1] [ref=e44]
+        - generic [ref=e45]:
+          - button "Go to an article in another language. Available in 121 languages" [ref=e46] [cursor=pointer]
+          - generic [ref=e49]: 121 languages
+      - generic [ref=e51]:
+        - navigation "Namespaces" [ref=e53]:
+          - generic [ref=e54]:
+            - generic:
+              - list:
+                - listitem [ref=e55]:
+                  - link "Portal" [ref=e56] [cursor=pointer]:
+                    - /url: /wiki/Portal:Current_events
+                    - generic [ref=e57]: Portal
+                - listitem [ref=e58]:
+                  - link "Talk" [ref=e59] [cursor=pointer]:
+                    - /url: /wiki/Portal_talk:Current_events
+                    - generic [ref=e60]: Talk
+        - generic [ref=e61]:
+          - navigation "Views" [ref=e62]:
+            - generic [ref=e63]:
+              - generic:
+                - list:
+                  - listitem [ref=e64]:
+                    - link "Read" [ref=e65] [cursor=pointer]:
+                      - /url: /wiki/Portal:Current_events
+                      - generic [ref=e66]: Read
+                  - listitem [ref=e67]:
+                    - link "View source" [ref=e68] [cursor=pointer]:
+                      - /url: /w/index.php?title=Portal:Current_events&action=edit
+                      - generic [ref=e69]: View source
+                  - listitem [ref=e70]:
+                    - link "View history" [ref=e71] [cursor=pointer]:
+                      - /url: /w/index.php?title=Portal:Current_events&action=history
+                      - generic [ref=e72]: View history
+          - navigation "Page tools" [ref=e73]:
+            - generic [ref=e74]:
+              - button "Tools" [ref=e75] [cursor=pointer]
+              - generic [ref=e77] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e80]:
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic [ref=e84]: Appearance
+            - button "hide" [ref=e85] [cursor=pointer]
+          - generic [ref=e86]:
+            - generic [ref=e87]: Birthday mode (Baby Globe)
+            - list [ref=e89]:
+              - listitem [ref=e90]:
+                - generic [ref=e91]:
+                  - generic [ref=e92]:
+                    - generic [ref=e93]:
+                      - radio "Disabled" [ref=e94]
+                      - generic [ref=e97]: Disabled
+                    - generic [ref=e98]:
+                      - radio "Enabled" [checked] [ref=e99]
+                      - generic [ref=e102]: Enabled
+                  - link "Learn more about Birthday mode" [ref=e104] [cursor=pointer]:
+                    - /url: https://wikimediafoundation.org/wikipedia25/wikipedia-mascot/?utm_campaign=wpam&utm_source=wpam&utm_medium=wpamen
+          - generic [ref=e105]:
+            - generic [ref=e106]: Text
+            - list [ref=e108]:
+              - listitem [ref=e109]:
+                - generic [ref=e110]:
+                  - generic [ref=e111]:
+                    - generic [ref=e112]:
+                      - radio "Small" [disabled] [ref=e113]
+                      - generic [ref=e116]: Small
+                    - generic [ref=e117]:
+                      - radio "Standard" [disabled] [ref=e118]
+                      - generic [ref=e121]: Standard
+                    - generic [ref=e122]:
+                      - radio "Large" [disabled] [ref=e123]
+                      - generic [ref=e126]: Large
+                  - paragraph [ref=e127]: This page always uses small font size
+          - generic [ref=e128]:
+            - generic [ref=e129]: Width
+            - list [ref=e131]:
+              - listitem [ref=e132]:
+                - generic [ref=e134]:
+                  - generic [ref=e135]:
+                    - radio "Standard" [checked] [ref=e136]
+                    - generic [ref=e139]: Standard
+                  - generic [ref=e140]:
+                    - radio "Wide" [ref=e141]
+                    - generic [ref=e144]: Wide
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - text: Color
+              - generic [ref=e147]: (beta)
+            - list [ref=e149]:
+              - listitem [ref=e150]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]:
+                    - radio "Automatic" [ref=e154]
+                    - generic [ref=e157]: Automatic
+                  - generic [ref=e158]:
+                    - radio "Light" [checked] [ref=e159]
+                    - generic [ref=e162]: Light
+                  - generic [ref=e163]:
+                    - radio "Dark" [ref=e164]
+                    - generic [ref=e167]: Dark
+      - generic "Portal:Current events" [ref=e168]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - link "Edit instructions" [ref=e174] [cursor=pointer]:
+              - /url: /wiki/Portal:Current_events/Edit_instructions
+            - link "Page protected" [ref=e178] [cursor=pointer]:
+              - /url: /wiki/Wikipedia:Protection_policy#full
+              - img "Page protected" [ref=e179]
+          - generic [ref=e180]: From Wikipedia, the free encyclopedia
+        - generic [ref=e183]:
+          - list [ref=e188]:
+            - listitem [ref=e189]: Worldwide current events ·
+            - listitem [ref=e190]:
+              - link "Sports events" [ref=e191] [cursor=pointer]:
+                - /url: /wiki/Portal:Current_events/Sports
+              - text: ·
+            - listitem [ref=e192]:
+              - link "Recent deaths" [ref=e193] [cursor=pointer]:
+                - /url: /wiki/Deaths_in_2026
+              - text: ·
+            - listitem [ref=e194]:
+              - link "Entry views by week list" [ref=e195] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Top_25_Report
+              - text: ·
+            - listitem [ref=e196]:
+              - link "Today's most viewed articles" [ref=e197] [cursor=pointer]:
+                - /url: https://pageviews.wmcloud.org/topviews/?project=en.wikipedia.org&platform=all-access&date=yesterday&excludes=
+          - region "Topics in the news" [ref=e198]:
+            - heading "Topics in the news" [level=2] [ref=e200]
+            - figure [ref=e201]:
+              - generic [ref=e202]:
+                - link "Mette Frederiksen in 2026" [ref=e204] [cursor=pointer]:
+                  - /url: /wiki/File:Mette_Frederiksen_by_Christian_Ursilva_(2026).jpg
+                  - img "Mette Frederiksen in 2026" [ref=e205]
+                - generic [ref=e206]: Mette Frederiksen
+            - list [ref=e207]:
+              - listitem [ref=e208]:
+                - text: The
+                - link "Social Democrats" [ref=e209] [cursor=pointer]:
+                  - /url: /wiki/Social_Democrats_(Denmark)
+                - text: ", led by Prime Minister"
+                - link "Mette Frederiksen" [ref=e210] [cursor=pointer]:
+                  - /url: /wiki/Mette_Frederiksen
+                - text: (pictured), remain the largest party after
+                - link "the Danish general election" [ref=e212] [cursor=pointer]:
+                  - /url: /wiki/2026_Danish_general_election
+                - text: ", with no political bloc winning a majority of seats."
+              - listitem [ref=e213]:
+                - text: In Italy, voters reject a reform of the judicial system in
+                - link "a constitutional referendum" [ref=e215] [cursor=pointer]:
+                  - /url: /wiki/2026_Italian_constitutional_referendum
+                - text: .
+              - listitem [ref=e216]:
+                - text: A
+                - link "Colombian Aerospace Force" [ref=e217] [cursor=pointer]:
+                  - /url: /wiki/Colombian_Aerospace_Force
+                - link "Lockheed C-130 crashes" [ref=e219] [cursor=pointer]:
+                  - /url: /wiki/2026_Colombian_Air_Force_Lockheed_C-130_crash
+                - text: during take-off in
+                - link "Puerto Leguízamo" [ref=e220] [cursor=pointer]:
+                  - /url: /wiki/Puerto_Legu%C3%ADzamo
+                - text: ", killing 70 people."
+              - listitem [ref=e221]:
+                - text: In mathematics,
+                - link "Gerd Faltings" [ref=e223] [cursor=pointer]:
+                  - /url: /wiki/Gerd_Faltings
+                - text: is awarded the
+                - link "Abel Prize" [ref=e224] [cursor=pointer]:
+                  - /url: /wiki/Abel_Prize
+                - text: for his work in
+                - link "arithmetic geometry" [ref=e225] [cursor=pointer]:
+                  - /url: /wiki/Arithmetic_geometry
+                - text: .
+            - generic [ref=e226]:
+              - generic [ref=e227]:
+                - text: "Ongoing:"
+                - list [ref=e229]:
+                  - listitem [ref=e230]:
+                    - link "Afghanistan–Pakistan conflict" [ref=e231] [cursor=pointer]:
+                      - /url: /wiki/2026_Afghanistan%E2%80%93Pakistan_conflict
+                    - text: ·
+                  - listitem [ref=e232]:
+                    - link "Iran war" [ref=e233] [cursor=pointer]:
+                      - /url: /wiki/2026_Iran_war
+                    - text: ·
+                  - listitem [ref=e234]:
+                    - link "Russo-Ukrainian war" [ref=e235] [cursor=pointer]:
+                      - /url: /wiki/Russo-Ukrainian_war_(2022%E2%80%93present)
+                    - list [ref=e236]:
+                      - listitem [ref=e237]:
+                        - text: (
+                        - link "timeline" [ref=e238] [cursor=pointer]:
+                          - /url: /wiki/Timeline_of_the_Russo-Ukrainian_war_(1_January_2026_%E2%80%93_present)
+                        - text: )
+                    - text: ·
+                  - listitem [ref=e239]:
+                    - link "Sudanese civil war" [ref=e240] [cursor=pointer]:
+                      - /url: /wiki/Sudanese_civil_war_(2023%E2%80%93present)
+                    - list [ref=e241]:
+                      - listitem [ref=e242]:
+                        - text: (
+                        - link "timeline" [ref=e243] [cursor=pointer]:
+                          - /url: /wiki/Timeline_of_the_Sudanese_civil_war_(2026)
+                        - text: )
+              - generic [ref=e244]:
+                - link "Recent deaths" [ref=e246] [cursor=pointer]:
+                  - /url: /wiki/Deaths_in_2026
+                - text: ":"
+                - list [ref=e248]:
+                  - listitem [ref=e249]:
+                    - link "Abu Taher Nadwi" [ref=e250] [cursor=pointer]:
+                      - /url: /wiki/Abu_Taher_Nadwi
+                    - text: ·
+                  - listitem [ref=e251]:
+                    - link "Melvin Edwards" [ref=e252] [cursor=pointer]:
+                      - /url: /wiki/Melvin_Edwards
+                    - text: ·
+                  - listitem [ref=e253]:
+                    - link "Alexander Kluge" [ref=e254] [cursor=pointer]:
+                      - /url: /wiki/Alexander_Kluge
+                    - text: ·
+                  - listitem [ref=e255]:
+                    - link "Noelia Castillo" [ref=e256] [cursor=pointer]:
+                      - /url: /wiki/Noelia_Castillo_euthanasia_case
+                    - text: ·
+                  - listitem [ref=e257]:
+                    - link "Chime Rinpoche" [ref=e258] [cursor=pointer]:
+                      - /url: /wiki/Chime_Rinpoche
+                    - text: ·
+                  - listitem [ref=e259]:
+                    - link "Biruté Galdikas" [ref=e260] [cursor=pointer]:
+                      - /url: /wiki/Birut%C3%A9_Galdikas
+            - list [ref=e262]:
+              - listitem [ref=e263]:
+                - link "Nominate an article" [ref=e265] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:In_the_news/Candidates
+          - generic [ref=e266]:
+            - generic [ref=e267]:
+              - region "April 1" [ref=e269]:
+                - generic [ref=e270]:
+                  - heading "April 1, 2026 (Wednesday)" [ref=e271]:
+                    - generic [ref=e272]: April 1, 2026 (Wednesday)
+                  - list [ref=e273]:
+                    - listitem [ref=e274]:
+                      - link "edit" [ref=e275] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_April_1&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e276]:
+                      - link "history" [ref=e277] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_April_1&action=history
+                    - listitem [ref=e278]:
+                      - link "watch" [ref=e279] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_April_1&action=watch
+                - generic [ref=e280]:
+                  - paragraph [ref=e281]: Armed conflicts and attacks
+                  - list [ref=e282]:
+                    - listitem [ref=e283]:
+                      - link "Middle Eastern crisis" [ref=e284] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                      - list [ref=e285]:
+                        - listitem [ref=e286]:
+                          - link "2026 Iran war" [ref=e287] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war
+                          - list [ref=e288]:
+                            - listitem [ref=e289]:
+                              - link "2025–2026 Iran–United States negotiations" [ref=e290] [cursor=pointer]:
+                                - /url: /wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations
+                              - text: ","
+                              - link "2026 Strait of Hormuz crisis" [ref=e291] [cursor=pointer]:
+                                - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                              - list [ref=e292]:
+                                - listitem [ref=e293]:
+                                  - link "U.S. President" [ref=e294] [cursor=pointer]:
+                                    - /url: /wiki/U.S._President
+                                  - link "Donald Trump" [ref=e295] [cursor=pointer]:
+                                    - /url: /wiki/Donald_Trump
+                                  - text: claims that
+                                  - link "Iranian President" [ref=e296] [cursor=pointer]:
+                                    - /url: /wiki/President_of_Iran
+                                  - link "Masoud Pezeshkian" [ref=e297] [cursor=pointer]:
+                                    - /url: /wiki/Masoud_Pezeshkian
+                                  - text: has asked for a ceasefire, which the United States "will consider when
+                                  - link "Hormuz Strait" [ref=e298] [cursor=pointer]:
+                                    - /url: /wiki/Hormuz_Strait
+                                  - text: is open, free, and clear". The
+                                  - link "Iranian Foreign Ministry" [ref=e299] [cursor=pointer]:
+                                    - /url: /wiki/Foreign_Ministry_of_Iran
+                                  - text: replies that Trump's claim is "false and baseless".
+                                  - link "(Forbes)" [ref=e300] [cursor=pointer]:
+                                    - /url: https://www.forbes.com/sites/saradorn/2026/04/01/trump-says-iran-asked-for-a-ceasfire-and-vows-bombings-will-continue-until-strait-is-reopened/
+                                  - link "(Hindustan Times)" [ref=e301] [cursor=pointer]:
+                                    - /url: https://www.hindustantimes.com/world-news/false-and-baseless-iran-rejects-trumps-ceasefire-claim-as-war-escalates-101775053658827.html
+                            - listitem [ref=e302]:
+                              - link "2026 Iranian strikes on Israel" [ref=e303] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Israel
+                              - list [ref=e304]:
+                                - listitem [ref=e305]:
+                                  - text: Ten people are injured, including a girl from
+                                  - link "Bnei Brak" [ref=e306] [cursor=pointer]:
+                                    - /url: /wiki/Bnei_Brak
+                                  - text: ","
+                                  - link "Israel" [ref=e307] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: ", in critical condition, after a missile barrage from"
+                                  - link "Iran" [ref=e308] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: .
+                                  - link "(The Times of Israel)" [ref=e309] [cursor=pointer]:
+                                    - /url: https://www.timesofisrael.com/liveblog_entry/girl-hurt-in-iran-missile-strike-is-in-critical-condition-another-boy-seriously-injured-hospitals/
+                            - listitem [ref=e310]:
+                              - link "2026 Iranian strikes on Kuwait" [ref=e311] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Kuwait
+                              - list [ref=e312]:
+                                - listitem [ref=e313]:
+                                  - text: A
+                                  - link "fuel" [ref=e314] [cursor=pointer]:
+                                    - /url: /wiki/Fuel
+                                  - text: storage at
+                                  - link "Kuwait International Airport" [ref=e315] [cursor=pointer]:
+                                    - /url: /wiki/Kuwait_International_Airport
+                                  - text: in
+                                  - link "Farwaniya Governorate" [ref=e316] [cursor=pointer]:
+                                    - /url: /wiki/Farwaniya_Governorate
+                                  - text: ","
+                                  - link "Kuwait" [ref=e317] [cursor=pointer]:
+                                    - /url: /wiki/Kuwait
+                                  - text: ", is hit by Iranian drones, causing a"
+                                  - link "major fire" [ref=e318] [cursor=pointer]:
+                                    - /url: /wiki/Major_fire
+                                  - text: .
+                                  - link "(Gulf News)" [ref=e319] [cursor=pointer]:
+                                    - /url: https://gulfnews.com/world/gulf/kuwait/major-fire-breaks-out-in-kuwait-international-airport-after-iranian-drone-attacks-1.500492703
+                            - listitem [ref=e320]:
+                              - link "2026 Iranian strikes on the United Arab Emirates" [ref=e321] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates
+                              - list [ref=e322]:
+                                - listitem [ref=e323]:
+                                  - text: A
+                                  - link "Bangladeshi" [ref=e324] [cursor=pointer]:
+                                    - /url: /wiki/Bangladeshis
+                                  - text: national is killed by shrapnel during a drone interception in
+                                  - link "Fujairah" [ref=e325] [cursor=pointer]:
+                                    - /url: /wiki/Fujairah
+                                  - text: ","
+                                  - link "United Arab Emirates" [ref=e326] [cursor=pointer]:
+                                    - /url: /wiki/United_Arab_Emirates
+                                  - text: .
+                                  - link "(AFP via The Daily Star)" [ref=e327] [cursor=pointer]:
+                                    - /url: https://www.thedailystar.net/news/world/us-israel-war-iran/news/bangladeshi-killed-drone-shrapnel-uae-official-media-4140716
+                            - listitem [ref=e328]:
+                              - text: A U.S. strike in
+                              - link "Tehran" [ref=e329] [cursor=pointer]:
+                                - /url: /wiki/Tehran
+                              - text: ", Iran, reportedly damages the"
+                              - link "former US embassy" [ref=e330] [cursor=pointer]:
+                                - /url: /wiki/Embassy_of_the_United_States,_Tehran
+                              - text: ", which was converted into a"
+                              - link "museum" [ref=e331] [cursor=pointer]:
+                                - /url: /wiki/Museum
+                              - text: following its takeover during the
+                              - link "Iranian Revolution" [ref=e332] [cursor=pointer]:
+                                - /url: /wiki/Iranian_Revolution
+                              - text: . The
+                              - link "St. Nicholas Orthodox Church" [ref=e333] [cursor=pointer]:
+                                - /url: /wiki/St._Nicholas_Church,_Tehran
+                              - text: is also damaged.
+                              - link "(Iran International)" [ref=e334] [cursor=pointer]:
+                                - /url: https://www.iranintl.com/en/202604017722
+                              - text: ","
+                              - link "(The Times of Israel)" [ref=e335] [cursor=pointer]:
+                                - /url: https://www.timesofisrael.com/liveblog_entry/strikes-hit-russian-orthodox-church-in-tehran-moscow-says/
+                        - listitem [ref=e336]:
+                          - link "2026 Lebanon war" [ref=e337] [cursor=pointer]:
+                            - /url: /wiki/2026_Lebanon_war
+                          - list [ref=e338]:
+                            - listitem [ref=e339]:
+                              - link "Israeli" [ref=e340] [cursor=pointer]:
+                                - /url: /wiki/Israel
+                              - link "airstrikes" [ref=e341] [cursor=pointer]:
+                                - /url: /wiki/Airstrike
+                              - text: kill seven people, including the
+                              - link "Hezbollah" [ref=e342] [cursor=pointer]:
+                                - /url: /wiki/Hezbollah
+                              - text: commander for
+                              - link "Iraq" [ref=e343] [cursor=pointer]:
+                                - /url: /wiki/Iraq
+                              - text: ", and injure dozens in"
+                              - link "Beirut" [ref=e344] [cursor=pointer]:
+                                - /url: /wiki/Beirut
+                              - text: and nearby
+                              - link "Khalde" [ref=e345] [cursor=pointer]:
+                                - /url: /wiki/Khalde
+                              - text: ","
+                              - link "Lebanon" [ref=e346] [cursor=pointer]:
+                                - /url: /wiki/Lebanon
+                              - text: .
+                              - link "(AFP via Naharnet)" [ref=e347] [cursor=pointer]:
+                                - /url: https://www.naharnet.com/stories/en/319299-israeli-strike-in-jnah-targeted-hezbollah-commander-for-iraq
+                        - listitem [ref=e348]:
+                          - text: The
+                          - link "Israeli military" [ref=e349] [cursor=pointer]:
+                            - /url: /wiki/IDF
+                          - text: reports a missile launched by
+                          - link "Houthi" [ref=e350] [cursor=pointer]:
+                            - /url: /wiki/Houthi
+                          - text: militias is intercepted.
+                          - link "(The Times of Israel)" [ref=e351] [cursor=pointer]:
+                            - /url: https://www.timesofisrael.com/girl-critically-hurt-by-iranian-cluster-bomb-as-repeated-salvos-target-center/
+                  - paragraph [ref=e352]: Law and crime
+                  - list [ref=e353]:
+                    - listitem [ref=e354]:
+                      - link "Scam centers in Cambodia" [ref=e355] [cursor=pointer]:
+                        - /url: /wiki/Scam_centers_in_Cambodia
+                      - list [ref=e356]:
+                        - listitem [ref=e357]:
+                          - link "Cambodia" [ref=e358] [cursor=pointer]:
+                            - /url: /wiki/Cambodia
+                          - text: extradites the former chairperson of
+                          - link "Huione Group" [ref=e359] [cursor=pointer]:
+                            - /url: /wiki/Huione_Group
+                          - text: to
+                          - link "China" [ref=e360] [cursor=pointer]:
+                            - /url: /wiki/China
+                          - text: ", where"
+                          - link "law enforcement" [ref=e361] [cursor=pointer]:
+                            - /url: /wiki/Law_enforcement_in_China
+                          - text: authorities accuse him of involvement in a large-scale
+                          - link "online fraud" [ref=e362] [cursor=pointer]:
+                            - /url: /wiki/Internet_fraud
+                          - text: and
+                          - link "money laundering" [ref=e363] [cursor=pointer]:
+                            - /url: /wiki/Money_laundering
+                          - text: network linked to Huione. Investigators identify him as an associate of suspected
+                          - link "crime" [ref=e364] [cursor=pointer]:
+                            - /url: /wiki/Crime_in_Cambodia
+                          - text: leader
+                          - link "Chen Zhi" [ref=e365] [cursor=pointer]:
+                            - /url: /wiki/Chen_Zhi_(businessman)
+                          - text: ", who was previously extradited in connection with the case."
+                          - link "(AFP via The Star)" [ref=e366] [cursor=pointer]:
+                            - /url: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/01/accused-scam-boss-extradited-from-cambodia-to-china
+              - region "March 31" [ref=e368]:
+                - generic [ref=e369]:
+                  - heading "March 31, 2026 (Tuesday)" [ref=e370]:
+                    - generic [ref=e371]: March 31, 2026 (Tuesday)
+                  - list [ref=e372]:
+                    - listitem [ref=e373]:
+                      - link "edit" [ref=e374] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_31&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e375]:
+                      - link "history" [ref=e376] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_31&action=history
+                    - listitem [ref=e377]:
+                      - link "watch" [ref=e378] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_31&action=watch
+                - generic [ref=e379]:
+                  - paragraph [ref=e380]: Armed conflicts and attacks
+                  - list [ref=e381]:
+                    - listitem [ref=e382]:
+                      - link "Middle Eastern crisis" [ref=e383] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                      - list [ref=e384]:
+                        - listitem [ref=e385]:
+                          - link "2026 Iran war" [ref=e386] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war
+                          - list [ref=e387]:
+                            - listitem [ref=e388]:
+                              - link "2025–2026 Iran–United States negotiations" [ref=e389] [cursor=pointer]:
+                                - /url: /wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations
+                              - list [ref=e390]:
+                                - listitem [ref=e391]:
+                                  - link "Iranian president" [ref=e392] [cursor=pointer]:
+                                    - /url: /wiki/President_of_Iran
+                                  - link "Masud Pezeshkian" [ref=e393] [cursor=pointer]:
+                                    - /url: /wiki/Masud_Pezeshkian
+                                  - text: says that
+                                  - link "Iran" [ref=e394] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: has the "necessary will" to end the war, provided that the "guarantees required to prevent repetition of the aggression" are met.
+                                  - link "(RFE/RL)" [ref=e395] [cursor=pointer]:
+                                    - /url: https://www.rferl.org/a/pezeshkian-iran-peace-us-war-talks/33721776.html
+                                - listitem [ref=e396]:
+                                  - link "Iranian foreign minister" [ref=e397] [cursor=pointer]:
+                                    - /url: /wiki/Foreign_Minister_of_Iran
+                                  - link "Abbas Araghchi" [ref=e398] [cursor=pointer]:
+                                    - /url: /wiki/Abbas_Araghchi
+                                  - text: confirms that direct contacts, although "not negotiations", with
+                                  - link "U.S. special envoy" [ref=e399] [cursor=pointer]:
+                                    - /url: /wiki/United_States_Special_Envoy
+                                  - link "Steve Witkoff" [ref=e400] [cursor=pointer]:
+                                    - /url: /wiki/Steve_Witkoff
+                                  - text: are under way.
+                                  - link "(Al Jazeera)" [ref=e401] [cursor=pointer]:
+                                    - /url: https://www.aljazeera.com/news/2026/3/31/no-truth-to-us-iranian-negotiations-irans-fm-tells-al-jazeera
+                                - listitem [ref=e402]:
+                                  - link "U.S. president" [ref=e403] [cursor=pointer]:
+                                    - /url: /wiki/President_of_the_United_States
+                                  - link "Donald Trump" [ref=e404] [cursor=pointer]:
+                                    - /url: /wiki/Donald_Trump
+                                  - text: says that
+                                  - link "U.S. forces" [ref=e405] [cursor=pointer]:
+                                    - /url: /wiki/United_States_Armed_Forces
+                                  - text: plan to end operations in Iran within about two to three weeks while continuing military action, stating that the withdrawal is not contingent on reaching an agreement with Iran.
+                                  - link "(AFP via RFI)" [ref=e406] [cursor=pointer]:
+                                    - /url: https://www.rfi.fr/en/international-news/20260331-trump-says-us-to-leave-iran-very-soon-deal-or-not
+                                - listitem [ref=e407]:
+                                  - link "U.S. defense secretary" [ref=e408] [cursor=pointer]:
+                                    - /url: /wiki/United_States_Secretary_of_Defense
+                                  - link "Pete Hegseth" [ref=e409] [cursor=pointer]:
+                                    - /url: /wiki/Pete_Hegseth
+                                  - text: says that the talks between Iran and the
+                                  - link "United States" [ref=e410] [cursor=pointer]:
+                                    - /url: /wiki/United_States
+                                  - text: "\"are very real\" but also states that the U.S. will \"negotiate with bombs\" until a"
+                                  - link "ceasefire" [ref=e411] [cursor=pointer]:
+                                    - /url: /wiki/Ceasefire
+                                  - text: is reached.
+                                  - link "(Time)" [ref=e412] [cursor=pointer]:
+                                    - /url: https://time.com/article/2026/03/31/hegseth-says-us-will-negotiate-with-bombs-until-iran-cease-fire-deal/
+                            - listitem [ref=e413]:
+                              - link "2026 Strait of Hormuz crisis" [ref=e414] [cursor=pointer]:
+                                - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                              - list [ref=e415]:
+                                - listitem [ref=e416]:
+                                  - text: The
+                                  - link "Kuwait Petroleum Corporation" [ref=e417] [cursor=pointer]:
+                                    - /url: /wiki/Kuwait_Petroleum_Corporation
+                                  - text: claims that
+                                  - link "oil tanker" [ref=e418] [cursor=pointer]:
+                                    - /url: /wiki/Oil_tanker
+                                  - text: Al Salmi has been hit by an
+                                  - link "Iranian drone" [ref=e419] [cursor=pointer]:
+                                    - /url: /wiki/Unmanned_aerial_vehicles_in_the_Iranian_military
+                                  - text: at a port in
+                                  - link "Dubai" [ref=e420] [cursor=pointer]:
+                                    - /url: /wiki/Dubai
+                                  - text: ", causing a fire onboard and damage to the vessel. Dubai authorities say that the fire has been contained hours after the incident."
+                                  - link "(The Guardian)" [ref=e421] [cursor=pointer]:
+                                    - /url: https://www.theguardian.com/world/2026/mar/31/kuwaiti-tanker-hit-by-iranian-attack-in-dubai-port-raising-oil-spill-fears
+                            - listitem [ref=e422]:
+                              - link "France–Israel relations" [ref=e423] [cursor=pointer]:
+                                - /url: /wiki/France%E2%80%93Israel_relations
+                              - list [ref=e424]:
+                                - listitem [ref=e425]:
+                                  - text: The
+                                  - link "Israeli defense ministry" [ref=e426] [cursor=pointer]:
+                                    - /url: /wiki/Israeli_defense_ministry
+                                  - text: halts sales of defense products to
+                                  - link "France" [ref=e427] [cursor=pointer]:
+                                    - /url: /wiki/France
+                                  - text: following
+                                  - link "president" [ref=e428] [cursor=pointer]:
+                                    - /url: /wiki/President_of_France
+                                  - link "Emmanuel Macron" [ref=e429] [cursor=pointer]:
+                                    - /url: /wiki/Emmanuel_Macron
+                                  - text: "'s decision not to allow"
+                                  - link "U.S. aircraft" [ref=e430] [cursor=pointer]:
+                                    - /url: /wiki/United_States_Air_Forces
+                                  - text: to pass through French
+                                  - link "airspace" [ref=e431] [cursor=pointer]:
+                                    - /url: /wiki/Airspace
+                                  - text: en route to
+                                  - link "Israel" [ref=e432] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: .
+                                  - link "(The Jerusalem Post)" [ref=e433] [cursor=pointer]:
+                                    - /url: https://www.jpost.com/israel-news/article-891742
+                            - listitem [ref=e434]:
+                              - link "Italy–United States relations" [ref=e435] [cursor=pointer]:
+                                - /url: /wiki/Italy%E2%80%93United_States_relations
+                              - list [ref=e436]:
+                                - listitem [ref=e437]:
+                                  - link "Italy" [ref=e438] [cursor=pointer]:
+                                    - /url: /wiki/Italy
+                                  - text: denies the
+                                  - link "United States Air Force" [ref=e439] [cursor=pointer]:
+                                    - /url: /wiki/United_States_Air_Force
+                                  - text: the use of the
+                                  - link "Sigonella base" [ref=e440] [cursor=pointer]:
+                                    - /url: /wiki/Naval_Air_Station_Sigonella
+                                  - text: in
+                                  - link "Sicily" [ref=e441] [cursor=pointer]:
+                                    - /url: /wiki/Sicily
+                                  - text: for operations related to the Iran war.
+                                  - link "(Reuters)" [ref=e442] [cursor=pointer]:
+                                    - /url: https://www.reuters.com/business/aerospace-defense/italy-refuses-us-aircraft-use-sicily-base-middle-east-operations-source-says-2026-03-31/
+                            - listitem [ref=e443]:
+                              - link "Poland–United States relations" [ref=e444] [cursor=pointer]:
+                                - /url: /wiki/Poland%E2%80%93United_States_relations
+                              - list [ref=e445]:
+                                - listitem [ref=e446]:
+                                  - link "Poland" [ref=e447] [cursor=pointer]:
+                                    - /url: /wiki/Poland
+                                  - text: refuses a request by the
+                                  - link "United States" [ref=e448] [cursor=pointer]:
+                                    - /url: /wiki/United_States
+                                  - text: to relocate its
+                                  - link "Patriot air defense systems" [ref=e449] [cursor=pointer]:
+                                    - /url: /wiki/MIM-104_Patriot
+                                  - text: to the
+                                  - link "Middle East" [ref=e450] [cursor=pointer]:
+                                    - /url: /wiki/Middle_East
+                                  - text: for the Iran war.
+                                  - link "(Politico)" [ref=e451] [cursor=pointer]:
+                                    - /url: https://www.politico.eu/article/poland-wont-divert-patriot-air-defense-systems-to-gulf/
+                            - listitem [ref=e452]:
+                              - link "China" [ref=e453] [cursor=pointer]:
+                                - /url: /wiki/China
+                              - text: and
+                              - link "Pakistan" [ref=e454] [cursor=pointer]:
+                                - /url: /wiki/Pakistan
+                              - text: releases a five-point
+                              - link "peace plan" [ref=e455] [cursor=pointer]:
+                                - /url: /wiki/Peace_plan
+                              - text: for the Iran war following a meeting between the two countries'
+                              - link "foreign ministers" [ref=e456] [cursor=pointer]:
+                                - /url: /wiki/Foreign_minister
+                              - text: ","
+                              - link "Wang Yi" [ref=e457] [cursor=pointer]:
+                                - /url: /wiki/Wang_Yi
+                              - text: and
+                              - link "Ishaq Dar" [ref=e458] [cursor=pointer]:
+                                - /url: /wiki/Ishaq_Dar
+                              - text: ", respectively. The plan includes a ceasefire and reopening the"
+                              - link "Strait of Hormuz" [ref=e459] [cursor=pointer]:
+                                - /url: /wiki/Strait_of_Hormuz
+                              - text: .
+                              - link "(The Guardian)" [ref=e460] [cursor=pointer]:
+                                - /url: https://www.theguardian.com/world/2026/mar/31/pakistan-china-propose-five-part-peace-plan-middle-east
+                              - link "(Axios)" [ref=e461] [cursor=pointer]:
+                                - /url: https://www.axios.com/2026/03/31/china-pakistan-iran-peace-deal-strait-ceasefire
+                        - listitem [ref=e462]:
+                          - link "2026 Lebanon war" [ref=e463] [cursor=pointer]:
+                            - /url: /wiki/2026_Lebanon_war
+                          - list [ref=e464]:
+                            - listitem [ref=e465]:
+                              - link "Israeli defense minister" [ref=e466] [cursor=pointer]:
+                                - /url: /wiki/Ministry_of_Defense_(Israel)
+                              - link "Israel Katz" [ref=e467] [cursor=pointer]:
+                                - /url: /wiki/Israel_Katz
+                              - text: announces that Israel will destroy "all houses" near the
+                              - link "Israel–Lebanon border" [ref=e468] [cursor=pointer]:
+                                - /url: /wiki/Israel%E2%80%93Lebanon_border
+                              - text: .
+                              - link "(Reuters)" [ref=e469] [cursor=pointer]:
+                                - /url: https://www.reuters.com/world/middle-east/israel-destroy-all-houses-near-lebanon-border-defence-minister-says-2026-03-31/
+                            - listitem [ref=e470]:
+                              - text: Four
+                              - link "Israeli soldiers" [ref=e471] [cursor=pointer]:
+                                - /url: /wiki/Israeli_Ground_Forces
+                              - text: are
+                              - link "killed in action" [ref=e472] [cursor=pointer]:
+                                - /url: /wiki/Killed_in_action
+                              - text: while fighting
+                              - link "Hezbollah" [ref=e473] [cursor=pointer]:
+                                - /url: /wiki/Hezbollah
+                              - text: in
+                              - link "southern" [ref=e474] [cursor=pointer]:
+                                - /url: /wiki/Southern_Lebanon
+                              - link "Lebanon" [ref=e475] [cursor=pointer]:
+                                - /url: /wiki/Lebanon
+                              - text: .
+                              - link "(The Jerusalem Post)" [ref=e476] [cursor=pointer]:
+                                - /url: https://www.jpost.com/israel-news/defense-news/article-891727
+                        - listitem [ref=e477]:
+                          - link "Iraqi conflict" [ref=e478] [cursor=pointer]:
+                            - /url: /wiki/Iraqi_conflict
+                          - list [ref=e479]:
+                            - listitem [ref=e480]:
+                              - link "American" [ref=e481] [cursor=pointer]:
+                                - /url: /wiki/Americans
+                              - link "freelance" [ref=e482] [cursor=pointer]:
+                                - /url: /wiki/Freelancer
+                              - text: journalist
+                              - link "Shelly Kittleson" [ref=e483] [cursor=pointer]:
+                                - /url: /wiki/Shelly_Kittleson
+                              - text: is
+                              - link "kidnapped" [ref=e484] [cursor=pointer]:
+                                - /url: /wiki/Foreign_hostages_in_Iraq
+                              - text: by armed men in
+                              - link "Baghdad" [ref=e485] [cursor=pointer]:
+                                - /url: /wiki/Baghdad
+                              - text: ","
+                              - link "Iraq" [ref=e486] [cursor=pointer]:
+                                - /url: /wiki/Iraq
+                              - text: .
+                              - link "(BBC News)" [ref=e487] [cursor=pointer]:
+                                - /url: https://www.bbc.co.uk/news/articles/c5yled478zwo
+                  - paragraph [ref=e488]: Disasters and accidents
+                  - list [ref=e489]:
+                    - listitem [ref=e490]:
+                      - link "2026 Crimea Antonov An-26 crash" [ref=e491] [cursor=pointer]:
+                        - /url: /wiki/2026_Crimea_Antonov_An-26_crash
+                      - list [ref=e492]:
+                        - listitem [ref=e493]:
+                          - text: Thirty people are killed when a
+                          - link "Russian Air Force" [ref=e494] [cursor=pointer]:
+                            - /url: /wiki/Russian_Air_Force
+                          - link "Antonov An-26" [ref=e495] [cursor=pointer]:
+                            - /url: /wiki/Antonov_An-26
+                          - text: crashes in
+                          - link "Crimea" [ref=e496] [cursor=pointer]:
+                            - /url: /wiki/Crimea
+                          - text: .
+                          - link "(Reuters)" [ref=e497] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/russian-military-transport-crashes-crimea-29-killed-defence-ministry-says-2026-03-31/
+                          - link "(The Moscow Times)" [ref=e498] [cursor=pointer]:
+                            - /url: https://www.themoscowtimes.com/2026/04/01/at-least-30-dead-after-russian-military-transport-plane-crashes-in-annexed-crimea-a92395
+                    - listitem [ref=e499]:
+                      - text: Dozens of people are killed and many others are injured after multiple explosions occur at a
+                      - link "military" [ref=e500] [cursor=pointer]:
+                        - /url: /wiki/Burundi_National_Defence_Force
+                      - link "ammunition depot" [ref=e501] [cursor=pointer]:
+                        - /url: /wiki/Ammunition_depot
+                      - text: in
+                      - link "Bujumbura" [ref=e502] [cursor=pointer]:
+                        - /url: /wiki/Bujumbura
+                      - text: ","
+                      - link "Burundi" [ref=e503] [cursor=pointer]:
+                        - /url: /wiki/Burundi
+                      - text: ", causing extensive damage to nearby residential areas."
+                      - link "(AFP via The Standard)" [ref=e504] [cursor=pointer]:
+                        - /url: https://www.standardmedia.co.ke/world/article/2001544349/dozens-killed-in-burundi-after-arsenal-fire-security-sources
+                    - listitem [ref=e505]:
+                      - text: Eleven people are killed in a
+                      - link "shophouse" [ref=e506] [cursor=pointer]:
+                        - /url: /wiki/Shophouse
+                      - text: complex fire in
+                      - link "Wamena" [ref=e507] [cursor=pointer]:
+                        - /url: /wiki/Wamena
+                      - text: ","
+                      - link "Highland Papua" [ref=e508] [cursor=pointer]:
+                        - /url: /wiki/Highland_Papua
+                      - text: ","
+                      - link "Indonesia" [ref=e509] [cursor=pointer]:
+                        - /url: /wiki/Indonesia
+                      - text: .
+                      - link "(iNews)" [ref=e510] [cursor=pointer]:
+                        - /url: https://sorongraya.inews.id/amp/681820/11-orang-tewas-dalam-kebakaran-empat-ruko-di-kota-wamena
+                  - paragraph [ref=e511]: Business and economy
+                  - list [ref=e512]:
+                    - listitem [ref=e513]:
+                      - link "Economic impact of the 2026 Iran war" [ref=e514] [cursor=pointer]:
+                        - /url: /wiki/Economic_impact_of_the_2026_Iran_war
+                      - list [ref=e515]:
+                        - listitem [ref=e516]:
+                          - link "2026 Iran war fuel crisis" [ref=e517] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war_fuel_crisis
+                          - list [ref=e518]:
+                            - listitem [ref=e519]:
+                              - text: The
+                              - link "American Automobile Association" [ref=e520] [cursor=pointer]:
+                                - /url: /wiki/American_Automobile_Association
+                              - text: reports that the
+                              - link "United States" [ref=e521] [cursor=pointer]:
+                                - /url: /wiki/Energy_in_the_United_States
+                              - text: national average gas price has reached
+                              - link "$" [ref=e522] [cursor=pointer]:
+                                - /url: /wiki/United_States_dollar
+                              - text: 4.02 a gallon, the highest since
+                              - link "2022" [ref=e523] [cursor=pointer]:
+                                - /url: /wiki/Global_energy_crisis_(2021%E2%80%932023)
+                              - text: following
+                              - link "Russia's invasion of Ukraine" [ref=e524] [cursor=pointer]:
+                                - /url: /wiki/2022_Russian_invasion_of_Ukraine
+                              - text: .
+                              - link "(AP)" [ref=e525] [cursor=pointer]:
+                                - /url: https://apnews.com/article/gas-prices-4-gallon-iran-war-de8b7ccea254a1585cab86f336db57a6
+                        - listitem [ref=e526]:
+                          - text: The
+                          - link "Dow Jones Industrial Average" [ref=e527] [cursor=pointer]:
+                            - /url: /wiki/Dow_Jones_Industrial_Average
+                          - text: surges over 1,000 points and the
+                          - link "Nasdaq" [ref=e528] [cursor=pointer]:
+                            - /url: /wiki/Nasdaq
+                          - text: increases to 3.4% after
+                          - link "Iranian president" [ref=e529] [cursor=pointer]:
+                            - /url: /wiki/President_of_Iran
+                          - link "Masoud Pezeshkian" [ref=e530] [cursor=pointer]:
+                            - /url: /wiki/Masoud_Pezeshkian
+                          - text: says that
+                          - link "Iran" [ref=e531] [cursor=pointer]:
+                            - /url: /wiki/Iran
+                          - text: has signaled it is willing to end the conflict if security guarantees and assurances are met.
+                          - link "(Moneycheck)" [ref=e532] [cursor=pointer]:
+                            - /url: https://moneycheck.com/dow-surges-over-1000-points-as-iran-signals-willingness-to-end-u-s-conflict/
+                          - link "(XTB)" [ref=e533] [cursor=pointer]:
+                            - /url: https://www.xtb.com/int/market-analysis/news-and-research/breaking-markets-surge-following-the-iranian-president-s-statement-about-a-possible-end-to-the-conflict
+                        - listitem [ref=e534]:
+                          - text: Stocks in the U.S. also rise following reports that
+                          - link "president" [ref=e535] [cursor=pointer]:
+                            - /url: /wiki/President_of_the_United_States
+                          - link "Donald Trump" [ref=e536] [cursor=pointer]:
+                            - /url: /wiki/Donald_Trump
+                          - text: has told aides that he is willing to end the war without securing the Strait of Hormuz.
+                          - link "(Quartz)" [ref=e537] [cursor=pointer]:
+                            - /url: https://qz.com/stocks-markets-iran-war-trump-strait-hormuz-dow-sp500-nasdaq
+                  - paragraph [ref=e538]: Law and crime
+                  - list [ref=e539]:
+                    - listitem [ref=e540]:
+                      - link "LGBTQ rights in the United States" [ref=e541] [cursor=pointer]:
+                        - /url: /wiki/LGBTQ_rights_in_the_United_States
+                      - list [ref=e542]:
+                        - listitem [ref=e543]:
+                          - link "Legality of conversion therapy" [ref=e544] [cursor=pointer]:
+                            - /url: /wiki/Legality_of_conversion_therapy
+                          - list [ref=e545]:
+                            - listitem [ref=e546]:
+                              - link "Chiles v. Salazar" [ref=e548] [cursor=pointer]:
+                                - /url: /wiki/Chiles_v._Salazar
+                              - list [ref=e549]:
+                                - listitem [ref=e550]:
+                                  - text: The
+                                  - link "U.S." [ref=e551] [cursor=pointer]:
+                                    - /url: /wiki/United_States
+                                  - link "Supreme Court" [ref=e552] [cursor=pointer]:
+                                    - /url: /wiki/Supreme_Court_of_the_United_States
+                                  - text: overturns
+                                  - link "Colorado" [ref=e553] [cursor=pointer]:
+                                    - /url: /wiki/Colorado
+                                  - text: "'s ban on"
+                                  - link "conversion therapy" [ref=e554] [cursor=pointer]:
+                                    - /url: /wiki/Conversion_therapy
+                                  - text: in an 8–1 decision, ruling that it infringed on the
+                                  - link "First Amendment" [ref=e555] [cursor=pointer]:
+                                    - /url: /wiki/First_Amendment_to_the_United_States_Constitution
+                                  - text: ", thereby invalidating similar bans in 22 other"
+                                  - link "states" [ref=e556] [cursor=pointer]:
+                                    - /url: /wiki/States_of_the_United_States_of_America
+                                  - text: .
+                                  - link "(AP)" [ref=e557] [cursor=pointer]:
+                                    - /url: https://apnews.com/article/supreme-court-conversion-therapy-colorado-92b34295f9ef497a4a1cbeb56c9b74c6
+                                  - link "(Colorado Public Radio)" [ref=e558] [cursor=pointer]:
+                                    - /url: https://www.cpr.org/2026/03/31/supreme-court-overturns-colorado-ban-on-conversion-therapy/
+                    - listitem [ref=e559]:
+                      - text: A
+                      - link "court" [ref=e560] [cursor=pointer]:
+                        - /url: /wiki/Judiciary_of_Brazil
+                      - text: in
+                      - link "Rio de Janeiro" [ref=e561] [cursor=pointer]:
+                        - /url: /wiki/Rio_de_Janeiro_(state)
+                      - text: ","
+                      - link "Brazil" [ref=e562] [cursor=pointer]:
+                        - /url: /wiki/Brazil
+                      - text: ", nullifies a fine of more than"
+                      - link "R$" [ref=e563] [cursor=pointer]:
+                        - /url: /wiki/Brazilian_real
+                      - text: 16 million (
+                      - link "US$" [ref=e564] [cursor=pointer]:
+                        - /url: /wiki/United_States_dollar
+                      - text: 3 million) imposed on
+                      - link "football" [ref=e565] [cursor=pointer]:
+                        - /url: /wiki/Football_in_Brazil
+                      - text: player
+                      - link "Neymar" [ref=e566] [cursor=pointer]:
+                        - /url: /wiki/Neymar
+                      - text: in 2023 over alleged
+                      - link "environmental violations" [ref=e567] [cursor=pointer]:
+                        - /url: /wiki/Environmental_governance_in_Brazil
+                      - text: linked to construction at his
+                      - link "Mangaratiba" [ref=e568] [cursor=pointer]:
+                        - /url: /wiki/Mangaratiba
+                      - text: property, citing procedural flaws in the investigation.
+                      - link "(AFP via RFI)" [ref=e569] [cursor=pointer]:
+                        - /url: https://www.rfi.fr/en/international-news/20260331-brazil-court-quashes-neymar-environmental-damage-fine
+                  - paragraph [ref=e570]: Politics and elections
+                  - list [ref=e571]:
+                    - listitem [ref=e572]:
+                      - link "LGBTQ rights in Senegal" [ref=e573] [cursor=pointer]:
+                        - /url: /wiki/LGBTQ_rights_in_Senegal
+                      - list [ref=e574]:
+                        - listitem [ref=e575]:
+                          - link "Senegalese" [ref=e576] [cursor=pointer]:
+                            - /url: /wiki/Senegal
+                          - link "president" [ref=e577] [cursor=pointer]:
+                            - /url: /wiki/President_of_Senegal
+                          - link "Bassirou Diomaye Faye" [ref=e578] [cursor=pointer]:
+                            - /url: /wiki/Bassirou_Diomaye_Faye
+                          - text: approves a law increasing penalties for
+                          - link "same-sex sexual acts" [ref=e579] [cursor=pointer]:
+                            - /url: /wiki/Homosexual_sexual_practices
+                          - text: to up to 10 years in prison and
+                          - link "criminalizing" [ref=e580] [cursor=pointer]:
+                            - /url: /wiki/Criminalization_of_homosexuality
+                          - text: the promotion or financing of such acts. The measure amends existing provisions in the penal code that already penalize these acts.
+                          - link "(Reuters)" [ref=e581] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/africa/senegal-president-backs-new-anti-lgbt-law-banning-promotion-2026-03-31/
+                  - paragraph [ref=e582]: Sports
+                  - list [ref=e583]:
+                    - listitem [ref=e584]:
+                      - link "Pakistani cricketer" [ref=e585] [cursor=pointer]:
+                        - /url: /wiki/Cricket_in_Pakistan
+                      - link "Naseem Shah" [ref=e586] [cursor=pointer]:
+                        - /url: /wiki/Naseem_Shah
+                      - text: receives a record fine of
+                      - link "Rs." [ref=e587] [cursor=pointer]:
+                        - /url: /wiki/Pakistani_rupee
+                      - text: 20 million (
+                      - link "US$" [ref=e588] [cursor=pointer]:
+                        - /url: /wiki/United_States_dollar
+                      - text: 71,500) for a
+                      - link "social media" [ref=e589] [cursor=pointer]:
+                        - /url: /wiki/Mass_media_in_Pakistan
+                      - text: post criticizing
+                      - link "Punjab" [ref=e590] [cursor=pointer]:
+                        - /url: /wiki/Punjab,_Pakistan
+                      - link "chief minister" [ref=e591] [cursor=pointer]:
+                        - /url: /wiki/Chief_Minister_of_Punjab_(Pakistan)
+                      - link "Maryam Nawaz" [ref=e592] [cursor=pointer]:
+                        - /url: /wiki/Maryam_Nawaz
+                      - text: ", while other disciplinary cases arise in the"
+                      - link "Pakistan Super League" [ref=e593] [cursor=pointer]:
+                        - /url: /wiki/Pakistan_Super_League
+                      - text: ", including a fine for"
+                      - link "Shaheen Shah Afridi" [ref=e594] [cursor=pointer]:
+                        - /url: /wiki/Shaheen_Shah_Afridi
+                      - text: and a
+                      - link "ball-tampering" [ref=e595] [cursor=pointer]:
+                        - /url: /wiki/Ball_tampering
+                      - text: charge against
+                      - link "Fakhar Zaman" [ref=e596] [cursor=pointer]:
+                        - /url: /wiki/Fakhar_Zaman_(cricketer)
+                      - text: .
+                      - link "(AFP via France 24)" [ref=e597] [cursor=pointer]:
+                        - /url: https://www.france24.com/en/live-news/20260331-pakistan-cricketer-naseem-fined-record-71-500-for-minister-criticism
+              - region "March 30" [ref=e599]:
+                - generic [ref=e600]:
+                  - heading "March 30, 2026 (Monday)" [ref=e601]:
+                    - generic [ref=e602]: March 30, 2026 (Monday)
+                  - list [ref=e603]:
+                    - listitem [ref=e604]:
+                      - link "edit" [ref=e605] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_30&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e606]:
+                      - link "history" [ref=e607] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_30&action=history
+                    - listitem [ref=e608]:
+                      - link "watch" [ref=e609] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_30&action=watch
+                - generic [ref=e610]:
+                  - paragraph [ref=e611]: Armed conflicts and attacks
+                  - list [ref=e612]:
+                    - listitem [ref=e613]:
+                      - link "Middle Eastern crisis" [ref=e614] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                      - list [ref=e615]:
+                        - listitem [ref=e616]:
+                          - link "2026 Iran war" [ref=e617] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war
+                          - list [ref=e618]:
+                            - listitem [ref=e619]:
+                              - link "2026 Israeli strikes on Iran" [ref=e620] [cursor=pointer]:
+                                - /url: /wiki/2026_Israeli_strikes_on_Iran
+                              - list [ref=e621]:
+                                - listitem [ref=e622]:
+                                  - link "Israeli" [ref=e623] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: leaders announce the "completion phase" of war and order
+                                  - link "the military" [ref=e624] [cursor=pointer]:
+                                    - /url: /wiki/IDF
+                                  - text: to strike "economic" targets in
+                                  - link "Iran" [ref=e625] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: to damage the
+                                  - link "Iranian economy" [ref=e626] [cursor=pointer]:
+                                    - /url: /wiki/Economy_of_Iran
+                                  - text: .
+                                  - link "(The Times of Israel)" [ref=e627] [cursor=pointer]:
+                                    - /url: https://www.timesofisrael.com/israel-shifts-to-hitting-irans-economy-as-it-enters-completion-phase-of-war/
+                            - listitem [ref=e628]:
+                              - link "2025–2026 Iran–United States negotiations" [ref=e629] [cursor=pointer]:
+                                - /url: /wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations
+                              - list [ref=e630]:
+                                - listitem [ref=e631]:
+                                  - link "Iranian foreign ministry spokesperson" [ref=e632] [cursor=pointer]:
+                                    - /url: /wiki/Spokesperson_for_the_Ministry_of_Foreign_Affairs_of_Iran
+                                  - link "Esmail Baghaei" [ref=e633] [cursor=pointer]:
+                                    - /url: /wiki/Esmail_Baghaei
+                                  - text: says that Iran has not started negotiations with the
+                                  - link "United States" [ref=e634] [cursor=pointer]:
+                                    - /url: /wiki/United_States
+                                  - text: but also says that the U.S. have submitted a negotiation request.
+                                  - link "(The Hill)" [ref=e635] [cursor=pointer]:
+                                    - /url: https://thehill.com/policy/international/5808140-iran-us-negotiation-request/
+                            - listitem [ref=e636]:
+                              - link "2026 Iranian strikes on Israel" [ref=e637] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Israel
+                              - list [ref=e638]:
+                                - listitem [ref=e639]:
+                                  - text: A missile barrage from Iran and
+                                  - link "Lebanon" [ref=e640] [cursor=pointer]:
+                                    - /url: /wiki/Lebanon
+                                  - text: causes a fire at the
+                                  - link "BAZAN" [ref=e641] [cursor=pointer]:
+                                    - /url: /wiki/BAZAN_Group
+                                  - link "oil refinery" [ref=e642] [cursor=pointer]:
+                                    - /url: /wiki/Oil_refinery
+                                  - text: in
+                                  - link "Haifa" [ref=e643] [cursor=pointer]:
+                                    - /url: /wiki/Haifa
+                                  - text: .
+                                  - link "(The Jerusalem Post)" [ref=e644] [cursor=pointer]:
+                                    - /url: https://www.jpost.com/israel-news/article-891624
+                            - listitem [ref=e645]:
+                              - link "2026 Iranian strikes on Kuwait" [ref=e646] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Kuwait
+                              - list [ref=e647]:
+                                - listitem [ref=e648]:
+                                  - text: An
+                                  - link "Iranian" [ref=e649] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: attack on a
+                                  - link "power" [ref=e650] [cursor=pointer]:
+                                    - /url: /wiki/Energy_in_Kuwait
+                                  - text: and
+                                  - link "water desalination plant" [ref=e651] [cursor=pointer]:
+                                    - /url: /wiki/Desalination
+                                  - text: in
+                                  - link "Kuwait" [ref=e652] [cursor=pointer]:
+                                    - /url: /wiki/Kuwait
+                                  - text: kills an
+                                  - link "Indian" [ref=e653] [cursor=pointer]:
+                                    - /url: /wiki/Indians_in_Kuwait
+                                  - text: worker and damages a building at the site.
+                                  - link "(Al Jazeera)" [ref=e654] [cursor=pointer]:
+                                    - /url: https://www.aljazeera.com/news/2026/3/30/iranian-attack-damages-kuwait-power-and-desalination-plant-kills-worker
+                            - listitem [ref=e655]:
+                              - link "Spain in the 2026 Iran war" [ref=e656] [cursor=pointer]:
+                                - /url: /wiki/Spain_in_the_2026_Iran_war
+                              - text: ","
+                              - link "Spain–United States relations" [ref=e657] [cursor=pointer]:
+                                - /url: /wiki/Spain%E2%80%93United_States_relations
+                              - list [ref=e658]:
+                                - listitem [ref=e659]:
+                                  - link "Spain" [ref=e660] [cursor=pointer]:
+                                    - /url: /wiki/Spain
+                                  - text: closes its
+                                  - link "airspace" [ref=e661] [cursor=pointer]:
+                                    - /url: /wiki/Airspace
+                                  - text: to
+                                  - link "U.S. aircraft" [ref=e662] [cursor=pointer]:
+                                    - /url: /wiki/United_States_Air_Force
+                                  - text: involved in
+                                  - link "military action" [ref=e663] [cursor=pointer]:
+                                    - /url: /wiki/Military_operation
+                                  - text: against Iran.
+                                  - link "(BBC News)" [ref=e664] [cursor=pointer]:
+                                    - /url: https://www.bbc.com/news/articles/cwy368j1e3lo
+                            - listitem [ref=e665]:
+                              - link "Syria in the 2026 Iran war" [ref=e666] [cursor=pointer]:
+                                - /url: /wiki/Syria_in_the_2026_Iran_war
+                              - list [ref=e667]:
+                                - listitem [ref=e668]:
+                                  - text: The
+                                  - link "Syrian Army" [ref=e669] [cursor=pointer]:
+                                    - /url: /wiki/Syrian_Army
+                                  - text: says that drone attacks have targeted several of their bases near the
+                                  - link "Iraqi border" [ref=e670] [cursor=pointer]:
+                                    - /url: /wiki/Iraq%E2%80%93Syria_border
+                                  - text: . However, the Syrian Army also says that several of the drones were shot down and did not say where the drones came from.
+                                  - link "(Reuters)" [ref=e671] [cursor=pointer]:
+                                    - /url: https://www.reuters.com/world/middle-east/syrian-army-says-drone-attacks-targeted-its-bases-near-iraq-2026-03-30/
+                        - listitem [ref=e672]:
+                          - link "Gaza war" [ref=e673] [cursor=pointer]:
+                            - /url: /wiki/Gaza_war
+                          - list [ref=e674]:
+                            - listitem [ref=e675]:
+                              - link "Gaza war peace plan" [ref=e676] [cursor=pointer]:
+                                - /url: /wiki/Gaza_war_peace_plan
+                              - list [ref=e677]:
+                                - listitem [ref=e678]:
+                                  - link "Kosovo" [ref=e679] [cursor=pointer]:
+                                    - /url: /wiki/Kosovo
+                                  - text: approves the deployment of
+                                  - link "troops" [ref=e680] [cursor=pointer]:
+                                    - /url: /wiki/Kosovo_Security_Force
+                                  - text: to
+                                  - link "Gaza" [ref=e681] [cursor=pointer]:
+                                    - /url: /wiki/Gaza_Strip
+                                  - text: as part of an international
+                                  - link "peacekeeping" [ref=e682] [cursor=pointer]:
+                                    - /url: /wiki/Peacekeeping
+                                  - text: force.
+                                  - link "(Reuters)" [ref=e683] [cursor=pointer]:
+                                    - /url: https://www.reuters.com/world/asia-pacific/kosovo-approves-troops-gaza-under-us-backed-scheme-2026-03-30/
+                        - listitem [ref=e684]:
+                          - link "2026 Lebanon war" [ref=e685] [cursor=pointer]:
+                            - /url: /wiki/2026_Lebanon_war
+                          - list [ref=e686]:
+                            - listitem [ref=e687]:
+                              - text: Two
+                              - link "Indonesian" [ref=e688] [cursor=pointer]:
+                                - /url: /wiki/Indonesians
+                              - link "peacekeepers" [ref=e689] [cursor=pointer]:
+                                - /url: /wiki/United_Nations_peacekeeping
+                              - text: of the
+                              - link "UNIFIL" [ref=e690] [cursor=pointer]:
+                                - /url: /wiki/UNIFIL
+                              - text: mission are killed in
+                              - link "Southern Lebanon" [ref=e691] [cursor=pointer]:
+                                - /url: /wiki/Southern_Lebanon
+                              - text: when a projectile hits their vehicle.
+                              - link "(BBC News)" [ref=e692] [cursor=pointer]:
+                                - /url: https://www.bbc.com/news/articles/c4gd20evgp0o
+                    - listitem [ref=e693]:
+                      - link "Somali Civil War" [ref=e694] [cursor=pointer]:
+                        - /url: /wiki/Somali_Civil_War_(2009%E2%80%93present)
+                      - list [ref=e695]:
+                        - listitem [ref=e696]:
+                          - link "Constitutional crisis in Somalia" [ref=e697] [cursor=pointer]:
+                            - /url: /wiki/Constitutional_crisis_in_Somalia
+                          - list [ref=e698]:
+                            - listitem [ref=e699]:
+                              - text: At least 10 people are killed, 25 others are injured and more than 45,000 displaced after
+                              - link "Somalia's national army" [ref=e700] [cursor=pointer]:
+                                - /url: /wiki/Somali_Armed_Forces
+                              - text: took control of
+                              - link "Baidoa" [ref=e701] [cursor=pointer]:
+                                - /url: /wiki/Baidoa
+                              - text: ", the capital city of the"
+                              - link "South West state" [ref=e702] [cursor=pointer]:
+                                - /url: /wiki/South_West_State_of_Somalia
+                              - text: ", two weeks after the state"
+                              - link "president" [ref=e703] [cursor=pointer]:
+                                - /url: /wiki/List_of_presidents_of_South_West_State_of_Somalia
+                              - link "Abdiaziz Laftagareen" [ref=e704] [cursor=pointer]:
+                                - /url: /wiki/Abdiaziz_Laftagareen
+                              - text: said that his administration was severing ties with the federal government and opposed
+                              - link "constitutional amendments" [ref=e705] [cursor=pointer]:
+                                - /url: /wiki/Constitutional_crisis_in_Somalia
+                              - text: backed by the
+                              - link "Somali federal government" [ref=e706] [cursor=pointer]:
+                                - /url: /wiki/Somali_federal_government
+                              - text: .
+                              - link "(Reuters)" [ref=e707] [cursor=pointer]:
+                                - /url: https://www.reuters.com/world/africa/somali-national-army-takes-control-part-biggest-city-south-west-state-2026-03-30/
+                              - link "(ReliefWeb)" [ref=e708] [cursor=pointer]:
+                                - /url: https://reliefweb.int/node/4204907
+                              - link "(BBC News Somali)" [ref=e709] [cursor=pointer]:
+                                - /url: https://www.bbc.com/somali/articles/c4g829qze8lo
+                    - listitem [ref=e710]:
+                      - link "Naxalite–Maoist insurgency" [ref=e711] [cursor=pointer]:
+                        - /url: /wiki/Naxalite%E2%80%93Maoist_insurgency
+                      - list [ref=e712]:
+                        - listitem [ref=e713]:
+                          - link "India" [ref=e714] [cursor=pointer]:
+                            - /url: /wiki/India
+                          - text: says it has ended the
+                          - link "Naxalite" [ref=e715] [cursor=pointer]:
+                            - /url: /wiki/Naxalite
+                          - text: insurgency after
+                          - link "home minister" [ref=e716] [cursor=pointer]:
+                            - /url: /wiki/Minister_of_Home_Affairs_(India)
+                          - link "Amit Shah" [ref=e717] [cursor=pointer]:
+                            - /url: /wiki/Amit_Shah
+                          - text: reported that most of the remaining Naxal fighters had been killed, arrested, or had surrendered following intensified
+                          - link "security" [ref=e718] [cursor=pointer]:
+                            - /url: /wiki/Indian_Armed_Forces
+                          - text: operations.
+                          - link "(AFP via France 24)" [ref=e719] [cursor=pointer]:
+                            - /url: https://www.france24.com/en/live-news/20260330-india-declares-victory-over-maoist-insurgency
+                    - listitem [ref=e720]:
+                      - link "Haitian conflict" [ref=e721] [cursor=pointer]:
+                        - /url: /wiki/Haitian_conflict_(2020%E2%80%93present)
+                      - list [ref=e722]:
+                        - listitem [ref=e723]:
+                          - text: A
+                          - link "human rights" [ref=e724] [cursor=pointer]:
+                            - /url: /wiki/Human_rights_in_Haiti
+                          - text: organization in
+                          - link "Haiti" [ref=e725] [cursor=pointer]:
+                            - /url: /wiki/Haiti
+                          - text: claims that the death toll from the previous day's massacre in the
+                          - link "Artibonite department" [ref=e726] [cursor=pointer]:
+                            - /url: /wiki/Artibonite_(department)
+                          - text: was at least 70 people, higher than official reports.
+                          - link "(DW)" [ref=e727] [cursor=pointer]:
+                            - /url: https://www.dw.com/en/haiti-at-least-70-killed-in-massacre-says-rights-group/a-76600042
+                  - paragraph [ref=e728]: Business and economy
+                  - list [ref=e729]:
+                    - listitem [ref=e730]:
+                      - link "Economic impact of the 2026 Iran war" [ref=e731] [cursor=pointer]:
+                        - /url: /wiki/Economic_impact_of_the_2026_Iran_war
+                      - list [ref=e732]:
+                        - listitem [ref=e733]:
+                          - link "Brent Crude" [ref=e734] [cursor=pointer]:
+                            - /url: /wiki/Brent_Crude
+                          - link "oil" [ref=e735] [cursor=pointer]:
+                            - /url: /wiki/Oil
+                          - text: passes US$116 per
+                          - link "barrel" [ref=e736] [cursor=pointer]:
+                            - /url: /wiki/Barrel_(unit)
+                          - text: ", the highest it has been since the start of the war."
+                          - link "(UPI)" [ref=e737] [cursor=pointer]:
+                            - /url: https://www.upi.com/Top_News/US/2026/03/30/crude-oil-trump-sends-3500-troops-iran/8301774879238/
+                        - listitem [ref=e738]:
+                          - link "United States" [ref=e739] [cursor=pointer]:
+                            - /url: /wiki/United_States
+                          - text: crude oil settles above US$100 per barrel for the first time in four years.
+                          - link "(CNN)" [ref=e740] [cursor=pointer]:
+                            - /url: https://www.cnn.com/2026/03/30/business/oil-prices-rise-116-iran-intl
+                    - listitem [ref=e741]:
+                      - text: The
+                      - link "United Kingdom" [ref=e742] [cursor=pointer]:
+                        - /url: /wiki/United_Kingdom
+                      - text: "'s"
+                      - link "Financial Conduct Authority" [ref=e743] [cursor=pointer]:
+                        - /url: /wiki/Financial_Conduct_Authority
+                      - text: rules that around 12 million people are entitled to
+                      - link "financial compensation" [ref=e744] [cursor=pointer]:
+                        - /url: /wiki/Financial_compensation
+                      - text: after being mis-sold motor finance agreements between 2014 and 2024. The compensation scheme will see each motorist awarded around
+                      - link "£" [ref=e745] [cursor=pointer]:
+                        - /url: /wiki/Pound_sterling
+                      - text: 829, costing
+                      - link "car finance" [ref=e746] [cursor=pointer]:
+                        - /url: /wiki/Car_finance
+                      - text: lenders a total of £9.1bn.
+                      - link "(BBC News)" [ref=e747] [cursor=pointer]:
+                        - /url: https://www.bbc.co.uk/news/articles/c9vlm2ggrwlo
+                  - paragraph [ref=e748]: Disasters and accidents
+                  - list [ref=e749]:
+                    - listitem [ref=e750]:
+                      - text: Five people are killed and three others are injured after a car crashes between
+                      - link "Hopefield" [ref=e751] [cursor=pointer]:
+                        - /url: /wiki/Hopefield,_South_Africa
+                      - text: and
+                      - link "Langebaanweg" [ref=e752] [cursor=pointer]:
+                        - /url: /wiki/Langebaanweg
+                      - text: in
+                      - link "Western Cape" [ref=e753] [cursor=pointer]:
+                        - /url: /wiki/Western_Cape
+                      - text: ","
+                      - link "South Africa" [ref=e754] [cursor=pointer]:
+                        - /url: /wiki/South_Africa
+                      - text: .
+                      - link "(SABC News)" [ref=e755] [cursor=pointer]:
+                        - /url: https://www.sabcnews.com/sabcnews/western-cape-crash-claims-five-lives/
+                    - listitem [ref=e756]:
+                      - text: Four people are killed and nine others are injured in an explosion in an under-construction tunnel in
+                      - link "Chongqing" [ref=e757] [cursor=pointer]:
+                        - /url: /wiki/Chongqing
+                      - text: ","
+                      - link "China" [ref=e758] [cursor=pointer]:
+                        - /url: /wiki/China
+                      - text: .
+                      - link "(Xinhua)" [ref=e759] [cursor=pointer]:
+                        - /url: https://english.news.cn/20260331/80e3a7ef6d1f4e35bf97daf4efbde041/c.html
+                    - listitem [ref=e760]:
+                      - text: At least 28 people are killed in
+                      - link "Afghanistan" [ref=e761] [cursor=pointer]:
+                        - /url: /wiki/Afghanistan
+                      - text: and 17 in
+                      - link "Pakistan" [ref=e762] [cursor=pointer]:
+                        - /url: /wiki/Pakistan
+                      - text: after heavy
+                      - link "rainfall" [ref=e763] [cursor=pointer]:
+                        - /url: /wiki/Rain
+                      - text: causes severe
+                      - link "flooding" [ref=e764] [cursor=pointer]:
+                        - /url: /wiki/Flood
+                      - text: .
+                      - link "(Al Jazeera)" [ref=e765] [cursor=pointer]:
+                        - /url: https://www.aljazeera.com/news/2026/3/30/heavy-rain-floods-kill-at-least-45-people-in-afghanistan-pakistan
+                  - paragraph [ref=e766]: International relations
+                  - list [ref=e767]:
+                    - listitem [ref=e768]:
+                      - link "2026 Cuban crisis" [ref=e769] [cursor=pointer]:
+                        - /url: /wiki/2026_Cuban_crisis
+                      - list [ref=e770]:
+                        - listitem [ref=e771]:
+                          - link "Cuba–Russia relations" [ref=e772] [cursor=pointer]:
+                            - /url: /wiki/Cuba%E2%80%93Russia_relations
+                          - list [ref=e773]:
+                            - listitem [ref=e774]:
+                              - text: The
+                              - link "Russian" [ref=e775] [cursor=pointer]:
+                                - /url: /wiki/Russia
+                              - link "tanker" [ref=e776] [cursor=pointer]:
+                                - /url: /wiki/Tanker_(ship)
+                              - text: Anatoly Kolodkin, carrying 100,000 tonnes of
+                              - link "crude oil" [ref=e777] [cursor=pointer]:
+                                - /url: /wiki/Petroleum
+                              - text: ", arrives in"
+                              - link "Matanzas" [ref=e778] [cursor=pointer]:
+                                - /url: /wiki/Matanzas
+                              - text: ","
+                              - link "Cuba" [ref=e779] [cursor=pointer]:
+                                - /url: /wiki/Cuba
+                              - text: ", despite the ongoing"
+                              - link "U.S. blockade of the island" [ref=e780] [cursor=pointer]:
+                                - /url: /wiki/United_States_embargo_against_Cuba
+                              - text: .
+                              - link "(BBC News)" [ref=e781] [cursor=pointer]:
+                                - /url: https://www.bbc.co.uk/news/articles/czrevyx28z2o
+                    - listitem [ref=e782]:
+                      - link "United States–Venezuela relations" [ref=e783] [cursor=pointer]:
+                        - /url: /wiki/United_States%E2%80%93Venezuela_relations
+                      - list [ref=e784]:
+                        - listitem [ref=e785]:
+                          - text: The
+                          - link "United States" [ref=e786] [cursor=pointer]:
+                            - /url: /wiki/United_States
+                          - text: resumes operations at
+                          - link "its embassy" [ref=e787] [cursor=pointer]:
+                            - /url: /wiki/Embassy_of_the_United_States,_Caracas
+                          - text: in
+                          - link "Caracas" [ref=e788] [cursor=pointer]:
+                            - /url: /wiki/Caracas
+                          - text: after a seven-year closure, aiming to restore direct diplomatic engagement with
+                          - link "Venezuela" [ref=e789] [cursor=pointer]:
+                            - /url: /wiki/Venezuela
+                          - text: under
+                          - link "Delcy Rodríguez" [ref=e790] [cursor=pointer]:
+                            - /url: /wiki/Delcy_Rodr%C3%ADguez
+                          - text: "'s"
+                          - link "de facto" [ref=e792] [cursor=pointer]:
+                            - /url: /wiki/De_facto
+                          - link "presidency" [ref=e793] [cursor=pointer]:
+                            - /url: /wiki/President_of_Venezuela
+                          - text: .
+                          - link "(AFP via Channels TV)" [ref=e794] [cursor=pointer]:
+                            - /url: https://www.channelstv.com/2026/03/30/us-embassy-resumes-operations-in-venezuela-after-seven-years/
+                  - paragraph [ref=e795]: Law and crime
+                  - list [ref=e796]:
+                    - listitem [ref=e797]:
+                      - link "2026 Strait of Hormuz crisis" [ref=e798] [cursor=pointer]:
+                        - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                      - list [ref=e799]:
+                        - listitem [ref=e800]:
+                          - text: The
+                          - link "Iranian parliament" [ref=e801] [cursor=pointer]:
+                            - /url: /wiki/Islamic_Consultative_Assembly
+                          - text: security approves a series of measures to impose
+                          - link "tolls" [ref=e802] [cursor=pointer]:
+                            - /url: /wiki/Toll_(fee)
+                          - text: on vessels that pass through the
+                          - link "Strait of Hormuz" [ref=e803] [cursor=pointer]:
+                            - /url: /wiki/Strait_of_Hormuz
+                          - text: .
+                          - link "(ANI via Lokmat Times)" [ref=e804] [cursor=pointer]:
+                            - /url: https://www.lokmattimes.com/international/irans-parliament-security-committee-approves-plan-to-impose-tolls-on-strait-of-hormuz/
+                    - listitem [ref=e805]:
+                      - link "Capital punishment in Israel" [ref=e806] [cursor=pointer]:
+                        - /url: /wiki/Capital_punishment_in_Israel
+                      - list [ref=e807]:
+                        - listitem [ref=e808]:
+                          - text: The
+                          - link "Knesset" [ref=e809] [cursor=pointer]:
+                            - /url: /wiki/Knesset
+                          - text: passes
+                          - link "a bill" [ref=e810] [cursor=pointer]:
+                            - /url: /wiki/Death_penalty_law_(Israel)
+                          - text: allowing for mandatory executions of
+                          - link "Palestinians" [ref=e811] [cursor=pointer]:
+                            - /url: /wiki/Palestinians
+                          - text: convicted of terrorist attacks that kill
+                          - link "Israelis" [ref=e812] [cursor=pointer]:
+                            - /url: /wiki/Israelis
+                          - text: .
+                          - link "(The Guardian)" [ref=e813] [cursor=pointer]:
+                            - /url: https://www.theguardian.com/world/2026/mar/30/israel-passes-law-death-penalty-palestinian-convicted-terrorists
+                    - listitem [ref=e814]:
+                      - link "San Cristóbal school shooting" [ref=e815] [cursor=pointer]:
+                        - /url: /wiki/San_Crist%C3%B3bal_school_shooting
+                      - list [ref=e816]:
+                        - listitem [ref=e817]:
+                          - text: One person is killed and eight others are injured in a
+                          - link "school shooting" [ref=e818] [cursor=pointer]:
+                            - /url: /wiki/School_shooting
+                          - text: in
+                          - link "San Cristóbal" [ref=e819] [cursor=pointer]:
+                            - /url: /wiki/San_Crist%C3%B3bal,_Santa_Fe
+                          - text: ","
+                          - link "Santa Fe" [ref=e820] [cursor=pointer]:
+                            - /url: /wiki/Santa_Fe_Province
+                          - text: ","
+                          - link "Argentina" [ref=e821] [cursor=pointer]:
+                            - /url: /wiki/Argentina
+                          - text: . A 15-year-old suspect is taken into custody.
+                          - link "(AFP via ABS-CBN News)" [ref=e822] [cursor=pointer]:
+                            - /url: https://www.abs-cbn.com/news/world/2026/3/31/school-shooting-in-argentina-leaves-one-dead-eight-wounded-0053
+                    - listitem [ref=e823]:
+                      - text: The
+                      - link "Bahraini" [ref=e824] [cursor=pointer]:
+                        - /url: /wiki/Bahrain
+                      - link "interior ministry" [ref=e825] [cursor=pointer]:
+                        - /url: /wiki/Ministry_of_Interior_(Bahrain)
+                      - text: says that three men have been arrested for allegedly trying to form a
+                      - link "terrorist cell" [ref=e826] [cursor=pointer]:
+                        - /url: /wiki/Terrorist_cell
+                      - text: linked to
+                      - link "Hezbollah" [ref=e827] [cursor=pointer]:
+                        - /url: /wiki/Hezbollah
+                      - text: .
+                      - link "(VINnews)" [ref=e828] [cursor=pointer]:
+                        - /url: https://vinnews.com/2026/03/30/bahrain-arrests-3-man-terror-cell-linked-to-hezbollah/
+                  - paragraph [ref=e829]: Politics and elections
+                  - list [ref=e830]:
+                    - listitem [ref=e831]:
+                      - link "2026 Myanmar presidential election" [ref=e832] [cursor=pointer]:
+                        - /url: /wiki/2026_Myanmar_presidential_election
+                      - list [ref=e833]:
+                        - listitem [ref=e834]:
+                          - link "Myanmar military" [ref=e835] [cursor=pointer]:
+                            - /url: /wiki/Tatmadaw
+                          - text: ruler
+                          - link "Min Aung Hlaing" [ref=e836] [cursor=pointer]:
+                            - /url: /wiki/Min_Aung_Hlaing
+                          - text: steps down as
+                          - link "army chief" [ref=e837] [cursor=pointer]:
+                            - /url: /wiki/Commander-in-Chief_of_Defence_Services
+                          - text: to stand as a candidate for
+                          - link "president" [ref=e838] [cursor=pointer]:
+                            - /url: /wiki/President_of_Myanmar
+                          - text: in the upcoming
+                          - link "presidential" [ref=e839] [cursor=pointer]:
+                            - /url: /wiki/President_of_Myanmar
+                          - text: election, the first to be held since the
+                          - link "2021 coup" [ref=e840] [cursor=pointer]:
+                            - /url: /wiki/2021_Myanmar_coup_d%27%C3%A9tat
+                          - text: .
+                          - link "(Reuters)" [ref=e841] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/asia-pacific/myanmar-junta-leader-nominated-presidential-vote-by-mp-2026-03-30/
+                    - listitem [ref=e842]:
+                      - link "Mongolia" [ref=e843] [cursor=pointer]:
+                        - /url: /wiki/Mongolia
+                      - text: "'s"
+                      - link "parliament" [ref=e844] [cursor=pointer]:
+                        - /url: /wiki/State_Great_Khural
+                      - text: appoints
+                      - link "Nyam-Osoryn Uchral" [ref=e845] [cursor=pointer]:
+                        - /url: /wiki/Nyam-Osoryn_Uchral
+                      - text: as
+                      - link "prime minister" [ref=e846] [cursor=pointer]:
+                        - /url: /wiki/Prime_Minister_of_Mongolia
+                      - text: ", the third to hold the post within a year, following the resignation of his predecessor,"
+                      - link "Gombojavyn Zandanshatar" [ref=e847] [cursor=pointer]:
+                        - /url: /wiki/Gombojavyn_Zandanshatar
+                      - text: ", after nine months in office. His appointment follows his removal as"
+                      - link "parliamentary speaker" [ref=e848] [cursor=pointer]:
+                        - /url: /wiki/Chairman_of_the_State_Great_Khural
+                      - text: amid opposition protests and a legislative boycott.
+                      - link "(AFP via Daily Tribune)" [ref=e849] [cursor=pointer]:
+                        - /url: https://tribune.net.ph/2026/03/30/mongolia-appoints-third-prime-minister-in-under-12-months
+                  - paragraph [ref=e850]: Science and technology
+                  - list [ref=e851]:
+                    - listitem [ref=e852]:
+                      - link "Artemis program" [ref=e853] [cursor=pointer]:
+                        - /url: /wiki/Artemis_program
+                      - list [ref=e854]:
+                        - listitem [ref=e855]:
+                          - link "NASA" [ref=e856] [cursor=pointer]:
+                            - /url: /wiki/NASA
+                          - text: begins the countdown for the launch of
+                          - link "Artemis II" [ref=e857] [cursor=pointer]:
+                            - /url: /wiki/Artemis_II
+                          - text: ", set to be the first crewed mission to the"
+                          - link "Moon" [ref=e858] [cursor=pointer]:
+                            - /url: /wiki/Moon
+                          - text: since
+                          - link "Apollo 17" [ref=e859] [cursor=pointer]:
+                            - /url: /wiki/Apollo_17
+                          - text: in 1972, with liftoff scheduled for 1 April.
+                          - link "(The Register)" [ref=e860] [cursor=pointer]:
+                            - /url: https://www.theregister.com/2026/03/30/countdown_artemis_2/
+                  - paragraph [ref=e861]: Sports
+                  - list [ref=e862]:
+                    - listitem [ref=e863]:
+                      - link "2026 FIFA World Cup" [ref=e864] [cursor=pointer]:
+                        - /url: /wiki/2026_FIFA_World_Cup
+                      - text: ","
+                      - link "Iran at the FIFA World Cup" [ref=e865] [cursor=pointer]:
+                        - /url: /wiki/Iran_at_the_FIFA_World_Cup
+                      - list [ref=e866]:
+                        - listitem [ref=e867]:
+                          - link "FIFA" [ref=e868] [cursor=pointer]:
+                            - /url: /wiki/FIFA
+                          - link "president" [ref=e869] [cursor=pointer]:
+                            - /url: /wiki/President_of_FIFA
+                          - link "Gianni Infantino" [ref=e870] [cursor=pointer]:
+                            - /url: /wiki/Gianni_Infantino
+                          - text: insists that the
+                          - link "Iranian soccer team" [ref=e871] [cursor=pointer]:
+                            - /url: /wiki/Iran_national_football_team
+                          - text: will play in the upcoming
+                          - link "World Cup" [ref=e872] [cursor=pointer]:
+                            - /url: /wiki/FIFA_World_Cup
+                          - text: despite the war.
+                          - link "(ESPN)" [ref=e873] [cursor=pointer]:
+                            - /url: https://www.espn.com/soccer/story/_/id/48357592/fifa-chief-infantino-insists-iran-play-world-cup-no-plan-b
+              - region "March 29" [ref=e875]:
+                - generic [ref=e876]:
+                  - heading "March 29, 2026 (Sunday)" [ref=e877]:
+                    - generic [ref=e878]: March 29, 2026 (Sunday)
+                  - list [ref=e879]:
+                    - listitem [ref=e880]:
+                      - link "edit" [ref=e881] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_29&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e882]:
+                      - link "history" [ref=e883] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_29&action=history
+                    - listitem [ref=e884]:
+                      - link "watch" [ref=e885] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_29&action=watch
+                - generic [ref=e886]:
+                  - paragraph [ref=e887]: Armed conflicts and attacks
+                  - list [ref=e888]:
+                    - listitem [ref=e889]:
+                      - link "Middle Eastern crisis" [ref=e890] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                      - list [ref=e891]:
+                        - listitem [ref=e892]:
+                          - link "2026 Iran war" [ref=e893] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war
+                          - list [ref=e894]:
+                            - listitem [ref=e895]:
+                              - link "2025–2026 Iran–United States negotiations" [ref=e896] [cursor=pointer]:
+                                - /url: /wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations
+                              - list [ref=e897]:
+                                - listitem [ref=e898]:
+                                  - text: The
+                                  - link "foreign ministers" [ref=e899] [cursor=pointer]:
+                                    - /url: /wiki/Foreign_minister
+                                  - text: of
+                                  - link "Egypt" [ref=e900] [cursor=pointer]:
+                                    - /url: /wiki/Egypt
+                                  - text: ","
+                                  - link "Pakistan" [ref=e901] [cursor=pointer]:
+                                    - /url: /wiki/Pakistan
+                                  - text: ","
+                                  - link "Turkey" [ref=e902] [cursor=pointer]:
+                                    - /url: /wiki/Turkey
+                                  - text: and
+                                  - link "Saudi Arabia" [ref=e903] [cursor=pointer]:
+                                    - /url: /wiki/Saudi_Arabia
+                                  - text: ", meet in"
+                                  - link "Islamabad" [ref=e904] [cursor=pointer]:
+                                    - /url: /wiki/Islamabad
+                                  - text: to express their "full support" for potential
+                                  - link "Iran" [ref=e905] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: –
+                                  - link "United States" [ref=e906] [cursor=pointer]:
+                                    - /url: /wiki/United_States
+                                  - text: talks hosted by Pakistan.
+                                  - link "(AFP via France 24)" [ref=e907] [cursor=pointer]:
+                                    - /url: https://www.france24.com/en/live-news/20260329-pakistan-hosts-saudi-turkey-egypt-for-talks-on-mideast-war
+                                - listitem [ref=e908]:
+                                  - link "United States president" [ref=e909] [cursor=pointer]:
+                                    - /url: /wiki/United_States_president
+                                  - link "Donald Trump" [ref=e910] [cursor=pointer]:
+                                    - /url: /wiki/Donald_Trump
+                                  - text: tells
+                                  - link "Financial Times" [ref=e912] [cursor=pointer]:
+                                    - /url: /wiki/Financial_Times
+                                  - text: that the
+                                  - link "U.S." [ref=e913] [cursor=pointer]:
+                                    - /url: /wiki/U.S.
+                                  - text: could seize
+                                  - link "Kharg Island" [ref=e914] [cursor=pointer]:
+                                    - /url: /wiki/Kharg_Island
+                                  - text: and "take
+                                  - link "the oil" [ref=e915] [cursor=pointer]:
+                                    - /url: /wiki/Petroleum_industry_in_Iran
+                                  - text: "\" in"
+                                  - link "Iran" [ref=e916] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: ", although \"a deal could be made fairly quickly\"."
+                                  - link "(Financial Times)" [ref=e917] [cursor=pointer]:
+                                    - /url: https://www.ft.com/content/3bd9fb6c-2985-4d24-b86b-23b7884031f5
+                                  - link "(Xinhua)" [ref=e918] [cursor=pointer]:
+                                    - /url: https://english.news.cn/northamerica/20260330/e0958790470e42ccaf54eff1aaa783f8/c.html
+                            - listitem [ref=e919]:
+                              - link "2026 Iranian strikes on Bahrain" [ref=e920] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Bahrain
+                              - list [ref=e921]:
+                                - listitem [ref=e922]:
+                                  - link "Bahrain" [ref=e923] [cursor=pointer]:
+                                    - /url: /wiki/Bahrain
+                                  - text: imposes a nighttime maritime
+                                  - link "curfew" [ref=e924] [cursor=pointer]:
+                                    - /url: /wiki/Curfew
+                                  - text: from 6:00 pm to 4:00 am to restrict sea traffic and strengthen
+                                  - link "coastal security" [ref=e925] [cursor=pointer]:
+                                    - /url: /wiki/Maritime_security
+                                  - text: following reported attacks attributed to Iran.
+                                  - link "(AFP via L'Orient Today)" [ref=e926] [cursor=pointer]:
+                                    - /url: https://today.lorientlejour.com/article/1501346/bahrain-announces-curfew-for-maritime-traffic-ministry.html
+                            - listitem [ref=e927]:
+                              - link "2026 Iranian strikes on Israel" [ref=e928] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Israel
+                              - list [ref=e929]:
+                                - listitem [ref=e930]:
+                                  - text: An
+                                  - link "Iranian missile" [ref=e931] [cursor=pointer]:
+                                    - /url: /wiki/Ballistic_missile_program_of_Iran
+                                  - text: hits the Makhteshim chemical plant in southern
+                                  - link "Israel" [ref=e932] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: . A warning for the leakage of hazardous materials is issued for the immediate vicinity of the site.
+                                  - link "(Reuters)" [ref=e933] [cursor=pointer]:
+                                    - /url: https://www.reuters.com/world/middle-east/adama-chemicals-plant-southern-israel-hit-by-iranian-missile-or-debris-2026-03-29/
+                            - listitem [ref=e934]:
+                              - link "2026 Iranian strikes on Kuwait" [ref=e935] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Kuwait
+                              - list [ref=e936]:
+                                - listitem [ref=e937]:
+                                  - text: Ten
+                                  - link "Kuwaiti soldiers" [ref=e938] [cursor=pointer]:
+                                    - /url: /wiki/Army_of_Kuwait
+                                  - text: are injured in a new wave of missile and drone attacks on
+                                  - link "Kuwait" [ref=e939] [cursor=pointer]:
+                                    - /url: /wiki/Kuwait
+                                  - text: .
+                                  - link "(Saudi Gazette)" [ref=e940] [cursor=pointer]:
+                                    - /url: https://saudigazette.com.sa/article/660088/world/10-kuwaiti-soldiers-injured-in-missile-and-drone-attacks
+                        - listitem [ref=e941]:
+                          - link "2026 Lebanon war" [ref=e942] [cursor=pointer]:
+                            - /url: /wiki/2026_Lebanon_war
+                          - list [ref=e943]:
+                            - listitem [ref=e944]:
+                              - text: An
+                              - link "Indonesian" [ref=e945] [cursor=pointer]:
+                                - /url: /wiki/Indonesia
+                              - link "peacekeeper" [ref=e946] [cursor=pointer]:
+                                - /url: /wiki/United_Nations_peacekeeping
+                              - text: of the
+                              - link "UNIFIL" [ref=e947] [cursor=pointer]:
+                                - /url: /wiki/UNIFIL
+                              - text: mission is killed and a second one is critically injured when a projectile explodes at their position near
+                              - link "Aadshit al-Qusayr" [ref=e948] [cursor=pointer]:
+                                - /url: /wiki/Aadshit_al-Qusayr
+                              - text: ","
+                              - link "Nabatieh Governorate" [ref=e949] [cursor=pointer]:
+                                - /url: /wiki/Nabatieh_Governorate
+                              - text: .
+                              - link "(Times of Israel)" [ref=e950] [cursor=pointer]:
+                                - /url: https://www.timesofisrael.com/indonesian-peacekeeper-killed-in-lebanon-explosion-2nd-critically-injured/
+                    - listitem [ref=e951]:
+                      - link "Russo-Ukrainian war" [ref=e952] [cursor=pointer]:
+                        - /url: /wiki/Russo-Ukrainian_war_(2022%E2%80%93present)
+                      - list [ref=e953]:
+                        - listitem [ref=e954]:
+                          - link "Attacks in Russia during the Russo-Ukrainian war" [ref=e955] [cursor=pointer]:
+                            - /url: /wiki/Attacks_in_Russia_during_the_Russo-Ukrainian_war_(2022%E2%80%93present)
+                          - list [ref=e956]:
+                            - listitem [ref=e957]:
+                              - text: A person is killed by a
+                              - link "Ukrainian" [ref=e958] [cursor=pointer]:
+                                - /url: /wiki/Ukraine
+                              - text: drone attack in
+                              - link "Taganrog" [ref=e959] [cursor=pointer]:
+                                - /url: /wiki/Taganrog
+                              - text: ","
+                              - link "Rostov Oblast" [ref=e960] [cursor=pointer]:
+                                - /url: /wiki/Rostov_Oblast
+                              - text: ","
+                              - link "Russia" [ref=e961] [cursor=pointer]:
+                                - /url: /wiki/Russia
+                              - text: .
+                              - link "(Reuters)" [ref=e962] [cursor=pointer]:
+                                - /url: https://www.reuters.com/world/ukrainian-drones-kill-one-damage-homes-industry-southern-russias-taganrog-2026-03-29/
+                            - listitem [ref=e963]:
+                              - text: Several
+                              - link "unmanned aerial vehicles" [ref=e964] [cursor=pointer]:
+                                - /url: /wiki/Unmanned_aerial_vehicle
+                              - text: (UAVs) are detected across southeastern
+                              - link "Finland" [ref=e965] [cursor=pointer]:
+                                - /url: /wiki/Finland
+                              - text: . One of the UAVs is identified as
+                              - link "Ukrainian" [ref=e966] [cursor=pointer]:
+                                - /url: /wiki/Ukraine
+                              - text: after it crashes near
+                              - link "Kouvola" [ref=e967] [cursor=pointer]:
+                                - /url: /wiki/Kouvola
+                              - text: .
+                              - link "(Yle)" [ref=e968] [cursor=pointer]:
+                                - /url: https://yle.fi/a/74-20217941
+                        - listitem [ref=e969]:
+                          - text: Three people are killed and thirteen others are injured in a
+                          - link "Russian" [ref=e970] [cursor=pointer]:
+                            - /url: /wiki/Russian_Armed_Forces
+                          - link "glide bomb" [ref=e971] [cursor=pointer]:
+                            - /url: /wiki/Glide_bomb
+                          - text: attack on
+                          - link "Kramatorsk" [ref=e972] [cursor=pointer]:
+                            - /url: /wiki/Kramatorsk
+                          - text: ", Ukraine."
+                          - link "(The Guardian)" [ref=e973] [cursor=pointer]:
+                            - /url: https://www.theguardian.com/world/2026/mar/30/ukraine-war-briefing-german-defence-giant-sparks-row-after-comparing-ukraine-drone-makers-to-housewives
+                    - listitem [ref=e974]:
+                      - link "Gaza war" [ref=e975] [cursor=pointer]:
+                        - /url: /wiki/Gaza_war
+                      - list [ref=e976]:
+                        - listitem [ref=e977]:
+                          - text: Ten
+                          - link "Palestinians" [ref=e978] [cursor=pointer]:
+                            - /url: /wiki/Palestinians
+                          - text: are killed, including a 15-year-old boy, and 18 others are injured in artillery fire and
+                          - link "airstrikes" [ref=e979] [cursor=pointer]:
+                            - /url: /wiki/Airstrike
+                          - text: by the
+                          - link "Israel Defense Forces" [ref=e980] [cursor=pointer]:
+                            - /url: /wiki/Israel_Defense_Forces
+                          - text: in
+                          - link "Gaza City" [ref=e981] [cursor=pointer]:
+                            - /url: /wiki/Gaza_City
+                          - text: ","
+                          - link "Palestine" [ref=e982] [cursor=pointer]:
+                            - /url: /wiki/Palestine
+                          - text: .
+                          - link "(Haaretz)" [ref=e983] [cursor=pointer]:
+                            - /url: https://www.haaretz.com/gaza/2026-03-29/ty-article/.premium/idf-strikes-kill-at-least-10-palestinians-in-gaza-health-ministry-says/0000019d-3ab0-dc64-a3df-faff7db70000
+                    - listitem [ref=e984]:
+                      - link "Sudanese civil war" [ref=e985] [cursor=pointer]:
+                        - /url: /wiki/Sudanese_civil_war_(2023%E2%80%93present)
+                      - list [ref=e986]:
+                        - listitem [ref=e987]:
+                          - link "Kordofan campaign" [ref=e988] [cursor=pointer]:
+                            - /url: /wiki/Kordofan_campaign_(2023%E2%80%93present)
+                          - list [ref=e989]:
+                            - listitem [ref=e990]:
+                              - text: At least 14 people are killed and 23 others are injured in a
+                              - link "drone strike" [ref=e991] [cursor=pointer]:
+                                - /url: /wiki/Drone_warfare
+                              - text: "on"
+                              - link "Dilling" [ref=e992] [cursor=pointer]:
+                                - /url: /wiki/Dilling,_South_Kordofan
+                              - text: ","
+                              - link "South Kordofan" [ref=e993] [cursor=pointer]:
+                                - /url: /wiki/South_Kordofan
+                              - text: ","
+                              - link "Sudan" [ref=e994] [cursor=pointer]:
+                                - /url: /wiki/Sudan
+                              - text: .
+                              - link "(Xinhua)" [ref=e995] [cursor=pointer]:
+                                - /url: https://english.news.cn/africa/20260329/66fd86bc5b15459f98d1fc2c49c5c0a3/c.html
+                    - listitem [ref=e996]:
+                      - link "Haitian conflict" [ref=e997] [cursor=pointer]:
+                        - /url: /wiki/Haitian_conflict_(2020%E2%80%93present)
+                      - list [ref=e998]:
+                        - listitem [ref=e999]:
+                          - text: At least 16 people are killed and 10 others are injured by the
+                          - link "Gran Grif" [ref=e1000] [cursor=pointer]:
+                            - /url: /wiki/Gran_Grif
+                          - text: gang in
+                          - link "Petite-Rivière-de-l'Artibonite" [ref=e1001] [cursor=pointer]:
+                            - /url: /wiki/Petite-Rivi%C3%A8re-de-l%27Artibonite
+                          - text: ","
+                          - link "Haiti" [ref=e1002] [cursor=pointer]:
+                            - /url: /wiki/Haiti
+                          - text: ", during a"
+                          - link "gun fight" [ref=e1003] [cursor=pointer]:
+                            - /url: /wiki/Gun_fight
+                          - text: with a
+                          - link "vigilante group" [ref=e1004] [cursor=pointer]:
+                            - /url: /wiki/Vigilante_group
+                          - text: .
+                          - link "Human rights activists" [ref=e1005] [cursor=pointer]:
+                            - /url: /wiki/Human_rights_activists
+                          - text: allege that more than 30 people were killed and dozens were missing.
+                          - link "(AP)" [ref=e1006] [cursor=pointer]:
+                            - /url: https://apnews.com/article/haiti-gang-warfare-vigilantes-2555264c9c0e29fce2f78708ea0e5345
+                          - link "(ABC News)" [ref=e1007] [cursor=pointer]:
+                            - /url: https://abcnews.com/International/wireStory/activists-haiti-30-people-dead-after-gang-attacks-131544611
+                    - listitem [ref=e1008]:
+                      - link "2026 Afghanistan–Pakistan conflict" [ref=e1009] [cursor=pointer]:
+                        - /url: /wiki/2026_Afghanistan%E2%80%93Pakistan_conflict
+                      - list [ref=e1010]:
+                        - listitem [ref=e1011]:
+                          - text: One person is killed and at least 15 others, including children, are injured in a
+                          - link "Pakistani" [ref=e1012] [cursor=pointer]:
+                            - /url: /wiki/Pakistan_Armed_Forces
+                          - link "artillery" [ref=e1013] [cursor=pointer]:
+                            - /url: /wiki/Artillery
+                          - text: strike in
+                          - link "Asadabad" [ref=e1014] [cursor=pointer]:
+                            - /url: /wiki/Asadabad,_Afghanistan
+                          - text: ","
+                          - link "Kunar Province" [ref=e1015] [cursor=pointer]:
+                            - /url: /wiki/Kunar_Province
+                          - text: ","
+                          - link "Afghanistan" [ref=e1016] [cursor=pointer]:
+                            - /url: /wiki/Afghanistan
+                          - text: .
+                          - link "(The Afghan Times)" [ref=e1017] [cursor=pointer]:
+                            - /url: https://theafghantimes.com/afghanistan/2026/03/29/pakistani-military-attack-on-asadabad-kunar-1-killed-15-injured/
+                    - listitem [ref=e1018]:
+                      - link "Communal conflicts in Nigeria" [ref=e1019] [cursor=pointer]:
+                        - /url: /wiki/Communal_conflicts_in_Nigeria
+                      - list [ref=e1020]:
+                        - listitem [ref=e1021]:
+                          - text: Twelve people are killed by unknown gunmen at a
+                          - link "bar" [ref=e1022] [cursor=pointer]:
+                            - /url: /wiki/Bar_(establishment)
+                          - text: in
+                          - link "Angwan Rukuba" [ref=e1023] [cursor=pointer]:
+                            - /url: /wiki/Rukuba,_Nigeria
+                          - text: ","
+                          - link "Plateau State" [ref=e1024] [cursor=pointer]:
+                            - /url: /wiki/Plateau_State
+                          - text: ","
+                          - link "Nigeria" [ref=e1025] [cursor=pointer]:
+                            - /url: /wiki/Nigeria
+                          - text: . A
+                          - link "mob" [ref=e1026] [cursor=pointer]:
+                            - /url: /wiki/Mob_(crowd)
+                          - text: kills ten additional people in retaliation to the attack.
+                          - link "(BBC News)" [ref=e1027] [cursor=pointer]:
+                            - /url: https://www.bbc.com/news/articles/cvg4q9n573do
+                    - listitem [ref=e1028]:
+                      - link "South Sudanese" [ref=e1029] [cursor=pointer]:
+                        - /url: /wiki/South_Sudan
+                      - link "vice president" [ref=e1030] [cursor=pointer]:
+                        - /url: /wiki/Vice_President_of_South_Sudan
+                      - link "Riek Machar" [ref=e1031] [cursor=pointer]:
+                        - /url: /wiki/Riek_Machar
+                      - text: reports that at least 73
+                      - link "miners" [ref=e1032] [cursor=pointer]:
+                        - /url: /wiki/Mining_industry_of_South_Sudan
+                      - text: were killed and 25 others were seriously injured by unknown gunmen over the weekend after a mining dispute near
+                      - link "Juba" [ref=e1033] [cursor=pointer]:
+                        - /url: /wiki/Juba
+                      - text: .
+                      - link "(AFP via FMT)" [ref=e1034] [cursor=pointer]:
+                        - /url: https://www.freemalaysiatoday.com/category/world/2026/03/30/gold-mine-attack-in-south-sudan-kills-at-least-73-people
+                  - paragraph [ref=e1035]: Arts and culture
+                  - list [ref=e1036]:
+                    - listitem [ref=e1037]:
+                      - text: For the first time ever,
+                      - link "Israel Police" [ref=e1038] [cursor=pointer]:
+                        - /url: /wiki/Israel_Police
+                      - text: block the
+                      - link "Latin Patriarch of Jerusalem" [ref=e1039] [cursor=pointer]:
+                        - /url: /wiki/Latin_Patriarchate_of_Jerusalem
+                      - text: ","
+                      - link "Pierbattista Pizzaballa" [ref=e1040] [cursor=pointer]:
+                        - /url: /wiki/Pierbattista_Pizzaballa
+                      - text: ", from entering the"
+                      - link "Church of the Holy Sepulchre" [ref=e1041] [cursor=pointer]:
+                        - /url: /wiki/Church_of_the_Holy_Sepulchre
+                      - text: during
+                      - link "Palm Sunday" [ref=e1042] [cursor=pointer]:
+                        - /url: /wiki/Palm_Sunday
+                      - text: ", citing heightened risk in the"
+                      - link "Old City" [ref=e1043] [cursor=pointer]:
+                        - /url: /wiki/Old_City_of_Jerusalem
+                      - text: during the Iran war.
+                      - link "(Vatican News)" [ref=e1044] [cursor=pointer]:
+                        - /url: https://www.vaticannews.va/en/church/news/2026-03/israeli-police-stop-latin-patriarch-of-jerusalem-from-entering.html
+                      - link "(The Jerusalem Post)" [ref=e1045] [cursor=pointer]:
+                        - /url: https://www.jpost.com/christianworld/article-891522
+                  - paragraph [ref=e1046]: Disasters and accidents
+                  - list [ref=e1047]:
+                    - listitem [ref=e1048]:
+                      - text: At least 45 people are killed and 74 others are injured after five days of severe weather across parts of
+                      - link "Afghanistan" [ref=e1049] [cursor=pointer]:
+                        - /url: /wiki/Afghanistan
+                      - text: and
+                      - link "Pakistan" [ref=e1050] [cursor=pointer]:
+                        - /url: /wiki/Pakistan
+                      - text: .
+                      - link "(Reuters)" [ref=e1051] [cursor=pointer]:
+                        - /url: https://www.reuters.com/sustainability/climate-energy/heavy-rain-floods-kill-22-people-afghanistan-2026-03-30/
+                      - link "(AP via CTV News)" [ref=e1052] [cursor=pointer]:
+                        - /url: https://www.ctvnews.ca/climate-and-environment/article/extreme-weather-in-afghanistan-leaves-17-people-dead-authorities-say/
+                    - listitem [ref=e1053]:
+                      - text: Seven people are killed and two others are injured after a building partially collapses in
+                      - link "Hailin" [ref=e1054] [cursor=pointer]:
+                        - /url: /wiki/Hailin
+                      - text: ","
+                      - link "Heilongjiang" [ref=e1055] [cursor=pointer]:
+                        - /url: /wiki/Heilongjiang
+                      - text: ","
+                      - link "China" [ref=e1056] [cursor=pointer]:
+                        - /url: /wiki/China
+                      - text: .
+                      - link "(Xinhua)" [ref=e1057] [cursor=pointer]:
+                        - /url: https://english.news.cn/20260330/1b36fc50212540cebe0c06d71ee4b276/c.html
+                    - listitem [ref=e1058]:
+                      - text: Three people are killed and 20 others are injured when a church collapses in
+                      - link "Accra" [ref=e1059] [cursor=pointer]:
+                        - /url: /wiki/Accra
+                      - text: ","
+                      - link "Ghana" [ref=e1060] [cursor=pointer]:
+                        - /url: /wiki/Ghana
+                      - text: .
+                      - link "(BBC News)" [ref=e1061] [cursor=pointer]:
+                        - /url: https://www.bbc.com/news/articles/ckgex51zzd8o
+                    - listitem [ref=e1062]:
+                      - text: A
+                      - link "nightclub" [ref=e1063] [cursor=pointer]:
+                        - /url: /wiki/Nightclub
+                      - text: burns down in
+                      - link "Kehl" [ref=e1064] [cursor=pointer]:
+                        - /url: /wiki/Kehl
+                      - text: ","
+                      - link "Baden-Württemberg" [ref=e1065] [cursor=pointer]:
+                        - /url: /wiki/Baden-W%C3%BCrttemberg
+                      - text: ","
+                      - link "Germany" [ref=e1066] [cursor=pointer]:
+                        - /url: /wiki/Germany
+                      - text: . All 750 people inside were evacuated, three of whom are treated for
+                      - link "shock" [ref=e1067] [cursor=pointer]:
+                        - /url: /wiki/Acute_stress_reaction
+                      - text: .
+                      - link "(Tagesschau)" [ref=e1068] [cursor=pointer]:
+                        - /url: https://www.tagesschau.de/inland/regional/badenwuerttemberg/feuer-in-club-in-kehl-100.html
+                      - link "(AP)" [ref=e1069] [cursor=pointer]:
+                        - /url: https://apnews.com/article/germany-dance-club-fire-kehl-83e88a1f7405cb3bb779ad1779e39f1b
+                  - paragraph [ref=e1070]: International relations
+                  - list [ref=e1071]:
+                    - listitem [ref=e1072]:
+                      - link "Iran–Lebanon relations" [ref=e1073] [cursor=pointer]:
+                        - /url: /wiki/Iran%E2%80%93Lebanon_relations
+                      - list [ref=e1074]:
+                        - listitem [ref=e1075]:
+                          - link "Iran" [ref=e1076] [cursor=pointer]:
+                            - /url: /wiki/Iran
+                          - text: "'s ambassador to"
+                          - link "Lebanon" [ref=e1077] [cursor=pointer]:
+                            - /url: /wiki/Lebanon
+                          - text: ","
+                          - link "Mojtaba Amani" [ref=e1078] [cursor=pointer]:
+                            - /url: /wiki/Mojtaba_Amani
+                          - text: ", remains in the country despite being declared"
+                          - link "persona non grata" [ref=e1080] [cursor=pointer]:
+                            - /url: /wiki/Persona_non_grata
+                          - text: and ordered to leave. The expulsion order prompts opposition from outlawed Iran-armed group
+                          - link "Hezbollah" [ref=e1081] [cursor=pointer]:
+                            - /url: /wiki/Hezbollah
+                          - text: and a cabinet boycott by its ministers and allies.
+                          - link "(AFP via LBCI)" [ref=e1082] [cursor=pointer]:
+                            - /url: https://www.lbcgroup.tv/news/lebanon-news/919584/irans-ambassador-wont-leave-lebanon-despite-expulsion-diplomatic-sourc/en
+                  - paragraph [ref=e1083]: Law and crime
+                  - list [ref=e1084]:
+                    - listitem [ref=e1085]:
+                      - link "2026 Beijing ramming attack" [ref=e1086] [cursor=pointer]:
+                        - /url: /wiki/2026_Beijing_ramming_attack
+                      - list [ref=e1087]:
+                        - listitem [ref=e1088]:
+                          - text: An unknown number of casualties are reported when a
+                          - link "loader" [ref=e1089] [cursor=pointer]:
+                            - /url: /wiki/Loader_(equipment)
+                          - text: is
+                          - link "intentionally driven" [ref=e1090] [cursor=pointer]:
+                            - /url: /wiki/Vehicle-ramming_attack
+                          - text: into a crowded market in
+                          - link "Fangshan" [ref=e1091] [cursor=pointer]:
+                            - /url: /wiki/Fangshan,_Beijing
+                          - text: ","
+                          - link "Beijing" [ref=e1092] [cursor=pointer]:
+                            - /url: /wiki/Beijing
+                          - text: ", China. A man in his 50s is arrested."
+                          - link "(FTV News)" [ref=e1093] [cursor=pointer]:
+                            - /url: https://www.ftvnews.com.tw/news/detail/2026330I02M1
+                  - paragraph [ref=e1094]: Politics and elections
+                  - list [ref=e1095]:
+                    - listitem [ref=e1096]:
+                      - link "2026 New Democratic Party leadership election" [ref=e1097] [cursor=pointer]:
+                        - /url: /wiki/2026_New_Democratic_Party_leadership_election
+                      - list [ref=e1098]:
+                        - listitem [ref=e1099]:
+                          - link "Avi Lewis" [ref=e1100] [cursor=pointer]:
+                            - /url: /wiki/Avi_Lewis
+                          - text: is elected
+                          - link "leader" [ref=e1101] [cursor=pointer]:
+                            - /url: /wiki/Leader_of_the_New_Democratic_Party
+                          - text: of Canada's
+                          - link "New Democratic Party" [ref=e1102] [cursor=pointer]:
+                            - /url: /wiki/New_Democratic_Party
+                          - text: .
+                          - link "(BBC)" [ref=e1103] [cursor=pointer]:
+                            - /url: https://www.bbc.com/news/articles/czd74q2nqp0o
+                  - paragraph [ref=e1104]: Sports
+                  - list [ref=e1105]:
+                    - listitem [ref=e1106]:
+                      - link "2026 Formula One World Championship" [ref=e1107] [cursor=pointer]:
+                        - /url: /wiki/2026_Formula_One_World_Championship
+                      - list [ref=e1108]:
+                        - listitem [ref=e1109]:
+                          - text: In
+                          - link "auto racing" [ref=e1110] [cursor=pointer]:
+                            - /url: /wiki/Auto_racing
+                          - text: ","
+                          - link "Mercedes-Benz" [ref=e1111] [cursor=pointer]:
+                            - /url: /wiki/Mercedes-Benz_in_Formula_One
+                          - text: "'s"
+                          - link "Kimi Antonelli" [ref=e1112] [cursor=pointer]:
+                            - /url: /wiki/Kimi_Antonelli
+                          - text: becomes the
+                          - link "youngest driver" [ref=e1113] [cursor=pointer]:
+                            - /url: /wiki/List_of_Formula_One_driver_records
+                          - text: to lead the
+                          - link "World Championship" [ref=e1114] [cursor=pointer]:
+                            - /url: /wiki/List_of_Formula_One_World_Drivers%27_Champions
+                          - text: at 19 years and 216 days old after winning the
+                          - link "Japanese Grand Prix" [ref=e1115] [cursor=pointer]:
+                            - /url: /wiki/2026_Japanese_Grand_Prix
+                          - text: .
+                          - link "(AFP via RFI)" [ref=e1116] [cursor=pointer]:
+                            - /url: https://www.rfi.fr/en/sports/20260329-youngest-f1-title-leader-antonelli-to-keep-raising-bar-after-japan-win
+              - region "March 28" [ref=e1118]:
+                - generic [ref=e1119]:
+                  - heading "March 28, 2026 (Saturday)" [ref=e1120]:
+                    - generic [ref=e1121]: March 28, 2026 (Saturday)
+                  - list [ref=e1122]:
+                    - listitem [ref=e1123]:
+                      - link "edit" [ref=e1124] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_28&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e1125]:
+                      - link "history" [ref=e1126] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_28&action=history
+                    - listitem [ref=e1127]:
+                      - link "watch" [ref=e1128] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_28&action=watch
+                - generic [ref=e1129]:
+                  - paragraph [ref=e1130]: Armed conflicts and attacks
+                  - list [ref=e1131]:
+                    - listitem [ref=e1132]:
+                      - link "Middle Eastern crisis" [ref=e1133] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                      - list [ref=e1134]:
+                        - listitem [ref=e1135]:
+                          - link "2026 Iran war" [ref=e1136] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war
+                          - list [ref=e1137]:
+                            - listitem [ref=e1138]:
+                              - link "2026 Iranian strikes on Bahrain" [ref=e1139] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Bahrain
+                              - list [ref=e1140]:
+                                - listitem [ref=e1141]:
+                                  - text: The
+                                  - link "smelter" [ref=e1142] [cursor=pointer]:
+                                    - /url: /wiki/Smelter
+                                  - text: facility of
+                                  - link "Aluminium Bahrain" [ref=e1143] [cursor=pointer]:
+                                    - /url: /wiki/Aluminium_Bahrain
+                                  - text: in
+                                  - link "Askar" [ref=e1144] [cursor=pointer]:
+                                    - /url: /wiki/Askar,_Bahrain
+                                  - text: ","
+                                  - link "Southern Governorate" [ref=e1145] [cursor=pointer]:
+                                    - /url: /wiki/Southern_Governorate
+                                  - text: ", is targeted by"
+                                  - link "Iranian" [ref=e1146] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: attacks.
+                                  - link "(CNBC)" [ref=e1147] [cursor=pointer]:
+                                    - /url: https://www.cnbc.com/2026/03/29/bahrain-aluminum-giant-says-iranian-attack-targeted-its-facilit.html
+                            - listitem [ref=e1148]:
+                              - link "2026 Iranian strikes on the United Arab Emirates" [ref=e1149] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates
+                              - list [ref=e1150]:
+                                - listitem [ref=e1151]:
+                                  - link "Emirates Global Aluminium" [ref=e1152] [cursor=pointer]:
+                                    - /url: /wiki/Emirates_Global_Aluminium
+                                  - text: reports that one of its facilities in
+                                  - link "Abu Dhabi" [ref=e1153] [cursor=pointer]:
+                                    - /url: /wiki/Abu_Dhabi
+                                  - text: sustained significant damage and several injuries during
+                                  - link "missile" [ref=e1154] [cursor=pointer]:
+                                    - /url: /wiki/Ballistic_missile_program_of_Iran
+                                  - text: and
+                                  - link "drone attacks" [ref=e1155] [cursor=pointer]:
+                                    - /url: /wiki/Unmanned_aerial_vehicles_in_the_Iranian_military
+                                  - text: attributed to
+                                  - link "Iran" [ref=e1156] [cursor=pointer]:
+                                    - /url: /wiki/Iran
+                                  - text: .
+                                  - link "(AFP via The Times of Israel)" [ref=e1157] [cursor=pointer]:
+                                    - /url: https://www.timesofisrael.com/liveblog_entry/emirates-global-aluminium-reports-injuries-and-damage-after-iran-attack-on-abu-dhabi-facility/
+                            - listitem [ref=e1158]:
+                              - link "Iraq in the 2026 Iran war" [ref=e1159] [cursor=pointer]:
+                                - /url: /wiki/Iraq_in_the_2026_Iran_war
+                              - list [ref=e1160]:
+                                - listitem [ref=e1161]:
+                                  - text: An
+                                  - link "airstrike" [ref=e1162] [cursor=pointer]:
+                                    - /url: /wiki/Airstrike
+                                  - text: in
+                                  - link "Kirkuk" [ref=e1163] [cursor=pointer]:
+                                    - /url: /wiki/Kirkuk
+                                  - text: ","
+                                  - link "Iraq" [ref=e1164] [cursor=pointer]:
+                                    - /url: /wiki/Iraq
+                                  - text: ", hits a base of the"
+                                  - link "Popular Mobilization Forces" [ref=e1165] [cursor=pointer]:
+                                    - /url: /wiki/Popular_Mobilization_Forces
+                                  - text: ", killing one member and injuring four others."
+                                  - link "(AFP via LBCI)" [ref=e1166] [cursor=pointer]:
+                                    - /url: https://www.lbcgroup.tv/news/middleeastnews/919320/strike-kills-iraqi-fighter-in-northern-kirkuk-medical-security-sources/en
+                                - listitem [ref=e1167]:
+                                  - text: Iranian-backed militias launch a drone attack targeting the
+                                  - link "Kurdistan Region President" [ref=e1168] [cursor=pointer]:
+                                    - /url: /wiki/President_of_the_Kurdistan_Region
+                                  - link "Nechirvan Barzani" [ref=e1169] [cursor=pointer]:
+                                    - /url: /wiki/Nechirvan_Barzani
+                                  - text: "'s private residence in"
+                                  - link "Duhok" [ref=e1170] [cursor=pointer]:
+                                    - /url: /wiki/Duhok
+                                  - text: .
+                                  - link "(K24)" [ref=e1171] [cursor=pointer]:
+                                    - /url: https://www.kurdistan24.net/en/story/904225/uk-condemns-drone-attack-on-kurdistan-region-president-residence
+                            - listitem [ref=e1172]:
+                              - text: Iran says it has dismantled a terrorist cell in
+                              - link "Gorgan" [ref=e1173] [cursor=pointer]:
+                                - /url: /wiki/Gorgan
+                              - text: ","
+                              - link "Golestan" [ref=e1174] [cursor=pointer]:
+                                - /url: /wiki/Golestan_province
+                              - text: and has arrested two suspects.
+                              - link "(Awaz the Voice)" [ref=e1175] [cursor=pointer]:
+                                - /url: https://www.awazthevoice.in/world-news/iran-dismantles-terrorist-cell-in-golestan-arrests-two-media-55508.html
+                            - listitem [ref=e1176]:
+                              - text: The
+                              - link "United States Central Command" [ref=e1177] [cursor=pointer]:
+                                - /url: /wiki/United_States_Central_Command
+                              - text: announces the arrival in the Middle East of 3,500 sailors and marines aboard of
+                              - link "USS Tripoli" [ref=e1179] [cursor=pointer]:
+                                - /url: /wiki/USS_Tripoli_(LHA-7)
+                              - text: .
+                              - link "(Gulf Times)" [ref=e1180] [cursor=pointer]:
+                                - /url: https://www.gulf-times.com/article/723042/region/centcom-announces-arrival-of-additional-naval-forces-in-middle-east
+                            - listitem [ref=e1181]:
+                              - text: A man is detained and another is at large after trying to ignite an
+                              - link "improvised explosive device" [ref=e1182] [cursor=pointer]:
+                                - /url: /wiki/Improvised_explosive_device
+                              - text: near a
+                              - link "Bank of America" [ref=e1183] [cursor=pointer]:
+                                - /url: /wiki/Bank_of_America
+                              - text: building in
+                              - link "Paris" [ref=e1184] [cursor=pointer]:
+                                - /url: /wiki/Paris
+                              - text: ","
+                              - link "France" [ref=e1185] [cursor=pointer]:
+                                - /url: /wiki/France
+                              - text: . Anti-terrorism prosecutors are investigating.
+                              - link "(Sky News)" [ref=e1186] [cursor=pointer]:
+                                - /url: https://news.sky.com/story/police-thwart-suspected-bomb-attack-outside-a-bank-of-america-building-in-paris-13522371
+                        - listitem [ref=e1187]:
+                          - link "2026 Lebanon war" [ref=e1188] [cursor=pointer]:
+                            - /url: /wiki/2026_Lebanon_war
+                          - list [ref=e1189]:
+                            - listitem [ref=e1190]:
+                              - text: Five paramedics are killed in an Israeli
+                              - link "airstrike" [ref=e1191] [cursor=pointer]:
+                                - /url: /wiki/Airstrike
+                              - text: in
+                              - link "Zawtar al-Gharbiyah" [ref=e1192] [cursor=pointer]:
+                                - /url: /wiki/Zawtar_al-Gharbiyah
+                              - text: ","
+                              - link "Nabatieh Governorate" [ref=e1193] [cursor=pointer]:
+                                - /url: /wiki/Nabatieh_Governorate
+                              - text: ","
+                              - link "Lebanon" [ref=e1194] [cursor=pointer]:
+                                - /url: /wiki/Lebanon
+                              - text: .
+                              - link "(Al Jazeera)" [ref=e1195] [cursor=pointer]:
+                                - /url: https://www.aljazeera.com/news/liveblog/2026/3/28/iran-war-live-trump-again-slams-natos-lack-of-support-for-war-on-tehran?update=4441805
+                            - listitem [ref=e1196]:
+                              - text: Three journalists are killed and several others injured in an Israeli airstrike in
+                              - link "Jezzine District" [ref=e1197] [cursor=pointer]:
+                                - /url: /wiki/Jezzine_District
+                              - text: ","
+                              - link "South Governorate" [ref=e1198] [cursor=pointer]:
+                                - /url: /wiki/South_Governorate
+                              - text: ", Lebanon."
+                              - link "(KGO-TV)" [ref=e1199] [cursor=pointer]:
+                                - /url: https://abc7news.com/post/israeli-airstrike-lebanon-kills-al-manar-tvs-ali-shoeib-mayadeen-fatima-ftouni-brother-mohammed/18796602/
+                        - listitem [ref=e1200]:
+                          - link "Red Sea crisis" [ref=e1201] [cursor=pointer]:
+                            - /url: /wiki/Red_Sea_crisis
+                          - list [ref=e1202]:
+                            - listitem [ref=e1203]:
+                              - text: The
+                              - link "Houthis" [ref=e1204] [cursor=pointer]:
+                                - /url: /wiki/Houthis
+                              - text: launch a
+                              - link "ballistic missile" [ref=e1205] [cursor=pointer]:
+                                - /url: /wiki/Ballistic_missile
+                              - text: from
+                              - link "their territory" [ref=e1206] [cursor=pointer]:
+                                - /url: /wiki/Houthi-controlled_Yemen
+                              - text: in
+                              - link "Yemen" [ref=e1207] [cursor=pointer]:
+                                - /url: /wiki/Yemen
+                              - text: towards
+                              - link "Israel" [ref=e1208] [cursor=pointer]:
+                                - /url: /wiki/Israel
+                              - text: ", signifying the group's entrance in the war. The"
+                              - link "Israeli military" [ref=e1209] [cursor=pointer]:
+                                - /url: /wiki/Israel_Defense_Forces
+                              - text: says that the missile was successfully intercepted and no injuries were reported. A second attack, also without damage, is reported hours later.
+                              - link "(Reuters)" [ref=e1210] [cursor=pointer]:
+                                - /url: https://www.reuters.com/world/middle-east/israeli-military-says-it-identified-launch-missile-yemen-2026-03-28/
+                              - link "(The Times of Israel)" [ref=e1211] [cursor=pointer]:
+                                - /url: https://www.timesofisrael.com/liveblog_entry/idf-says-it-intercepted-missile-fired-by-houthis-at-southern-israel/
+                              - link "(Ahram Online)" [ref=e1212] [cursor=pointer]:
+                                - /url: https://english.ahram.org.eg/NewsContent/2/8/564835/World/Region/Houthis-fire-second-strike-at-Israel-in--hours.aspx
+                        - listitem [ref=e1213]:
+                          - link "Kuwait International Airport" [ref=e1214] [cursor=pointer]:
+                            - /url: /wiki/Kuwait_International_Airport
+                          - text: is targeted by multiple
+                          - link "drone strikes" [ref=e1215] [cursor=pointer]:
+                            - /url: /wiki/Drone_warfare
+                          - text: ", causing significant damage to its"
+                          - link "radar system" [ref=e1216] [cursor=pointer]:
+                            - /url: /wiki/Airport_surveillance_radar
+                          - text: .
+                          - link "(Saudi Gazette)" [ref=e1217] [cursor=pointer]:
+                            - /url: https://saudigazette.com.sa/article/660064/world/drone-strikes-damage-radar-system-at-kuwait-international-airport
+                    - listitem [ref=e1218]:
+                      - link "Russo-Ukrainian war" [ref=e1219] [cursor=pointer]:
+                        - /url: /wiki/Russo-Ukrainian_war_(2022%E2%80%93present)
+                      - list [ref=e1220]:
+                        - listitem [ref=e1221]:
+                          - text: Two people are killed and twelve more are injured in a nighttime
+                          - link "Russian" [ref=e1222] [cursor=pointer]:
+                            - /url: /wiki/Russia
+                          - text: drone attack on
+                          - link "Odesa" [ref=e1223] [cursor=pointer]:
+                            - /url: /wiki/Odesa
+                          - text: . A
+                          - link "maternity hospital" [ref=e1224] [cursor=pointer]:
+                            - /url: /wiki/Maternity_hospital
+                          - text: is also damaged.
+                          - link "(BBC News)" [ref=e1225] [cursor=pointer]:
+                            - /url: https://www.bbc.com/ukrainian/articles/c62jzqjl29po
+                  - paragraph [ref=e1226]: Disasters and accidents
+                  - list [ref=e1227]:
+                    - listitem [ref=e1228]:
+                      - text: Twenty-two bodies are recovered from a vessel found adrift off the coast of
+                      - link "Crete" [ref=e1229] [cursor=pointer]:
+                        - /url: /wiki/Crete
+                      - text: ","
+                      - link "Greece" [ref=e1230] [cursor=pointer]:
+                        - /url: /wiki/Greece
+                      - text: ", according to the"
+                      - link "Greek coast guard" [ref=e1231] [cursor=pointer]:
+                        - /url: /wiki/Hellenic_Coast_Guard
+                      - text: . Twenty-six people are rescued by
+                      - link "Frontex" [ref=e1232] [cursor=pointer]:
+                        - /url: /wiki/Frontex
+                      - text: . Several survivors said some people were also thrown
+                      - link "overboard" [ref=e1233] [cursor=pointer]:
+                        - /url: /wiki/Man_overboard
+                      - text: into the
+                      - link "Mediterranean Sea" [ref=e1234] [cursor=pointer]:
+                        - /url: /wiki/Mediterranean_Sea
+                      - text: on the orders of a
+                      - link "human trafficker" [ref=e1235] [cursor=pointer]:
+                        - /url: /wiki/Human_trafficking_in_Greece
+                      - text: during the journey.
+                      - link "(Reuters)" [ref=e1236] [cursor=pointer]:
+                        - /url: https://www.reuters.com/world/twenty-two-migrants-die-off-greek-coast-after-six-days-sea-afp-reports-2026-03-28/
+                    - listitem [ref=e1237]:
+                      - text: Three people are killed and 23 others are injured, including nine critically, in a fire at a
+                      - link "high-rise building" [ref=e1238] [cursor=pointer]:
+                        - /url: /wiki/Tower_block
+                      - text: in
+                      - link "Xiaodian" [ref=e1239] [cursor=pointer]:
+                        - /url: /wiki/Xiaodian,_Taiyuan
+                      - text: ","
+                      - link "Taiyuan" [ref=e1240] [cursor=pointer]:
+                        - /url: /wiki/Taiyuan
+                      - text: ","
+                      - link "Shanxi" [ref=e1241] [cursor=pointer]:
+                        - /url: /wiki/Shanxi
+                      - text: ","
+                      - link "China" [ref=e1242] [cursor=pointer]:
+                        - /url: /wiki/China
+                      - text: .
+                      - link "(Xinhua)" [ref=e1243] [cursor=pointer]:
+                        - /url: https://english.news.cn/20260329/0bc21445a8af40a3b3d69a3b7b1454be/c.html
+                  - paragraph [ref=e1244]: International relations
+                  - list [ref=e1245]:
+                    - listitem [ref=e1246]:
+                      - link "Qatar–Ukraine relations" [ref=e1247] [cursor=pointer]:
+                        - /url: /wiki/Qatar%E2%80%93Ukraine_relations
+                      - list [ref=e1248]:
+                        - listitem [ref=e1249]:
+                          - link "Qatar" [ref=e1250] [cursor=pointer]:
+                            - /url: /wiki/Qatar
+                          - text: and
+                          - link "Ukraine" [ref=e1251] [cursor=pointer]:
+                            - /url: /wiki/Ukraine
+                          - text: sign a
+                          - link "defense pact" [ref=e1252] [cursor=pointer]:
+                            - /url: /wiki/Defense_pact
+                          - text: that includes cooperation on
+                          - link "countering missile" [ref=e1253] [cursor=pointer]:
+                            - /url: /wiki/Missile_defense
+                          - text: and
+                          - link "drone threats" [ref=e1254] [cursor=pointer]:
+                            - /url: /wiki/Drone_warfare
+                          - text: .
+                          - link "(AFP via The News)" [ref=e1255] [cursor=pointer]:
+                            - /url: https://www.thenews.pk/story/1406868-zelensky-agrees-air-defence-cooperation-with-uae-qatar-on-gulf-tour
+                  - paragraph [ref=e1256]: Law and crime
+                  - list [ref=e1257]:
+                    - listitem [ref=e1258]:
+                      - link "Protests against the 2026 Iran war" [ref=e1259] [cursor=pointer]:
+                        - /url: /wiki/Protests_against_the_2026_Iran_war
+                      - list [ref=e1260]:
+                        - listitem [ref=e1261]:
+                          - text: Around 18 people are arrested during
+                          - link "anti-war" [ref=e1262] [cursor=pointer]:
+                            - /url: /wiki/Anti-war_movement
+                          - text: protests held across
+                          - link "Israel" [ref=e1263] [cursor=pointer]:
+                            - /url: /wiki/Israel
+                          - text: against the Iran war, including 13 in
+                          - link "Tel Aviv" [ref=e1264] [cursor=pointer]:
+                            - /url: /wiki/Tel_Aviv
+                          - text: and 5 in
+                          - link "Haifa" [ref=e1265] [cursor=pointer]:
+                            - /url: /wiki/Haifa
+                          - text: . Protests are also held in
+                          - link "Jerusalem" [ref=e1266] [cursor=pointer]:
+                            - /url: /wiki/Jerusalem
+                          - text: and
+                          - link "Beersheba" [ref=e1267] [cursor=pointer]:
+                            - /url: /wiki/Beersheba
+                          - text: .
+                          - link "(Haaretz)" [ref=e1268] [cursor=pointer]:
+                            - /url: https://www.haaretz.com/israel-news/2026-03-28/ty-article/.premium/anti-war-protests-gather-across-country-police-violently-disperse-demonstrators/0000019d-3553-d3e9-adbf-77df542a0000
+                          - link "(Times of Israel)" [ref=e1269] [cursor=pointer]:
+                            - /url: https://www.timesofisrael.com/liveblog_entry/at-least-18-arrested-during-protests-against-iran-war-in-major-israeli-cities/
+                    - listitem [ref=e1270]:
+                      - text: Five police officers are killed and three others are injured in an
+                      - link "ambush" [ref=e1271] [cursor=pointer]:
+                        - /url: /wiki/Ambush
+                      - text: by unidentified gunmen in
+                      - link "Shariff Aguak" [ref=e1272] [cursor=pointer]:
+                        - /url: /wiki/Shariff_Aguak
+                      - text: ","
+                      - link "Maguindanao del Sur" [ref=e1273] [cursor=pointer]:
+                        - /url: /wiki/Maguindanao_del_Sur
+                      - text: ","
+                      - link "Philippines" [ref=e1274] [cursor=pointer]:
+                        - /url: /wiki/Philippines
+                      - text: .
+                      - link "(Philippine Daily Inquirer)" [ref=e1275] [cursor=pointer]:
+                        - /url: https://newsinfo.inquirer.net/2202983/5-cops-killed-in-maguindanao-del-sur-ambush
+                    - listitem [ref=e1276]:
+                      - text: Four people are killed and two others are injured during clashes between insurgent groups in
+                      - link "Kamjong district" [ref=e1277] [cursor=pointer]:
+                        - /url: /wiki/Kamjong_district
+                      - text: ","
+                      - link "Manipur" [ref=e1278] [cursor=pointer]:
+                        - /url: /wiki/Manipur
+                      - text: ", India."
+                      - link "(Hindustan Times)" [ref=e1279] [cursor=pointer]:
+                        - /url: https://www.hindustantimes.com/india-news/manipur-four-killed-in-factional-clash-between-naga-insurgent-groups-101774777680901.html
+                    - listitem [ref=e1280]:
+                      - text: Seven people are injured in a
+                      - link "vehicle ramming attack" [ref=e1281] [cursor=pointer]:
+                        - /url: /wiki/Vehicle_ramming_attack
+                      - text: in
+                      - link "Derby" [ref=e1282] [cursor=pointer]:
+                        - /url: /wiki/Derby
+                      - text: ","
+                      - link "Derbyshire" [ref=e1283] [cursor=pointer]:
+                        - /url: /wiki/Derbyshire
+                      - text: ","
+                      - link "England" [ref=e1284] [cursor=pointer]:
+                        - /url: /wiki/England
+                      - text: . An
+                      - link "Indian" [ref=e1285] [cursor=pointer]:
+                        - /url: /wiki/India
+                      - text: national in his 30s is arrested with counter-terrorism police investigating.
+                      - link "(BBC News)" [ref=e1286] [cursor=pointer]:
+                        - /url: https://www.bbc.com/news/live/c0le1y242x1t
+                      - link "(The Guardian)" [ref=e1287] [cursor=pointer]:
+                        - /url: https://www.theguardian.com/uk-news/2026/mar/29/man-arrested-in-derby-after-car-hits-multiple-pedestrians-with-some-seriously-injured
+                    - listitem [ref=e1288]:
+                      - link "Nepal" [ref=e1289] [cursor=pointer]:
+                        - /url: /wiki/Nepal
+                      - text: "'s former"
+                      - link "prime minister" [ref=e1290] [cursor=pointer]:
+                        - /url: /wiki/Prime_Minister_of_Nepal
+                      - link "K. P. Sharma Oli" [ref=e1291] [cursor=pointer]:
+                        - /url: /wiki/K._P._Sharma_Oli
+                      - text: is arrested over his alleged involvement in the crackdown on the
+                      - link "2025 protests" [ref=e1292] [cursor=pointer]:
+                        - /url: /wiki/2025_Nepalese_Gen_Z_protests
+                      - text: .
+                      - link "(BBC News)" [ref=e1293] [cursor=pointer]:
+                        - /url: https://www.bbc.com/news/articles/cn89ry7y835o
+                  - paragraph [ref=e1294]: Politics and elections
+                  - list [ref=e1295]:
+                    - listitem [ref=e1296]:
+                      - link "Protests against Donald Trump" [ref=e1297] [cursor=pointer]:
+                        - /url: /wiki/Protests_against_Donald_Trump
+                      - list [ref=e1298]:
+                        - listitem [ref=e1299]:
+                          - link "2026 No Kings protests" [ref=e1300] [cursor=pointer]:
+                            - /url: /wiki/2026_No_Kings_protests
+                          - list [ref=e1301]:
+                            - listitem [ref=e1302]:
+                              - text: The third
+                              - link "No Kings protests" [ref=e1303] [cursor=pointer]:
+                                - /url: /wiki/2026_No_Kings_protests
+                              - text: are held across the
+                              - link "United States" [ref=e1304] [cursor=pointer]:
+                                - /url: /wiki/United_States
+                              - link "against" [ref=e1305] [cursor=pointer]:
+                                - /url: /wiki/Protests_against_the_second_Trump_administration
+                              - text: the policies of
+                              - link "president" [ref=e1306] [cursor=pointer]:
+                                - /url: /wiki/President_of_the_United_States
+                              - link "Donald Trump" [ref=e1307] [cursor=pointer]:
+                                - /url: /wiki/Donald_Trump
+                              - text: "'s"
+                              - link "administration" [ref=e1308] [cursor=pointer]:
+                                - /url: /wiki/Second_presidency_of_Donald_Trump
+                              - text: including
+                              - link "the Iran war" [ref=e1309] [cursor=pointer]:
+                                - /url: /wiki/Protests_against_the_2026_Iran_war_in_the_United_States
+                              - text: ","
+                              - link "ICE" [ref=e1310] [cursor=pointer]:
+                                - /url: /wiki/United_States_Immigration_and_Customs_Enforcement
+                              - text: operations, and the killings of
+                              - link "Renée Good" [ref=e1311] [cursor=pointer]:
+                                - /url: /wiki/Killing_of_Ren%C3%A9e_Good
+                              - text: and
+                              - link "Alex Pretti" [ref=e1312] [cursor=pointer]:
+                                - /url: /wiki/Killing_of_Alex_Pretti
+                              - text: .
+                              - link "(CNN)" [ref=e1313] [cursor=pointer]:
+                                - /url: https://www.cnn.com/2026/03/28/us/live-news/no-kings-protests-03-28-26
+                              - link "(Reuters)" [ref=e1314] [cursor=pointer]:
+                                - /url: https://www.reuters.com/world/us/rallies-planned-thousands-us-cities-no-kings-protest-against-trump-2026-03-28/
+                    - listitem [ref=e1315]:
+                      - link "2025–2026 Iran–United States negotiations" [ref=e1316] [cursor=pointer]:
+                        - /url: /wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations
+                      - list [ref=e1317]:
+                        - listitem [ref=e1318]:
+                          - text: Exiled
+                          - link "Iranian crown prince" [ref=e1319] [cursor=pointer]:
+                            - /url: /wiki/Pahlavi_dynasty
+                          - link "Reza Pahlavi" [ref=e1320] [cursor=pointer]:
+                            - /url: /wiki/Reza_Pahlavi
+                          - text: urges the
+                          - link "United States" [ref=e1321] [cursor=pointer]:
+                            - /url: /wiki/United_States
+                          - text: not to strike a deal or negotiate for peace with the
+                          - link "Iranian regime" [ref=e1322] [cursor=pointer]:
+                            - /url: /wiki/Government_of_Iran
+                          - text: and also calls for a resurgence
+                          - link "in protests" [ref=e1323] [cursor=pointer]:
+                            - /url: /wiki/2025%E2%80%932026_Iranian_protests
+                          - text: .
+                          - link "(Reuters)" [ref=e1324] [cursor=pointer]:
+                            - /url: https://www.reuters.com/business/media-telecom/dont-strike-deal-with-irans-current-leaders-opposition-figure-pahlavi-warns-2026-03-28/
+                    - listitem [ref=e1325]:
+                      - link "Constitutional crisis in Somalia" [ref=e1326] [cursor=pointer]:
+                        - /url: /wiki/Constitutional_crisis_in_Somalia
+                      - list [ref=e1327]:
+                        - listitem [ref=e1328]:
+                          - text: The
+                          - link "South West House of Representatives" [ref=e1329] [cursor=pointer]:
+                            - /url: /wiki/South_West_State_of_Somalia
+                          - text: re-elects incumbent
+                          - link "president" [ref=e1330] [cursor=pointer]:
+                            - /url: /wiki/List_of_presidents_of_South_West_State_of_Somalia
+                          - link "Abdiaziz Laftagareen" [ref=e1331] [cursor=pointer]:
+                            - /url: /wiki/Abdiaziz_Laftagareen
+                          - text: for the second time amid tensions with the
+                          - link "Somali federal government" [ref=e1332] [cursor=pointer]:
+                            - /url: /wiki/Somali_federal_government
+                          - text: that resulted in
+                          - link "the military" [ref=e1333] [cursor=pointer]:
+                            - /url: /wiki/Somali_Armed_Forces
+                          - text: being deployed to the
+                          - link "Lower Shabelle" [ref=e1334] [cursor=pointer]:
+                            - /url: /wiki/Lower_Shabelle
+                          - text: ","
+                          - link "Bay" [ref=e1335] [cursor=pointer]:
+                            - /url: /wiki/Bay,_Somalia
+                          - text: and
+                          - link "Bakool" [ref=e1336] [cursor=pointer]:
+                            - /url: /wiki/Bakool
+                          - text: regions of
+                          - link "Somalia" [ref=e1337] [cursor=pointer]:
+                            - /url: /wiki/Somalia
+                          - text: .
+                          - link "(Somali Guardian)" [ref=e1338] [cursor=pointer]:
+                            - /url: https://www.somaliguardian.com/news/somalia-news/somalias-southwest-president-re-elected-in-vote-rejected-by-federal-government/
+                          - link "(Hiiraan Online)" [ref=e1339] [cursor=pointer]:
+                            - /url: https://www.hiiraan.com/news4/2026/Mar/204768/abdiaziz_laftagareen_reelected_southwest_state_president_for_fiveyear_term.aspx
+                  - paragraph [ref=e1340]: Sports
+                  - list [ref=e1341]:
+                    - listitem [ref=e1342]:
+                      - text: In
+                      - link "Thoroughbred racing" [ref=e1343] [cursor=pointer]:
+                        - /url: /wiki/Thoroughbred_racing
+                      - text: ","
+                      - link "American" [ref=e1344] [cursor=pointer]:
+                        - /url: /wiki/Americans
+                      - link "racehorse" [ref=e1345] [cursor=pointer]:
+                        - /url: /wiki/Horse_racing
+                      - text: Magnitude wins the 30th
+                      - link "Dubai World Cup" [ref=e1346] [cursor=pointer]:
+                        - /url: /wiki/Dubai_World_Cup
+                      - text: in
+                      - link "Dubai" [ref=e1347] [cursor=pointer]:
+                        - /url: /wiki/Dubai
+                      - text: ","
+                      - link "United Arab Emirates" [ref=e1348] [cursor=pointer]:
+                        - /url: /wiki/United_Arab_Emirates
+                      - text: ", amidst the Iran war."
+                      - link "(The National News)" [ref=e1349] [cursor=pointer]:
+                        - /url: https://www.thenationalnews.com/sport/2026/03/28/dubai-world-cup-a-symbol-of-uaes-determination-amid-conflict-and-crisis/
+                      - link "(ESPN)" [ref=e1350] [cursor=pointer]:
+                        - /url: https://www.espn.com/horse-racing/story/_/id/48331479/magnitude-wins-12-million-dubai-gold-cup
+                    - listitem [ref=e1351]:
+                      - text: In
+                      - link "chess" [ref=e1352] [cursor=pointer]:
+                        - /url: /wiki/Chess
+                      - text: ", the"
+                      - link "Candidates Tournament 2026" [ref=e1353] [cursor=pointer]:
+                        - /url: /wiki/Candidates_Tournament_2026
+                      - text: starts in
+                      - link "Cyprus" [ref=e1354] [cursor=pointer]:
+                        - /url: /wiki/Cyprus
+                      - text: . Between 28 March and 16 April, eight players compite in a double
+                      - link "round-robin tournament" [ref=e1355] [cursor=pointer]:
+                        - /url: /wiki/Round-robin_tournament
+                      - text: . The winner will face
+                      - link "Gukesh Dommaraju" [ref=e1356] [cursor=pointer]:
+                        - /url: /wiki/Gukesh_Dommaraju
+                      - text: for the
+                      - link "World Championship" [ref=e1357] [cursor=pointer]:
+                        - /url: /wiki/World_Chess_Championship_2026
+                      - text: .
+                      - link "(FIDE)" [ref=e1358] [cursor=pointer]:
+                        - /url: https://candidates2026.fide.com
+              - region "March 27" [ref=e1360]:
+                - generic [ref=e1361]:
+                  - heading "March 27, 2026 (Friday)" [ref=e1362]:
+                    - generic [ref=e1363]: March 27, 2026 (Friday)
+                  - list [ref=e1364]:
+                    - listitem [ref=e1365]:
+                      - link "edit" [ref=e1366] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_27&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e1367]:
+                      - link "history" [ref=e1368] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_27&action=history
+                    - listitem [ref=e1369]:
+                      - link "watch" [ref=e1370] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_27&action=watch
+                - generic [ref=e1371]:
+                  - paragraph [ref=e1372]: Armed conflicts and attacks
+                  - list [ref=e1373]:
+                    - listitem [ref=e1374]:
+                      - link "2026 Iran war" [ref=e1375] [cursor=pointer]:
+                        - /url: /wiki/2026_Iran_war
+                      - list [ref=e1376]:
+                        - listitem [ref=e1377]:
+                          - link "2026 Strait of Hormuz crisis" [ref=e1378] [cursor=pointer]:
+                            - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                          - list [ref=e1379]:
+                            - listitem [ref=e1380]:
+                              - link "Iran's representative in Geneva" [ref=e1381] [cursor=pointer]:
+                                - /url: /wiki/List_of_permanent_representatives_of_Iran_to_the_United_Nations_Office_at_Geneva
+                              - link "Ali Bahreini" [ref=e1382] [cursor=pointer]:
+                                - /url: /w/index.php?title=Ali_Bahreini&action=edit&redlink=1
+                              - generic [ref=e1383]:
+                                - text: "["
+                                - link "fa" [ref=e1384] [cursor=pointer]:
+                                  - /url: https://fa.wikipedia.org/wiki/%D8%B9%D9%84%DB%8C_%D8%A8%D8%AD%D8%B1%DB%8C%D9%86%DB%8C_(%D8%AF%DB%8C%D9%BE%D9%84%D9%85%D8%A7%D8%AA)
+                                - text: "]"
+                              - text: says that
+                              - link "Iran" [ref=e1385] [cursor=pointer]:
+                                - /url: /wiki/Iran
+                              - text: will facilitate and expedite humanitarian aid to cross the
+                              - link "Strait of Hormuz" [ref=e1386] [cursor=pointer]:
+                                - /url: /wiki/Strait_of_Hormuz
+                              - text: .
+                              - link "(AP)" [ref=e1387] [cursor=pointer]:
+                                - /url: https://apnews.com/article/iran-us-israel-trump-lebanon-march-27-2026-195444c54cbb7545d0a77f8ffbc0e4c0
+                            - listitem [ref=e1388]:
+                              - text: The
+                              - link "foreign ministers" [ref=e1389] [cursor=pointer]:
+                                - /url: /wiki/Ministry_of_foreign_affairs
+                              - text: of the
+                              - link "G7" [ref=e1390] [cursor=pointer]:
+                                - /url: /wiki/G7
+                              - text: nations reach an agreement to protect passage through the
+                              - link "Strait of Hormuz" [ref=e1391] [cursor=pointer]:
+                                - /url: /wiki/Strait_of_Hormuz
+                              - text: if the war ends.
+                              - link "(Euronews)" [ref=e1392] [cursor=pointer]:
+                                - /url: https://www.euronews.com/my-europe/2026/03/27/g7-agrees-to-secure-strait-of-hormuz-but-only-after-war-in-iran-ends
+                        - listitem [ref=e1393]:
+                          - link "2026 Iranian strikes on Israel" [ref=e1394] [cursor=pointer]:
+                            - /url: /wiki/2026_Iranian_strikes_on_Israel
+                          - list [ref=e1395]:
+                            - listitem [ref=e1396]:
+                              - text: One man is killed and several are injured by
+                              - link "Iranian" [ref=e1397] [cursor=pointer]:
+                                - /url: /wiki/Iran
+                              - link "ballistic missile" [ref=e1398] [cursor=pointer]:
+                                - /url: /wiki/Ballistic_missile_program_of_Iran
+                              - text: attacks on
+                              - link "central" [ref=e1399] [cursor=pointer]:
+                                - /url: /wiki/Central_Israel
+                              - text: and
+                              - link "southern Israel" [ref=e1400] [cursor=pointer]:
+                                - /url: /wiki/Southern_Israel
+                              - text: .
+                              - link "(The Jerusalem Post)" [ref=e1401] [cursor=pointer]:
+                                - /url: https://www.jpost.com/middle-east/iran-news/article-891444
+                        - listitem [ref=e1402]:
+                          - link "2026 Iranian strikes on Saudi Arabia" [ref=e1403] [cursor=pointer]:
+                            - /url: /wiki/2026_Iranian_strikes_on_Saudi_Arabia
+                          - list [ref=e1404]:
+                            - listitem [ref=e1405]:
+                              - text: An Iranian attack on
+                              - link "Prince Sultan Air Base" [ref=e1406] [cursor=pointer]:
+                                - /url: /wiki/Prince_Sultan_Air_Base
+                              - text: in
+                              - link "Saudi Arabia" [ref=e1407] [cursor=pointer]:
+                                - /url: /wiki/Saudi_Arabia
+                              - text: with at least six ballistic missiles and 29 drones injures 15
+                              - link "American soldiers" [ref=e1408] [cursor=pointer]:
+                                - /url: /wiki/United_States_Armed_Forces
+                              - text: and heavily damages a
+                              - link "Boeing E-3 Sentry" [ref=e1409] [cursor=pointer]:
+                                - /url: /wiki/Boeing_E-3_Sentry
+                              - text: (
+                              - link "AWACS" [ref=e1410] [cursor=pointer]:
+                                - /url: /wiki/AWACS
+                              - text: ) aircraft.
+                              - link "(Al Jazeera)" [ref=e1411] [cursor=pointer]:
+                                - /url: https://www.aljazeera.com/news/2026/3/28/at-least-15-us-troops-wounded-in-iran-strike-on-saudi-airbase-reports
+                              - link "(BBC)" [ref=e1412] [cursor=pointer]:
+                                - /url: https://www.bbc.com/news/articles/cwyd07m7e1xo
+                        - listitem [ref=e1413]:
+                          - link "Kuwait" [ref=e1414] [cursor=pointer]:
+                            - /url: /wiki/Kuwait
+                          - text: ","
+                          - link "Saudi Arabia" [ref=e1415] [cursor=pointer]:
+                            - /url: /wiki/Saudi_Arabia
+                          - text: ", and the"
+                          - link "United Arab Emirates" [ref=e1416] [cursor=pointer]:
+                            - /url: /wiki/United_Arab_Emirates
+                          - text: report that they have intercepted missile and
+                          - link "drone attacks" [ref=e1417] [cursor=pointer]:
+                            - /url: /wiki/Unmanned_aerial_vehicles_in_the_Iranian_military
+                          - text: from
+                          - link "Iran" [ref=e1418] [cursor=pointer]:
+                            - /url: /wiki/Iran
+                          - text: .
+                          - link "(AA)" [ref=e1419] [cursor=pointer]:
+                            - /url: https://www.aa.com.tr/en/middle-east/3-gcc-states-say-they-intercepted-missiles-and-drones/3881144
+                        - listitem [ref=e1420]:
+                          - text: The
+                          - link "Israeli Air Force" [ref=e1421] [cursor=pointer]:
+                            - /url: /wiki/Israeli_Air_Force
+                          - text: strikes a
+                          - link "uranium" [ref=e1422] [cursor=pointer]:
+                            - /url: /wiki/Uranium
+                          - link "processing facility" [ref=e1423] [cursor=pointer]:
+                            - /url: /wiki/Nuclear_program_of_Iran
+                          - text: in
+                          - link "Yazd, Iran" [ref=e1424] [cursor=pointer]:
+                            - /url: /wiki/Yazd,_Iran
+                          - text: . There were no casualties or radiation leaks, according to
+                          - link "Iran's Atomic Energy Organization" [ref=e1425] [cursor=pointer]:
+                            - /url: /wiki/Atomic_Energy_Organization_of_Iran
+                          - text: .
+                          - link "(Al Jazeera)" [ref=e1426] [cursor=pointer]:
+                            - /url: https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week
+                        - listitem [ref=e1427]:
+                          - link "Iran" [ref=e1428] [cursor=pointer]:
+                            - /url: /wiki/Iran
+                          - text: has begun recruiting
+                          - link "children" [ref=e1429] [cursor=pointer]:
+                            - /url: /wiki/Adolescence
+                          - text: as young as 12 to man
+                          - link "Tehran" [ref=e1430] [cursor=pointer]:
+                            - /url: /wiki/Tehran
+                          - text: checkpoints.
+                          - link "(The Times of Israel)" [ref=e1431] [cursor=pointer]:
+                            - /url: https://www.timesofisrael.com/iran-recruiting-children-as-young-as-12-to-man-tehran-checkpoints
+                  - list [ref=e1432]:
+                    - listitem [ref=e1433]:
+                      - link "Sudanese civil war" [ref=e1434] [cursor=pointer]:
+                        - /url: /wiki/Sudanese_civil_war_(2023%E2%80%93present)
+                      - list [ref=e1435]:
+                        - listitem [ref=e1436]:
+                          - text: The
+                          - link "Sudan People's Liberation Movement–North" [ref=e1437] [cursor=pointer]:
+                            - /url: /wiki/Sudan_People%27s_Liberation_Movement%E2%80%93North
+                          - text: reports that a
+                          - link "Sudanese Army" [ref=e1438] [cursor=pointer]:
+                            - /url: /wiki/Sudanese_Armed_Forces
+                          - text: airstrike on a funeral gathering in the town of Al Sunut in
+                          - link "South Kordofan" [ref=e1439] [cursor=pointer]:
+                            - /url: /wiki/South_Kordofan
+                          - text: has killed seven civilians and injured 39 others.
+                          - link "(Sudan Tribune)" [ref=e1440] [cursor=pointer]:
+                            - /url: https://sudantribune.com/article/312161
+                  - paragraph [ref=e1441]: Business and economy
+                  - list [ref=e1442]:
+                    - listitem [ref=e1443]:
+                      - link "Economic impact of the 2026 Iran war" [ref=e1444] [cursor=pointer]:
+                        - /url: /wiki/Economic_impact_of_the_2026_Iran_war
+                      - list [ref=e1445]:
+                        - listitem [ref=e1446]:
+                          - link "2026 Strait of Hormuz crisis" [ref=e1447] [cursor=pointer]:
+                            - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                          - list [ref=e1448]:
+                            - listitem [ref=e1449]:
+                              - link "Brent crude" [ref=e1450] [cursor=pointer]:
+                                - /url: /wiki/Brent_crude
+                              - link "oil" [ref=e1451] [cursor=pointer]:
+                                - /url: /wiki/Oil
+                              - text: surpasses US$110 per
+                              - link "barrel" [ref=e1452] [cursor=pointer]:
+                                - /url: /wiki/Barrel_(unit)
+                              - text: after Iran's
+                              - link "Islamic Revolutionary Guard Corps Navy" [ref=e1453] [cursor=pointer]:
+                                - /url: /wiki/Islamic_Revolutionary_Guard_Corps_Navy
+                              - text: turned away three
+                              - link "container ships" [ref=e1454] [cursor=pointer]:
+                                - /url: /wiki/Container_ship
+                              - text: and declared the
+                              - link "Strait of Hormuz" [ref=e1455] [cursor=pointer]:
+                                - /url: /wiki/Strait_of_Hormuz
+                              - text: closed.
+                              - link "(AFP via South China Morning Post)" [ref=e1456] [cursor=pointer]:
+                                - /url: https://www.scmp.com/news/world/middle-east/article/3348177/iran-says-hormuz-closed-shipping-and-enemy-ports
+                              - link "(UPI)" [ref=e1457] [cursor=pointer]:
+                                - /url: https://www.upi.com/Top_News/World-News/2026/03/27/iran-china-oil-prices-ships-blocked-strait-of-hormuz/6871774619526/
+                    - listitem [ref=e1458]:
+                      - link "Renationalization of YPF" [ref=e1459] [cursor=pointer]:
+                        - /url: /wiki/Renationalization_of_YPF
+                      - list [ref=e1460]:
+                        - listitem [ref=e1461]:
+                          - text: A
+                          - link "United States" [ref=e1462] [cursor=pointer]:
+                            - /url: /wiki/United_States
+                          - link "appeals court" [ref=e1463] [cursor=pointer]:
+                            - /url: /wiki/United_States_courts_of_appeals
+                          - text: overturns a $16.1 billion judgment against
+                          - link "Argentina" [ref=e1464] [cursor=pointer]:
+                            - /url: /wiki/Argentina
+                          - text: related to the 2012
+                          - link "nationalization" [ref=e1465] [cursor=pointer]:
+                            - /url: /wiki/Nationalization_of_oil_supplies
+                          - text: of oil company
+                          - link "YPF" [ref=e1466] [cursor=pointer]:
+                            - /url: /wiki/YPF
+                          - text: ", ruling that the shareholders' claims are not valid under"
+                          - link "Argentine law" [ref=e1467] [cursor=pointer]:
+                            - /url: /wiki/Law_of_Argentina
+                          - text: . The decision reverses a 2023
+                          - link "lower court" [ref=e1468] [cursor=pointer]:
+                            - /url: /wiki/United_States_district_court
+                          - text: ruling that had ordered compensation to minority investors.
+                          - link "(AFP via France 24)" [ref=e1469] [cursor=pointer]:
+                            - /url: https://www.france24.com/en/live-news/20260327-us-court-overturns-16-1-bn-judgment-against-argentina-over-oil-firm-seizure
+                  - paragraph [ref=e1470]: Disasters and accidents
+                  - list [ref=e1471]:
+                    - listitem [ref=e1472]:
+                      - link "Landslides" [ref=e1473] [cursor=pointer]:
+                        - /url: /wiki/Landslide
+                      - text: triggered by heavy rain kill at least 20 people in
+                      - link "Mbeya Region" [ref=e1474] [cursor=pointer]:
+                        - /url: /wiki/Mbeya_Region
+                      - text: ","
+                      - link "Tanzania" [ref=e1475] [cursor=pointer]:
+                        - /url: /wiki/Tanzania
+                      - text: .
+                      - link "(AP)" [ref=e1476] [cursor=pointer]:
+                        - /url: https://apnews.com/article/tanzania-mbeya-landslides-rainfall-flooding-climate-kenya-65e63cf2a2e1186d4d98b90469a86c8e
+                    - listitem [ref=e1477]:
+                      - text: Seven people are killed and five others are injured in a landslide on the
+                      - link "Zoji La" [ref=e1478] [cursor=pointer]:
+                        - /url: /wiki/Zoji_La
+                      - text: in
+                      - link "Ladakh" [ref=e1479] [cursor=pointer]:
+                        - /url: /wiki/Ladakh
+                      - text: ","
+                      - link "India" [ref=e1480] [cursor=pointer]:
+                        - /url: /wiki/India
+                      - text: .
+                      - link "(NDTV)" [ref=e1481] [cursor=pointer]:
+                        - /url: https://www.ndtv.com/india-news/7-killed-5-injured-in-avalanche-at-zojila-pass-which-connects-j-k-and-ladakh-11275633/amp/1
+                    - listitem [ref=e1482]:
+                      - text: Three people are killed in a helicopter crash at
+                      - link "Kalalau Beach" [ref=e1483] [cursor=pointer]:
+                        - /url: /wiki/Kalalau_Beach
+                      - text: "on"
+                      - link "Kauaʻi" [ref=e1484] [cursor=pointer]:
+                        - /url: /wiki/Kaua%CA%BBi
+                      - text: ","
+                      - link "Hawaii" [ref=e1485] [cursor=pointer]:
+                        - /url: /wiki/Hawaii
+                      - text: ","
+                      - link "United States" [ref=e1486] [cursor=pointer]:
+                        - /url: /wiki/United_States
+                      - text: .
+                      - link "(AP)" [ref=e1487] [cursor=pointer]:
+                        - /url: https://apnews.com/article/hawaii-kauai-helicopter-crash-fd89fbd743330bd2c787e52541a82036
+                    - listitem [ref=e1488]:
+                      - text: Two children are killed and at least seven others are injured in a
+                      - link "three-vehicle collision" [ref=e1489] [cursor=pointer]:
+                        - /url: /wiki/Multiple-vehicle_collision
+                      - text: involving a
+                      - link "dump truck" [ref=e1490] [cursor=pointer]:
+                        - /url: /wiki/Dump_truck
+                      - text: ","
+                      - link "SUV" [ref=e1491] [cursor=pointer]:
+                        - /url: /wiki/SUV
+                      - text: and
+                      - link "school bus" [ref=e1492] [cursor=pointer]:
+                        - /url: /wiki/School_bus
+                      - text: "on"
+                      - link "Tennessee State Route 70" [ref=e1493] [cursor=pointer]:
+                        - /url: /wiki/Tennessee_State_Route_70
+                      - text: in
+                      - link "Carroll County" [ref=e1494] [cursor=pointer]:
+                        - /url: /wiki/Carroll_County,_Tennessee
+                      - text: ","
+                      - link "Tennessee" [ref=e1495] [cursor=pointer]:
+                        - /url: /wiki/Tennessee
+                      - text: ", United States."
+                      - link "(AP)" [ref=e1496] [cursor=pointer]:
+                        - /url: https://apnews.com/article/school-bus-crash-tennessee-students-dead-af3085d36e10a7b1b7bec6456462ac42
+                  - paragraph [ref=e1497]: Law and crime
+                  - list [ref=e1498]:
+                    - listitem [ref=e1499]:
+                      - link "Calama school stabbing" [ref=e1500] [cursor=pointer]:
+                        - /url: /wiki/Calama_school_stabbing
+                      - list [ref=e1501]:
+                        - listitem [ref=e1502]:
+                          - text: One person is killed and four others are injured in a
+                          - link "mass stabbing" [ref=e1503] [cursor=pointer]:
+                            - /url: /wiki/Mass_stabbing
+                          - text: at a school in
+                          - link "Calama" [ref=e1504] [cursor=pointer]:
+                            - /url: /wiki/Calama,_Chile
+                          - text: ","
+                          - link "Antofagasta Region" [ref=e1505] [cursor=pointer]:
+                            - /url: /wiki/Antofagasta_Region
+                          - text: ","
+                          - link "Chile" [ref=e1506] [cursor=pointer]:
+                            - /url: /wiki/Chile
+                          - text: .
+                          - link "(ABC News)" [ref=e1507] [cursor=pointer]:
+                            - /url: https://abcnews.com/International/wireStory/school-stabbing-chile-leaves-1-dead-4-injured-131476134
+                  - paragraph [ref=e1508]: Politics and elections
+                  - list [ref=e1509]:
+                    - listitem [ref=e1510]:
+                      - link "2026 Nepalese general election" [ref=e1511] [cursor=pointer]:
+                        - /url: /wiki/2026_Nepalese_general_election
+                      - list [ref=e1512]:
+                        - listitem [ref=e1513]:
+                          - text: Following his
+                          - link "Rastriya Swatantra Party" [ref=e1514] [cursor=pointer]:
+                            - /url: /wiki/Rastriya_Swatantra_Party
+                          - text: "'s landslide victory in the general election,"
+                          - link "Balendra Shah" [ref=e1515] [cursor=pointer]:
+                            - /url: /wiki/Balendra_Shah
+                          - text: is sworn as
+                          - link "Prime Minister of Nepal" [ref=e1516] [cursor=pointer]:
+                            - /url: /wiki/Prime_Minister_of_Nepal
+                          - text: ", succeeding interim prime minister"
+                          - link "Sushila Karki" [ref=e1517] [cursor=pointer]:
+                            - /url: /wiki/Sushila_Karki
+                          - text: .
+                          - link "(Reuters)" [ref=e1518] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/china/ex-rapper-shah-sworn-nepal-prime-minister-after-sweeping-election-win-2026-03-27/
+                    - listitem [ref=e1519]:
+                      - link "Opposition to Vladimir Putin in Russia" [ref=e1520] [cursor=pointer]:
+                        - /url: /wiki/Opposition_to_Vladimir_Putin_in_Russia
+                      - list [ref=e1521]:
+                        - listitem [ref=e1522]:
+                          - link "Russia" [ref=e1523] [cursor=pointer]:
+                            - /url: /wiki/Russia
+                          - text: designates filmmaker and teacher
+                          - link "Pavel Talankin" [ref=e1524] [cursor=pointer]:
+                            - /url: /wiki/Pavel_Talankin
+                          - text: ", the co-director and subject of the 2025 documentary film"
+                          - link "Mr Nobody Against Putin" [ref=e1526] [cursor=pointer]:
+                            - /url: /wiki/Mr_Nobody_Against_Putin
+                          - text: ", as a"
+                          - link "foreign agent" [ref=e1527] [cursor=pointer]:
+                            - /url: /wiki/Russian_foreign_agent_law
+                          - text: after authorities accuse him of spreading
+                          - link "disinformation" [ref=e1528] [cursor=pointer]:
+                            - /url: /wiki/Russian_disinformation
+                          - text: about
+                          - link "the government" [ref=e1529] [cursor=pointer]:
+                            - /url: /wiki/Putin_administration
+                          - text: and
+                          - link "opposing the war in Ukraine" [ref=e1530] [cursor=pointer]:
+                            - /url: /wiki/Protests_against_the_Russo-Ukrainian_war_(2022%E2%80%93present)
+                          - text: .
+                          - link "(AFP via RFI)" [ref=e1531] [cursor=pointer]:
+                            - /url: https://www.rfi.fr/en/international-news/20260327-russia-labels-mr-nobody-against-putin-teacher-a-foreign-agent
+                    - listitem [ref=e1532]:
+                      - link "Protests against the 2026 Iran war" [ref=e1533] [cursor=pointer]:
+                        - /url: /wiki/Protests_against_the_2026_Iran_war
+                      - list [ref=e1534]:
+                        - listitem [ref=e1535]:
+                          - text: Lawmakers from the
+                          - link "Jammu & Kashmir National Conference" [ref=e1536] [cursor=pointer]:
+                            - /url: /wiki/Jammu_%26_Kashmir_National_Conference
+                          - text: protest outside the
+                          - link "legislative assembly" [ref=e1537] [cursor=pointer]:
+                            - /url: /wiki/Jammu_and_Kashmir_Legislative_Assembly
+                          - text: of
+                          - link "Jammu and Kashmir" [ref=e1538] [cursor=pointer]:
+                            - /url: /wiki/Jammu_and_Kashmir_(union_territory)
+                          - text: ","
+                          - link "India" [ref=e1539] [cursor=pointer]:
+                            - /url: /wiki/India
+                          - text: ", in solidarity with"
+                          - link "Iran" [ref=e1540] [cursor=pointer]:
+                            - /url: /wiki/Iran
+                          - text: and against the
+                          - link "assassination" [ref=e1541] [cursor=pointer]:
+                            - /url: /wiki/Assassination_of_Ali_Khamenei
+                          - text: of former
+                          - link "supreme leader" [ref=e1542] [cursor=pointer]:
+                            - /url: /wiki/Supreme_Leader_of_Iran
+                          - link "Ali Khamenei" [ref=e1543] [cursor=pointer]:
+                            - /url: /wiki/Ali_Khamenei
+                          - text: amidst the Iran war. Additionally, a major confrontation breaks out between
+                          - link "INC" [ref=e1544] [cursor=pointer]:
+                            - /url: /wiki/Indian_National_Congress
+                          - text: lawmaker
+                          - link "Irfan Hafiz Lone" [ref=e1545] [cursor=pointer]:
+                            - /url: /wiki/Irfan_Hafiz_Lone
+                          - text: and
+                          - link "BJP" [ref=e1546] [cursor=pointer]:
+                            - /url: /wiki/Bharatiya_Janata_Party
+                          - text: lawmaker
+                          - link "Yudhvir Sethi" [ref=e1547] [cursor=pointer]:
+                            - /url: /wiki/Yudhvir_Sethi
+                          - text: during the protest.
+                          - link "(Kashmir Convener)" [ref=e1548] [cursor=pointer]:
+                            - /url: https://kashmirconvener.com/nc-lawmakers-protest-outside-jk-legislative-assembly-express-solidarity-with-iran-amid-tensions/
+                          - link "(Times of India)" [ref=e1549] [cursor=pointer]:
+                            - /url: https://timesofindia.indiatimes.com/india/watch-massive-ruckus-in-jk-assembly-as-nc-mlas-protest-over-killing-of-irans-ali-khamenei/articleshow/129839452.cms
+                    - listitem [ref=e1550]:
+                      - text: In
+                      - link "Mongolia" [ref=e1551] [cursor=pointer]:
+                        - /url: /wiki/Mongolia
+                      - text: ", the"
+                      - link "State Great Khural" [ref=e1552] [cursor=pointer]:
+                        - /url: /wiki/State_Great_Khural
+                      - text: accepts the
+                      - link "resignation" [ref=e1553] [cursor=pointer]:
+                        - /url: /wiki/Resignation
+                      - text: of
+                      - link "Prime Minister" [ref=e1554] [cursor=pointer]:
+                        - /url: /wiki/Prime_Minister_of_Mongolia
+                      - link "Gombojavyn Zandanshatar" [ref=e1555] [cursor=pointer]:
+                        - /url: /wiki/Gombojavyn_Zandanshatar
+                      - text: .
+                      - link "(AP)" [ref=e1556] [cursor=pointer]:
+                        - /url: https://apnews.com/article/mongolia-prime-minister-resign-zandanshatar-boycott-687a953be2131d06c2a459699fd23fe1
+                  - paragraph [ref=e1557]: Sports
+                  - list [ref=e1558]:
+                    - listitem [ref=e1559]:
+                      - link "2026 World Figure Skating Championships" [ref=e1560] [cursor=pointer]:
+                        - /url: /wiki/2026_World_Figure_Skating_Championships
+                      - list [ref=e1561]:
+                        - listitem [ref=e1562]:
+                          - text: In her last performance before retiring,
+                          - link "Japan" [ref=e1563] [cursor=pointer]:
+                            - /url: /wiki/Japan
+                          - text: "'s"
+                          - link "Kaori Sakamoto" [ref=e1564] [cursor=pointer]:
+                            - /url: /wiki/Kaori_Sakamoto
+                          - text: wins the gold medal in the
+                          - link "women's singles" [ref=e1565] [cursor=pointer]:
+                            - /url: /wiki/Single_skating
+                          - text: event of the 2026
+                          - link "Figure Skating Championships" [ref=e1566] [cursor=pointer]:
+                            - /url: /wiki/ISU_Figure_Skating_Championships
+                          - text: .
+                          - link "(AFP via RFI)" [ref=e1567] [cursor=pointer]:
+                            - /url: https://www.rfi.fr/en/sports/20260327-japanese-star-sakamoto-signs-off-with-fourth-world-skating-gold
+              - region "March 26" [ref=e1569]:
+                - generic [ref=e1570]:
+                  - heading "March 26, 2026 (Thursday)" [ref=e1571]:
+                    - generic [ref=e1572]: March 26, 2026 (Thursday)
+                  - list [ref=e1573]:
+                    - listitem [ref=e1574]:
+                      - link "edit" [ref=e1575] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_26&action=edit&editintro=Portal:Current_events/Edit_instructions
+                    - listitem [ref=e1576]:
+                      - link "history" [ref=e1577] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_26&action=history
+                    - listitem [ref=e1578]:
+                      - link "watch" [ref=e1579] [cursor=pointer]:
+                        - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/2026_March_26&action=watch
+                - generic [ref=e1580]:
+                  - paragraph [ref=e1581]: Armed conflicts and attacks
+                  - list [ref=e1582]:
+                    - listitem [ref=e1583]:
+                      - link "Middle Eastern crisis" [ref=e1584] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                      - list [ref=e1585]:
+                        - listitem [ref=e1586]:
+                          - link "2026 Iran war" [ref=e1587] [cursor=pointer]:
+                            - /url: /wiki/2026_Iran_war
+                          - list [ref=e1588]:
+                            - listitem [ref=e1589]:
+                              - link "2025–2026 Iran–United States negotiations" [ref=e1590] [cursor=pointer]:
+                                - /url: /wiki/2025%E2%80%932026_Iran%E2%80%93United_States_negotiations
+                              - list [ref=e1591]:
+                                - listitem [ref=e1592]:
+                                  - link "Pakistan in the 2026 Iran war" [ref=e1593] [cursor=pointer]:
+                                    - /url: /wiki/Pakistan_in_the_2026_Iran_war
+                                  - text: ","
+                                  - link "Pakistan–United States relations" [ref=e1594] [cursor=pointer]:
+                                    - /url: /wiki/Pakistan%E2%80%93United_States_relations
+                                  - list [ref=e1595]:
+                                    - listitem [ref=e1596]:
+                                      - link "U.S. special envoy to the Middle East" [ref=e1597] [cursor=pointer]:
+                                        - /url: /wiki/Ambassadors_of_the_United_States#Special_envoys,_representatives,_and_coordinators
+                                      - link "Steve Witkoff" [ref=e1598] [cursor=pointer]:
+                                        - /url: /wiki/Steve_Witkoff
+                                      - text: confirms that the
+                                      - link "United States" [ref=e1599] [cursor=pointer]:
+                                        - /url: /wiki/United_States
+                                      - text: has shared a 15-point peace plan to
+                                      - link "Iran" [ref=e1600] [cursor=pointer]:
+                                        - /url: /wiki/Iran
+                                      - text: through the
+                                      - link "Pakistani" [ref=e1601] [cursor=pointer]:
+                                        - /url: /wiki/Pakistan
+                                      - link "government" [ref=e1602] [cursor=pointer]:
+                                        - /url: /wiki/Government_of_Pakistan
+                                      - text: .
+                                      - link "(The Pakistan Connect)" [ref=e1603] [cursor=pointer]:
+                                        - /url: https://thepakistanconnect.com/pakistan-acting-as-mediator-between-us-iran/
+                                      - link "(Xinhua)" [ref=e1604] [cursor=pointer]:
+                                        - /url: https://english.news.cn/20260327/681339d40690429db431af3d2c3f35d3/c.html
+                                    - listitem [ref=e1605]:
+                                      - link "Pakistani foreign minister" [ref=e1606] [cursor=pointer]:
+                                        - /url: /wiki/Minister_for_Foreign_Affairs_(Pakistan)
+                                      - link "Ishaq Dar" [ref=e1607] [cursor=pointer]:
+                                        - /url: /wiki/Ishaq_Dar
+                                      - text: confirms that indirect negotiations between Iran and the U.S. are taking place.
+                                      - link "(The Hindu)" [ref=e1608] [cursor=pointer]:
+                                        - /url: https://www.thehindu.com/news/international/pakistan-says-us-iran-indirect-talks-are-taking-place/article70788187.ece
+                            - listitem [ref=e1609]:
+                              - link "2026 Strait of Hormuz crisis" [ref=e1610] [cursor=pointer]:
+                                - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                              - list [ref=e1611]:
+                                - listitem [ref=e1612]:
+                                  - link "U.S. president" [ref=e1613] [cursor=pointer]:
+                                    - /url: /wiki/President_of_the_United_States
+                                  - link "Donald Trump" [ref=e1614] [cursor=pointer]:
+                                    - /url: /wiki/Donald_Trump
+                                  - text: extends his deadline for Iran to reopen the
+                                  - link "Strait of Hormuz" [ref=e1615] [cursor=pointer]:
+                                    - /url: /wiki/Strait_of_Hormuz
+                                  - text: by ten days, until 6 April, or "face further
+                                  - link "assassinations of senior officials" [ref=e1616] [cursor=pointer]:
+                                    - /url: /wiki/List_of_Iranian_officials_killed_during_the_2026_Iran_war
+                                  - text: "\"."
+                                  - link "(The Guardian)" [ref=e1617] [cursor=pointer]:
+                                    - /url: https://www.theguardian.com/world/2026/mar/26/donald-trump-urges-iran-end-war-or-face-assassinations
+                            - listitem [ref=e1618]:
+                              - link "2026 Iranian strikes on Israel" [ref=e1619] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_Israel
+                              - list [ref=e1620]:
+                                - listitem [ref=e1621]:
+                                  - text: Nine people are injured in
+                                  - link "Israel" [ref=e1622] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: after seven salvos of
+                                  - link "ballistic missiles" [ref=e1623] [cursor=pointer]:
+                                    - /url: /wiki/Ballistic_missile_program_of_Iran
+                                  - text: by Iran.
+                                  - link "(The Times of Israel)" [ref=e1624] [cursor=pointer]:
+                                    - /url: https://www.timesofisrael.com/9-injured-as-iran-fires-7-missile-salvos-at-israel-within-hours-many-with-cluster-warheads/
+                            - listitem [ref=e1625]:
+                              - link "2026 Iranian strikes on the United Arab Emirates" [ref=e1626] [cursor=pointer]:
+                                - /url: /wiki/2026_Iranian_strikes_on_the_United_Arab_Emirates
+                              - list [ref=e1627]:
+                                - listitem [ref=e1628]:
+                                  - text: Two people are killed and three others are injured by falling debris from an intercepted
+                                  - link "ballistic missile" [ref=e1629] [cursor=pointer]:
+                                    - /url: /wiki/Ballistic_missile
+                                  - text: in
+                                  - link "Abu Dhabi" [ref=e1630] [cursor=pointer]:
+                                    - /url: /wiki/Abu_Dhabi
+                                  - text: ","
+                                  - link "United Arab Emirates" [ref=e1631] [cursor=pointer]:
+                                    - /url: /wiki/United_Arab_Emirates
+                                  - text: .
+                                  - link "(Hindustan Times)" [ref=e1632] [cursor=pointer]:
+                                    - /url: https://www.hindustantimes.com/india-news/indian-national-killed-by-falling-debris-of-intercepted-missile-in-abu-dhabi-101774529456584.html
+                            - listitem [ref=e1633]:
+                              - link "Reactions to the 2026 Iran war" [ref=e1634] [cursor=pointer]:
+                                - /url: /wiki/Reactions_to_the_2026_Iran_war
+                              - text: ","
+                              - link "Israel–Uganda relations" [ref=e1635] [cursor=pointer]:
+                                - /url: /wiki/Israel%E2%80%93Uganda_relations
+                              - list [ref=e1636]:
+                                - listitem [ref=e1637]:
+                                  - link "Ugandan military chief" [ref=e1638] [cursor=pointer]:
+                                    - /url: /wiki/Chief_of_Defence_Forces_(Uganda)
+                                  - link "Muhoozi Kainerugaba" [ref=e1639] [cursor=pointer]:
+                                    - /url: /wiki/Muhoozi_Kainerugaba
+                                  - text: says
+                                  - link "the country" [ref=e1640] [cursor=pointer]:
+                                    - /url: /wiki/Uganda
+                                  - text: is ready to join the war "on the side of
+                                  - link "Israel" [ref=e1641] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: "\" and says the"
+                                  - link "Ugandan military" [ref=e1642] [cursor=pointer]:
+                                    - /url: /wiki/Uganda_People%27s_Defence_Force
+                                  - text: will enter the war soon if Iranian attacks on Israel do not end soon.
+                                  - link "(The New Arab)" [ref=e1643] [cursor=pointer]:
+                                    - /url: https://www.newarab.com/news/uganda-military-chief-suggests-could-join-israel-iran-war
+                            - listitem [ref=e1644]:
+                              - link "Israel" [ref=e1645] [cursor=pointer]:
+                                - /url: /wiki/Israel
+                              - text: claims to have assassinated
+                              - link "Alireza Tangsiri" [ref=e1646] [cursor=pointer]:
+                                - /url: /wiki/Alireza_Tangsiri
+                              - text: ", the commander of"
+                              - link "Iran" [ref=e1647] [cursor=pointer]:
+                                - /url: /wiki/Iran
+                              - text: "'s"
+                              - link "Islamic Revolutionary Guard Corps Navy" [ref=e1648] [cursor=pointer]:
+                                - /url: /wiki/Islamic_Revolutionary_Guard_Corps_Navy
+                              - text: .
+                              - link "(Al Jazeera)" [ref=e1649] [cursor=pointer]:
+                                - /url: https://www.aljazeera.com/news/2026/3/26/iranian-naval-commander-alireza-tangsiri-killed-in-attack-says-israel
+                        - listitem [ref=e1650]:
+                          - link "Hezbollah–Israel conflict" [ref=e1651] [cursor=pointer]:
+                            - /url: /wiki/Hezbollah%E2%80%93Israel_conflict
+                          - list [ref=e1652]:
+                            - listitem [ref=e1653]:
+                              - link "2026 Lebanon war" [ref=e1654] [cursor=pointer]:
+                                - /url: /wiki/2026_Lebanon_war
+                              - list [ref=e1655]:
+                                - listitem [ref=e1656]:
+                                  - text: One person is killed and 11 are injured by
+                                  - link "Hezbollah" [ref=e1657] [cursor=pointer]:
+                                    - /url: /wiki/Hezbollah
+                                  - text: rocket fire in
+                                  - link "Nahariya" [ref=e1658] [cursor=pointer]:
+                                    - /url: /wiki/Nahariya
+                                  - text: ","
+                                  - link "Israel" [ref=e1659] [cursor=pointer]:
+                                    - /url: /wiki/Israel
+                                  - text: .
+                                  - link "(The Jerusalem Post)" [ref=e1660] [cursor=pointer]:
+                                    - /url: https://www.jpost.com/israel-news/defense-news/article-891315
+                                - listitem [ref=e1661]:
+                                  - text: Two
+                                  - link "Israeli soldiers" [ref=e1662] [cursor=pointer]:
+                                    - /url: /wiki/Israeli_Ground_Forces
+                                  - text: are
+                                  - link "killed in action" [ref=e1663] [cursor=pointer]:
+                                    - /url: /wiki/Killed_in_action
+                                  - text: in
+                                  - link "southern" [ref=e1664] [cursor=pointer]:
+                                    - /url: /wiki/Southern_Lebanon
+                                  - link "Lebanon" [ref=e1665] [cursor=pointer]:
+                                    - /url: /wiki/Lebanon
+                                  - text: .
+                                  - link "(Reuters)" [ref=e1666] [cursor=pointer]:
+                                    - /url: https://www.reuters.com/world/middle-east/two-israeli-soldiers-killed-south-lebanon-combat-military-says-2026-03-26/
+                    - listitem [ref=e1667]:
+                      - link "Russo-Ukrainian war" [ref=e1668] [cursor=pointer]:
+                        - /url: /wiki/Russo-Ukrainian_war_(2022%E2%80%93present)
+                      - list [ref=e1669]:
+                        - listitem [ref=e1670]:
+                          - link "Foreign involvement in the Russo-Ukrainian war" [ref=e1671] [cursor=pointer]:
+                            - /url: /wiki/Foreign_involvement_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)
+                          - list [ref=e1672]:
+                            - listitem [ref=e1673]:
+                              - link "Zimbabwe" [ref=e1674] [cursor=pointer]:
+                                - /url: /wiki/Zimbabwe
+                              - text: confirms that 15 of its citizens have been killed after being recruited by
+                              - link "Russia" [ref=e1675] [cursor=pointer]:
+                                - /url: /wiki/Russia
+                              - text: to fight in
+                              - link "Ukraine" [ref=e1676] [cursor=pointer]:
+                                - /url: /wiki/Ukraine
+                              - text: ", with more than 60 others still on the"
+                              - link "front line" [ref=e1677] [cursor=pointer]:
+                                - /url: /wiki/Front_line
+                              - text: .
+                              - link "Cabinet minister" [ref=e1678] [cursor=pointer]:
+                                - /url: /wiki/Cabinet_of_Zimbabwe
+                              - link "Soda Zhemu" [ref=e1679] [cursor=pointer]:
+                                - /url: /wiki/Soda_Zhemu
+                              - text: says that most of them were lured to Russia through
+                              - link "social media" [ref=e1680] [cursor=pointer]:
+                                - /url: /wiki/Social_media
+                              - text: .
+                              - link "(BBC News)" [ref=e1681] [cursor=pointer]:
+                                - /url: https://www.bbc.co.uk/news/articles/clyxevz45x9o
+                  - paragraph [ref=e1682]: Arts and culture
+                  - list [ref=e1683]:
+                    - listitem [ref=e1684]:
+                      - link "Russian 2022 war censorship laws" [ref=e1685] [cursor=pointer]:
+                        - /url: /wiki/Russian_2022_war_censorship_laws
+                      - list [ref=e1686]:
+                        - listitem [ref=e1687]:
+                          - text: A
+                          - link "court" [ref=e1688] [cursor=pointer]:
+                            - /url: /wiki/Judiciary_of_Russia
+                          - text: in
+                          - link "Chelyabinsk Oblast" [ref=e1689] [cursor=pointer]:
+                            - /url: /wiki/Chelyabinsk_Oblast
+                          - text: bans the distribution of the documentary film
+                          - link "Mr Nobody Against Putin" [ref=e1691] [cursor=pointer]:
+                            - /url: /wiki/Mr_Nobody_Against_Putin
+                          - text: in
+                          - link "Russia" [ref=e1692] [cursor=pointer]:
+                            - /url: /wiki/Russia
+                          - text: .
+                          - link "(AFP via The Guardian)" [ref=e1693] [cursor=pointer]:
+                            - /url: https://www.theguardian.com/film/2026/mar/27/russia-bans-documentary-mr-nobody-against-putin
+                  - paragraph [ref=e1694]: Business and economy
+                  - list [ref=e1695]:
+                    - listitem [ref=e1696]:
+                      - link "Economic impact of the 2026 Iran war" [ref=e1697] [cursor=pointer]:
+                        - /url: /wiki/Economic_impact_of_the_2026_Iran_war
+                      - list [ref=e1698]:
+                        - listitem [ref=e1699]:
+                          - link "Norway" [ref=e1700] [cursor=pointer]:
+                            - /url: /wiki/Norway
+                          - text: "'s"
+                          - link "Storting" [ref=e1701] [cursor=pointer]:
+                            - /url: /wiki/Storting
+                          - text: passes a bill temporarily cutting
+                          - link "petrol" [ref=e1702] [cursor=pointer]:
+                            - /url: /wiki/History_of_the_petroleum_industry_in_Norway
+                          - text: and
+                          - link "diesel" [ref=e1703] [cursor=pointer]:
+                            - /url: /wiki/Energy_in_Norway
+                          - link "taxes" [ref=e1704] [cursor=pointer]:
+                            - /url: /wiki/Taxation_in_Norway
+                          - text: in response to surging energy costs amid the
+                          - link "Strait of Hormuz crisis" [ref=e1705] [cursor=pointer]:
+                            - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                          - text: .
+                          - link "(Reuters)" [ref=e1706] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/norways-parliament-vote-proposals-cut-fuel-taxes-amid-middle-east-war-2026-03-26/
+                        - listitem [ref=e1707]:
+                          - link "Mauritius" [ref=e1708] [cursor=pointer]:
+                            - /url: /wiki/Mauritius
+                          - text: and
+                          - link "South Sudan" [ref=e1709] [cursor=pointer]:
+                            - /url: /wiki/South_Sudan
+                          - text: announce measures restricting electricity consumption due to the international energy crisis, with
+                          - link "Juba" [ref=e1710] [cursor=pointer]:
+                            - /url: /wiki/Juba
+                          - text: "'s"
+                          - link "main electricity distributor" [ref=e1711] [cursor=pointer]:
+                            - /url: /wiki/Juba_Electric_Distribution_Company
+                          - text: saying the capital will start experiencing daily
+                          - link "power cuts" [ref=e1712] [cursor=pointer]:
+                            - /url: /wiki/Power_outage
+                          - text: on a "rotational basis" from today.
+                          - link "(BBC News)" [ref=e1713] [cursor=pointer]:
+                            - /url: https://www.bbc.co.uk/news/articles/cq8wkq1n9epo
+                  - paragraph [ref=e1714]: Disasters and accidents
+                  - list [ref=e1715]:
+                    - listitem [ref=e1716]:
+                      - text: At least 14 people are killed and 27 others are injured when a private bus
+                      - link "collides head-on" [ref=e1717] [cursor=pointer]:
+                        - /url: /wiki/Head-on_collision
+                      - text: with a tipper-truck in
+                      - link "Prakasam district" [ref=e1718] [cursor=pointer]:
+                        - /url: /wiki/Prakasam_district
+                      - text: ","
+                      - link "Andhra Pradesh" [ref=e1719] [cursor=pointer]:
+                        - /url: /wiki/Andhra_Pradesh
+                      - text: ","
+                      - link "India" [ref=e1720] [cursor=pointer]:
+                        - /url: /wiki/India
+                      - text: .
+                      - link "(Hindustan Times)" [ref=e1721] [cursor=pointer]:
+                        - /url: https://www.hindustantimes.com/india-news/andhra-bus-truck-accident-death-toll-injuries-vehicles-catch-fire-markapuram-101774565810198.html
+                      - link "(The Times of India)" [ref=e1722] [cursor=pointer]:
+                        - /url: https://timesofindia.indiatimes.com/city/vijayawada/at-least-10-dead-20-injured-after-private-bus-collides-with-lorry-bursts-into-flames-in-andhra-pradesh/articleshow/129814380.cms
+                    - listitem [ref=e1723]:
+                      - text: At least 10 people are killed and 35 others are injured when a bus collides with a truck and overturns in
+                      - link "Chhindwara district" [ref=e1724] [cursor=pointer]:
+                        - /url: /wiki/Chhindwara_district
+                      - text: ","
+                      - link "Madhya Pradesh" [ref=e1725] [cursor=pointer]:
+                        - /url: /wiki/Madhya_Pradesh
+                      - text: ", India."
+                      - link "(The Hindu)" [ref=e1726] [cursor=pointer]:
+                        - /url: https://www.thehindu.com/news/national/madhya-pradesh/bus-accident-madhya-pradesh-chhindwara-several-killed-injured-updates/article70789466.ece
+                      - link "(Hindustan Times)" [ref=e1727] [cursor=pointer]:
+                        - /url: https://www.hindustantimes.com/india-news/9-dead-30-injured-in-bus-truck-collision-in-mp-s-chhindwara-police-101774540563582.html
+                    - listitem [ref=e1728]:
+                      - text: Two people are killed, including a child, and at least 90 families are affected in flooding in
+                      - link "Kandahar" [ref=e1729] [cursor=pointer]:
+                        - /url: /wiki/Kandahar
+                      - text: ","
+                      - link "Afghanistan" [ref=e1730] [cursor=pointer]:
+                        - /url: /wiki/Afghanistan
+                      - text: .
+                      - link "(ATN)" [ref=e1731] [cursor=pointer]:
+                        - /url: https://www.ariananews.af/two-killed-hundreds-affected-in-severe-floods-in-kandahar/
+                    - listitem [ref=e1732]:
+                      - link "Mexico" [ref=e1733] [cursor=pointer]:
+                        - /url: /wiki/Mexico
+                      - text: "'s"
+                      - link "navy" [ref=e1734] [cursor=pointer]:
+                        - /url: /wiki/Mexican_Navy
+                      - text: launches a
+                      - link "search and rescue" [ref=e1735] [cursor=pointer]:
+                        - /url: /wiki/Search_and_rescue
+                      - text: operation in the
+                      - link "Caribbean Sea" [ref=e1736] [cursor=pointer]:
+                        - /url: /wiki/Caribbean_Sea
+                      - text: for two
+                      - link "sailboats" [ref=e1737] [cursor=pointer]:
+                        - /url: /wiki/Sailboat
+                      - text: ", which departed from"
+                      - link "Isla Mujeres" [ref=e1738] [cursor=pointer]:
+                        - /url: /wiki/Isla_Mujeres
+                      - text: with nine crew members, carrying
+                      - link "humanitarian aid" [ref=e1739] [cursor=pointer]:
+                        - /url: /wiki/Humanitarian_aid
+                      - text: to
+                      - link "Cuba" [ref=e1740] [cursor=pointer]:
+                        - /url: /wiki/Cuba
+                      - text: after they failed to arrive in
+                      - link "Havana" [ref=e1741] [cursor=pointer]:
+                        - /url: /wiki/Havana
+                      - text: as scheduled and lost communication.
+                      - link "(Reuters)" [ref=e1742] [cursor=pointer]:
+                        - /url: https://www.reuters.com/world/americas/two-humanitarian-aid-boats-en-route-cuba-missing-mexico-says-2026-03-27/
+                  - paragraph [ref=e1743]: Health and environment
+                  - list [ref=e1744]:
+                    - listitem [ref=e1745]:
+                      - link "Noelia Castillo euthanasia case" [ref=e1746] [cursor=pointer]:
+                        - /url: /wiki/Noelia_Castillo_euthanasia_case
+                      - list [ref=e1747]:
+                        - listitem [ref=e1748]:
+                          - text: A 25-year-old
+                          - link "Spanish" [ref=e1749] [cursor=pointer]:
+                            - /url: /wiki/Spain
+                          - text: woman from
+                          - link "Barcelona" [ref=e1750] [cursor=pointer]:
+                            - /url: /wiki/Barcelona
+                          - text: ","
+                          - link "Catalonia" [ref=e1751] [cursor=pointer]:
+                            - /url: /wiki/Catalonia
+                          - text: ", undergoes"
+                          - link "euthanasia" [ref=e1752] [cursor=pointer]:
+                            - /url: /wiki/Euthanasia_in_Spain
+                          - text: after her request was approved by authorities and upheld through multiple legal challenges despite opposition from her family.
+                          - link "(CNN)" [ref=e1753] [cursor=pointer]:
+                            - /url: https://edition.cnn.com/2026/03/26/europe/euthanasia-spain-noelia-castillo-latam-intl
+                  - paragraph [ref=e1754]: International relations
+                  - list [ref=e1755]:
+                    - listitem [ref=e1756]:
+                      - link "European Union-United States relations" [ref=e1757] [cursor=pointer]:
+                        - /url: /wiki/European_Union-United_States_relations
+                      - list [ref=e1758]:
+                        - listitem [ref=e1759]:
+                          - link "Agreement on Reciprocal, Fair, and Balanced Trade" [ref=e1760] [cursor=pointer]:
+                            - /url: /wiki/Agreement_on_Reciprocal,_Fair,_and_Balanced_Trade
+                          - list [ref=e1761]:
+                            - listitem [ref=e1762]:
+                              - text: The
+                              - link "European Parliament" [ref=e1763] [cursor=pointer]:
+                                - /url: /wiki/European_Parliament
+                              - text: approves legislation to implement the EU-US trade deal adopted in 2025.
+                              - link "(BBC)" [ref=e1764] [cursor=pointer]:
+                                - /url: https://www.bbc.com/news/articles/c33l4e6vdrvo
+                    - listitem [ref=e1765]:
+                      - link "Russia–United Kingdom relations" [ref=e1766] [cursor=pointer]:
+                        - /url: /wiki/Russia%E2%80%93United_Kingdom_relations
+                      - list [ref=e1767]:
+                        - listitem [ref=e1768]:
+                          - link "Russia" [ref=e1769] [cursor=pointer]:
+                            - /url: /wiki/Russia
+                          - text: says the
+                          - link "United Kingdom" [ref=e1770] [cursor=pointer]:
+                            - /url: /wiki/United_Kingdom
+                          - text: "'s decision to board and detain"
+                          - link "shadow fleet" [ref=e1771] [cursor=pointer]:
+                            - /url: /wiki/Russian_shadow_fleet
+                          - text: vessels is hostile and vows a "political, legal and
+                          - link "asymmetric" [ref=e1772] [cursor=pointer]:
+                            - /url: /wiki/Asymmetric_threat
+                          - text: "\" response against the UK to protect Russian interests."
+                          - link "(Reuters)" [ref=e1773] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/uk/russia-says-britains-decision-detain-its-vessels-is-hostile-vows-response-2026-03-26/
+                        - listitem [ref=e1774]:
+                          - link "British" [ref=e1775] [cursor=pointer]:
+                            - /url: /wiki/British_Armed_Forces
+                          - link "Chief of the General Staff" [ref=e1776] [cursor=pointer]:
+                            - /url: /wiki/Chief_of_the_General_Staff_(United_Kingdom)
+                          - link "Roland Walker" [ref=e1777] [cursor=pointer]:
+                            - /url: /wiki/Roland_Walker
+                          - text: warns that the UK is now on an "inevitable collision course" with Russia and urges
+                          - link "the government" [ref=e1778] [cursor=pointer]:
+                            - /url: /wiki/Government_of_the_United_Kingdom
+                          - text: to prepare.
+                          - link "(MSN)" [ref=e1779] [cursor=pointer]:
+                            - /url: https://www.msn.com/en-ie/news/other/we-are-on-an-inevitable-collision-course-with-russia-britain-s-army-chief-warns/ar-AA1WVX3s
+                    - listitem [ref=e1780]:
+                      - link "52nd G7 summit" [ref=e1781] [cursor=pointer]:
+                        - /url: /wiki/52nd_G7_summit
+                      - text: ","
+                      - link "France–South Africa relations" [ref=e1782] [cursor=pointer]:
+                        - /url: /wiki/France%E2%80%93South_Africa_relations
+                      - list [ref=e1783]:
+                        - listitem [ref=e1784]:
+                          - link "South Africa" [ref=e1785] [cursor=pointer]:
+                            - /url: /wiki/South_Africa
+                          - text: says it is no longer invited to the upcoming
+                          - link "G7" [ref=e1786] [cursor=pointer]:
+                            - /url: /wiki/G7
+                          - text: summit in
+                          - link "Haute-Savoie" [ref=e1787] [cursor=pointer]:
+                            - /url: /wiki/Haute-Savoie
+                          - text: ","
+                          - link "France" [ref=e1788] [cursor=pointer]:
+                            - /url: /wiki/France
+                          - text: ", after an initial invitation, with differing statements from its officials on the reasons for the decision."
+                          - link "(AFP via Arab News)" [ref=e1789] [cursor=pointer]:
+                            - /url: https://www.arabnews.com/node/2637809/amp
+                    - listitem [ref=e1790]:
+                      - link "Australia–Iran relations" [ref=e1791] [cursor=pointer]:
+                        - /url: /wiki/Australia%E2%80%93Iran_relations
+                      - text: ","
+                      - link "Reactions to the 2026 Iran war" [ref=e1792] [cursor=pointer]:
+                        - /url: /wiki/Reactions_to_the_2026_Iran_war
+                      - list [ref=e1793]:
+                        - listitem [ref=e1794]:
+                          - link "Australia" [ref=e1795] [cursor=pointer]:
+                            - /url: /wiki/Australia
+                          - text: announces a six-month ban on short-term
+                          - link "visa" [ref=e1796] [cursor=pointer]:
+                            - /url: /wiki/Visa_policy_of_Australia
+                          - text: applications from
+                          - link "Iranian passport" [ref=e1797] [cursor=pointer]:
+                            - /url: /wiki/Iranian_passport
+                          - text: holders for
+                          - link "tourism" [ref=e1798] [cursor=pointer]:
+                            - /url: /wiki/Tourism_in_Australia
+                          - text: and work, citing concerns that some visitors may not depart Australia once their visas expire due to the Iran war. The new policy includes limited exemptions.
+                          - link "(AFP via The Times of Israel)" [ref=e1799] [cursor=pointer]:
+                            - /url: https://www.timesofisrael.com/liveblog_entry/australia-bans-visitors-from-iran-for-6-months-fearing-theyll-overstay-visas/
+                    - listitem [ref=e1800]:
+                      - link "Belarus–North Korea relations" [ref=e1801] [cursor=pointer]:
+                        - /url: /wiki/Belarus%E2%80%93North_Korea_relations
+                      - list [ref=e1802]:
+                        - listitem [ref=e1803]:
+                          - link "Belarus" [ref=e1804] [cursor=pointer]:
+                            - /url: /wiki/Belarus
+                          - text: and
+                          - link "North Korea" [ref=e1805] [cursor=pointer]:
+                            - /url: /wiki/North_Korea
+                          - text: sign a friendship and cooperation treaty after
+                          - link "North Korean supreme leader" [ref=e1806] [cursor=pointer]:
+                            - /url: /wiki/Supreme_Leader_of_North_Korea
+                          - link "Kim Jong Un" [ref=e1807] [cursor=pointer]:
+                            - /url: /wiki/Kim_Jong_Un
+                          - text: welcomed
+                          - link "Belarusian president" [ref=e1808] [cursor=pointer]:
+                            - /url: /wiki/President_of_Belarus
+                          - link "Alexander Lukashenko" [ref=e1809] [cursor=pointer]:
+                            - /url: /wiki/Alexander_Lukashenko
+                          - text: to
+                          - link "Pyongyang" [ref=e1810] [cursor=pointer]:
+                            - /url: /wiki/Pyongyang
+                          - text: .
+                          - link "(AFP via The Guardian)" [ref=e1811] [cursor=pointer]:
+                            - /url: https://www.theguardian.com/world/2026/mar/26/north-korea-belarus-friendship-cooperation-treaty
+                    - listitem [ref=e1812]:
+                      - link "France–Philippines relations" [ref=e1813] [cursor=pointer]:
+                        - /url: /wiki/France%E2%80%93Philippines_relations
+                      - list [ref=e1814]:
+                        - listitem [ref=e1815]:
+                          - link "France" [ref=e1816] [cursor=pointer]:
+                            - /url: /wiki/France
+                          - text: and the
+                          - link "Philippines" [ref=e1817] [cursor=pointer]:
+                            - /url: /wiki/Philippines
+                          - text: sign a
+                          - link "visiting forces agreement" [ref=e1818] [cursor=pointer]:
+                            - /url: /wiki/Visiting_forces_agreement
+                          - text: allowing joint
+                          - link "military exercises" [ref=e1819] [cursor=pointer]:
+                            - /url: /wiki/Military_exercise
+                          - text: and cooperation in each other's territory.
+                          - link "(Reuters)" [ref=e1820] [cursor=pointer]:
+                            - /url: https://www.reuters.com/world/china/philippines-france-sign-military-pact-amid-south-china-sea-tensions-2026-03-27/
+                    - listitem [ref=e1821]:
+                      - link "Tajikistan–Uzbekistan relations" [ref=e1822] [cursor=pointer]:
+                        - /url: /wiki/Tajikistan%E2%80%93Uzbekistan_relations
+                      - list [ref=e1823]:
+                        - listitem [ref=e1824]:
+                          - link "Tajik" [ref=e1825] [cursor=pointer]:
+                            - /url: /wiki/Tajikistan
+                          - link "president" [ref=e1826] [cursor=pointer]:
+                            - /url: /wiki/President_of_Tajikistan
+                          - link "Emomali Rahmon" [ref=e1827] [cursor=pointer]:
+                            - /url: /wiki/Emomali_Rahmon
+                          - text: and
+                          - link "Uzbek president" [ref=e1828] [cursor=pointer]:
+                            - /url: /wiki/President_of_Uzbekistan
+                          - link "Shavkat Mirziyoyev" [ref=e1829] [cursor=pointer]:
+                            - /url: /wiki/Shavkat_Mirziyoyev
+                          - text: inaugurate the
+                          - link "Tajikistan embassy" [ref=e1830] [cursor=pointer]:
+                            - /url: /wiki/List_of_diplomatic_missions_of_Tajikistan
+                          - text: in
+                          - link "Tashkent" [ref=e1831] [cursor=pointer]:
+                            - /url: /wiki/Tashkent
+                          - text: during Rahmon's
+                          - link "state visit" [ref=e1832] [cursor=pointer]:
+                            - /url: /wiki/State_visit
+                          - text: to
+                          - link "Uzbekistan" [ref=e1833] [cursor=pointer]:
+                            - /url: /wiki/Uzbekistan
+                          - text: .
+                          - link "(Kun.uz)" [ref=e1834] [cursor=pointer]:
+                            - /url: https://kun.uz/en/news/2026/03/26/shavkat-mirziyoyev-and-emomali-rahmon-inaugurate-new-tajik-embassy-building-in-tashkent
+                  - paragraph [ref=e1835]: Law and crime
+                  - list [ref=e1836]:
+                    - listitem [ref=e1837]:
+                      - link "Catholic Church sexual abuse cases in Europe" [ref=e1838] [cursor=pointer]:
+                        - /url: /wiki/Catholic_Church_sexual_abuse_cases_in_Europe
+                      - list [ref=e1839]:
+                        - listitem [ref=e1840]:
+                          - text: The
+                          - link "Catholic Church" [ref=e1841] [cursor=pointer]:
+                            - /url: /wiki/Catholic_Church_in_Portugal
+                          - text: in
+                          - link "Portugal" [ref=e1842] [cursor=pointer]:
+                            - /url: /wiki/Portugal
+                          - text: agrees to compensate 57 victims of
+                          - link "sexual abuse" [ref=e1843] [cursor=pointer]:
+                            - /url: /wiki/Sexual_abuse
+                          - text: with a total of
+                          - link "€" [ref=e1844] [cursor=pointer]:
+                            - /url: /wiki/Euro
+                          - text: 1.61 million (
+                          - link "US$" [ref=e1845] [cursor=pointer]:
+                            - /url: /wiki/United_States_dollar
+                          - text: 1.86 million) following findings from
+                          - link "an independent inquiry" [ref=e1846] [cursor=pointer]:
+                            - /url: /wiki/Independent_Commission_for_the_Study_of_Sexual_Abuse_against_Children_in_the_Portuguese_Catholic_Church
+                          - text: into
+                          - link "abuse cases" [ref=e1847] [cursor=pointer]:
+                            - /url: /wiki/Catholic_Church_sexual_abuse_cases
+                          - text: over several decades.
+                          - link "(AFP via Philippine Daily Inquirer)" [ref=e1848] [cursor=pointer]:
+                            - /url: https://globalnation.inquirer.net/315705/portugals-catholic-church-to-compensate-57-sex-abuse-victims
+                    - listitem [ref=e1849]:
+                      - text: Two people are killed, including the perpetrator, in a
+                      - link "stabbing" [ref=e1850] [cursor=pointer]:
+                        - /url: /wiki/Stabbing
+                      - text: attack at a
+                      - link "Pokémon Center" [ref=e1851] [cursor=pointer]:
+                        - /url: /wiki/Pok%C3%A9mon_Center
+                      - text: at
+                      - link "Sunshine City" [ref=e1852] [cursor=pointer]:
+                        - /url: /wiki/Sunshine_City,_Tokyo
+                      - text: in
+                      - link "Tokyo" [ref=e1853] [cursor=pointer]:
+                        - /url: /wiki/Tokyo
+                      - text: ","
+                      - link "Japan" [ref=e1854] [cursor=pointer]:
+                        - /url: /wiki/Japan
+                      - text: .
+                      - link "(CTV News)" [ref=e1855] [cursor=pointer]:
+                        - /url: https://www.ctvnews.ca/world/article/a-knife-wielding-man-kills-a-woman-at-a-tokyo-pokemon-shop-before-taking-his-own-life/
+                  - paragraph [ref=e1856]: Politics and elections
+                  - list [ref=e1857]:
+                    - listitem [ref=e1858]:
+                      - link "2026 Faroese general election" [ref=e1859] [cursor=pointer]:
+                        - /url: /wiki/2026_Faroese_general_election
+                      - list [ref=e1860]:
+                        - listitem [ref=e1861]:
+                          - text: Two days after the
+                          - link "Danish election" [ref=e1862] [cursor=pointer]:
+                            - /url: /wiki/2026_Danish_general_election
+                          - text: ","
+                          - link "Faroe Islanders" [ref=e1863] [cursor=pointer]:
+                            - /url: /wiki/Faroe_Islanders
+                          - text: vote to elect 33 members of the
+                          - link "Løgting" [ref=e1864] [cursor=pointer]:
+                            - /url: /wiki/L%C3%B8gting
+                          - text: .
+                          - link "(Dagur.fo in Faroese)" [ref=e1865] [cursor=pointer]:
+                            - /url: https://dagur.fo/portalurin-og-fm1-fylgja-logtingsvalinum
+                          - link "(Euractiv)" [ref=e1866] [cursor=pointer]:
+                            - /url: https://www.euractiv.com/news/faroe-islands-vote-as-greenland-faces-geopolitical-crosswinds/
+                        - listitem [ref=e1867]:
+                          - text: The
+                          - link "People's Party" [ref=e1868] [cursor=pointer]:
+                            - /url: /wiki/People%27s_Party_(Faroe_Islands)
+                          - text: ", led by"
+                          - link "Beinir Johannesen" [ref=e1869] [cursor=pointer]:
+                            - /url: /wiki/Beinir_Johannesen
+                          - text: ", wins the highest share of votes, receiving nine seats in the Løgting."
+                          - link "(Dagur.fo in Faroese)" [ref=e1870] [cursor=pointer]:
+                            - /url: https://dagur.fo/beinir-stendur-sum-vinnari--papabeiggin-sum-ein-av-taparunum
+                          - link "(DR in Danish)" [ref=e1871] [cursor=pointer]:
+                            - /url: https://www.dr.dk/nyheder/indland/konservative-folkaflokkurin-vinder-valget-paa-faeroeerne
+                  - paragraph [ref=e1872]: Sports
+                  - list [ref=e1873]:
+                    - listitem [ref=e1874]:
+                      - link "2026 FIFA World Cup" [ref=e1875] [cursor=pointer]:
+                        - /url: /wiki/2026_FIFA_World_Cup
+                      - text: ","
+                      - link "Iran at the FIFA World Cup" [ref=e1876] [cursor=pointer]:
+                        - /url: /wiki/Iran_at_the_FIFA_World_Cup
+                      - list [ref=e1877]:
+                        - listitem [ref=e1878]:
+                          - text: The
+                          - link "Iranian sports ministry" [ref=e1879] [cursor=pointer]:
+                            - /url: /wiki/Ministry_of_Sport_and_Youth_(Iran)
+                          - text: bans the
+                          - link "men's national football team" [ref=e1880] [cursor=pointer]:
+                            - /url: /wiki/Iran_national_football_team
+                          - text: from travelling to "hostile countries", placing
+                          - link "the team's participation" [ref=e1881] [cursor=pointer]:
+                            - /url: /wiki/2026_FIFA_World_Cup_Group_G
+                          - text: in this year's
+                          - link "FIFA World Cup" [ref=e1882] [cursor=pointer]:
+                            - /url: /wiki/FIFA_World_Cup
+                          - text: tournament in doubt, which is being held in
+                          - link "Canada" [ref=e1883] [cursor=pointer]:
+                            - /url: /wiki/Canada
+                          - text: ","
+                          - link "Mexico" [ref=e1884] [cursor=pointer]:
+                            - /url: /wiki/Mexico
+                          - text: ", and the"
+                          - link "United States" [ref=e1885] [cursor=pointer]:
+                            - /url: /wiki/United_States
+                          - text: . Sports minister
+                          - link "Ahmad Donyamali" [ref=e1886] [cursor=pointer]:
+                            - /url: /wiki/Ahmad_Donyamali
+                          - text: previously stated that Iran will not play in this year's World Cup.
+                          - link "(Reuters)" [ref=e1887] [cursor=pointer]:
+                            - /url: https://www.reuters.com/sports/iran-bans-sports-teams-travelling-countries-it-deems-hostile-2026-03-26/
+                    - listitem [ref=e1888]:
+                      - link "2028 Summer Olympics" [ref=e1889] [cursor=pointer]:
+                        - /url: /wiki/2028_Summer_Olympics
+                      - text: ","
+                      - link "Transgender people in sports" [ref=e1890] [cursor=pointer]:
+                        - /url: /wiki/Transgender_people_in_sports
+                      - list [ref=e1891]:
+                        - listitem [ref=e1892]:
+                          - text: The
+                          - link "International Olympic Committee" [ref=e1893] [cursor=pointer]:
+                            - /url: /wiki/International_Olympic_Committee
+                          - text: announces that participation in women's events will be limited to athletes classified as female based on biological criteria, with eligibility determined through a one-time
+                          - link "genetic test" [ref=e1894] [cursor=pointer]:
+                            - /url: /wiki/Sex_verification_in_sports
+                          - text: starting from the 2028
+                          - link "Olympic Games" [ref=e1895] [cursor=pointer]:
+                            - /url: /wiki/Olympic_Games
+                          - text: . The policy replaces previous rules that allowed individual
+                          - link "sports federations" [ref=e1896] [cursor=pointer]:
+                            - /url: /wiki/List_of_international_sports_federations
+                          - text: to set their own criteria.
+                          - link "(AFP via ABS-CBN News)" [ref=e1897] [cursor=pointer]:
+                            - /url: https://www.abs-cbn.com/sports/othersports/2026/3/27/olympic-women-s-sport-to-be-limited-to-biological-females-0830
+              - link "More March 2026 events..." [ref=e1899] [cursor=pointer]:
+                - /url: /wiki/Portal:Current_events/March_2026
+            - generic [ref=e1900]:
+              - generic [ref=e1902]:
+                - text: "Time: 15:00"
+                - link "UTC" [ref=e1903] [cursor=pointer]:
+                  - /url: /wiki/Coordinated_Universal_Time
+                - separator [ref=e1904]: "|"
+                - text: "Day:"
+                - link "1 April" [ref=e1905] [cursor=pointer]:
+                  - /url: /wiki/1_April
+                - separator
+              - table "◀ April 2026 ▶" [ref=e1906]:
+                - caption [ref=e1907]:
+                  - link "◀" [ref=e1909] [cursor=pointer]:
+                    - /url: /wiki/Portal:Current_events/March_2026
+                  - link "April 2026" [ref=e1911] [cursor=pointer]:
+                    - /url: /wiki/Portal:Current_events/April_2026
+                  - link "▶" [ref=e1913] [cursor=pointer]:
+                    - /url: /wiki/Portal:Current_events/May_2026
+                - rowgroup [ref=e1914]:
+                  - row "S M T W T F S" [ref=e1915]:
+                    - columnheader "S" [ref=e1916]
+                    - columnheader "M" [ref=e1917]
+                    - columnheader "T" [ref=e1918]
+                    - columnheader "W" [ref=e1919]
+                    - columnheader "T" [ref=e1920]
+                    - columnheader "F" [ref=e1921]
+                    - columnheader "S" [ref=e1922]
+                  - row "1 2 3 4" [ref=e1923]:
+                    - cell [ref=e1924]
+                    - cell [ref=e1925]
+                    - cell [ref=e1926]
+                    - cell "1" [ref=e1927]:
+                      - link "1" [ref=e1928] [cursor=pointer]:
+                        - /url: "#2026_April_1"
+                    - cell "2" [ref=e1929]
+                    - cell "3" [ref=e1930]
+                    - cell "4" [ref=e1931]
+                  - row "5 6 7 8 9 10 11" [ref=e1932]:
+                    - cell "5" [ref=e1933]
+                    - cell "6" [ref=e1934]
+                    - cell "7" [ref=e1935]
+                    - cell "8" [ref=e1936]
+                    - cell "9" [ref=e1937]
+                    - cell "10" [ref=e1938]
+                    - cell "11" [ref=e1939]
+                  - row "12 13 14 15 16 17 18" [ref=e1940]:
+                    - cell "12" [ref=e1941]
+                    - cell "13" [ref=e1942]
+                    - cell "14" [ref=e1943]
+                    - cell "15" [ref=e1944]
+                    - cell "16" [ref=e1945]
+                    - cell "17" [ref=e1946]
+                    - cell "18" [ref=e1947]
+                  - row "19 20 21 22 23 24 25" [ref=e1948]:
+                    - cell "19" [ref=e1949]
+                    - cell "20" [ref=e1950]
+                    - cell "21" [ref=e1951]
+                    - cell "22" [ref=e1952]
+                    - cell "23" [ref=e1953]
+                    - cell "24" [ref=e1954]
+                    - cell "25" [ref=e1955]
+                  - row "26 27 28 29 30" [ref=e1956]:
+                    - cell "26" [ref=e1957]
+                    - cell "27" [ref=e1958]
+                    - cell "28" [ref=e1959]
+                    - cell "29" [ref=e1960]
+                    - cell "30" [ref=e1961]
+                    - cell [ref=e1962]
+                    - cell [ref=e1963]
+                  - row "More April 2026 events..." [ref=e1964]:
+                    - cell "More April 2026 events..." [ref=e1965]:
+                      - link "More April 2026 events..." [ref=e1966] [cursor=pointer]:
+                        - /url: /wiki/Portal:Current_events/April_2026
+              - generic [ref=e1967]:
+                - link "About this page" [ref=e1968] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:How_the_Current_events_page_works
+                - text: •
+                - link "News about Wikipedia" [ref=e1969] [cursor=pointer]:
+                  - /url: /wiki/Wikipedia:Wikipedia_Signpost
+              - region "Ongoing events" [ref=e1970]:
+                - button "[hide]" [expanded] [ref=e1971] [cursor=pointer]
+                - heading "Ongoing events" [level=2] [ref=e1974]
+                - generic [ref=e1975]:
+                  - definition [ref=e1977]:
+                    - heading "Disasters and humanitarian" [level=3] [ref=e1979]
+                  - list [ref=e1980]:
+                    - listitem [ref=e1981]:
+                      - link "Cuban crisis" [ref=e1982] [cursor=pointer]:
+                        - /url: /wiki/2026_Cuban_crisis
+                      - text: and
+                      - link "blackouts" [ref=e1983] [cursor=pointer]:
+                        - /url: /wiki/2024%E2%80%932026_Cuba_blackouts
+                    - listitem [ref=e1984]:
+                      - link "Gaza genocide" [ref=e1985] [cursor=pointer]:
+                        - /url: /wiki/Gaza_genocide
+                  - definition [ref=e1987]:
+                    - heading "Economics" [level=3] [ref=e1989]
+                  - list [ref=e1990]:
+                    - listitem [ref=e1991]:
+                      - link "Global memory supply shortage" [ref=e1992] [cursor=pointer]:
+                        - /url: /wiki/2024%E2%80%93present_global_memory_supply_shortage
+                    - listitem [ref=e1993]:
+                      - link "Iran war fuel crisis" [ref=e1994] [cursor=pointer]:
+                        - /url: /wiki/2026_Iran_war_fuel_crisis
+                    - listitem [ref=e1995]:
+                      - link "Philippine energy crisis" [ref=e1996] [cursor=pointer]:
+                        - /url: /wiki/2026_Philippine_energy_crisis
+                    - listitem [ref=e1997]:
+                      - link "Strait of Hormuz crisis" [ref=e1998] [cursor=pointer]:
+                        - /url: /wiki/2026_Strait_of_Hormuz_crisis
+                    - listitem [ref=e1999]:
+                      - link "United States tariff policy" [ref=e2000] [cursor=pointer]:
+                        - /url: /wiki/Tariffs_in_the_second_Trump_administration
+                    - listitem [ref=e2001]:
+                      - link "Video game industry layoffs" [ref=e2002] [cursor=pointer]:
+                        - /url: /wiki/2022%E2%80%932026_video_game_industry_layoffs
+                  - definition [ref=e2004]:
+                    - heading "Politics and diplomacy" [level=3] [ref=e2006]
+                  - list [ref=e2007]:
+                    - listitem [ref=e2008]:
+                      - link "China–Japan diplomatic crisis" [ref=e2009] [cursor=pointer]:
+                        - /url: /wiki/2025%E2%80%932026_China%E2%80%93Japan_diplomatic_crisis
+                    - listitem [ref=e2010]:
+                      - link "Epstein files release" [ref=e2011] [cursor=pointer]:
+                        - /url: /wiki/Epstein_Files_Transparency_Act
+                    - listitem [ref=e2012]:
+                      - link "Gaza peace plan" [ref=e2013] [cursor=pointer]:
+                        - /url: /wiki/Gaza_peace_plan
+                    - listitem [ref=e2014]:
+                      - link "Greenland crisis" [ref=e2015] [cursor=pointer]:
+                        - /url: /wiki/Greenland_crisis
+                    - listitem [ref=e2016]:
+                      - link "Russia–Ukraine peace negotiations" [ref=e2017] [cursor=pointer]:
+                        - /url: /wiki/Peace_negotiations_in_the_Russo-Ukrainian_war_(2022%E2%80%93present)#Developments_under_the_second_Trump_presidency_(since_2025)
+                    - listitem [ref=e2018]:
+                      - link "Slovak–Ukraine oil dispute" [ref=e2019] [cursor=pointer]:
+                        - /url: /wiki/2026_Slovak%E2%80%93Ukraine_oil_dispute
+                    - listitem [ref=e2020]:
+                      - link "United States federal government partial shutdown" [ref=e2021] [cursor=pointer]:
+                        - /url: /wiki/2026_United_States_federal_government_shutdowns#Second_shutdown_(February_14_–_present)
+                  - definition [ref=e2023]:
+                    - heading "Protests and strikes" [level=3] [ref=e2025]
+                  - list [ref=e2026]:
+                    - listitem [ref=e2027]:
+                      - link "Georgian protests" [ref=e2028] [cursor=pointer]:
+                        - /url: /wiki/2024%E2%80%932026_Georgian_protests
+                      - text: and
+                      - link "political crisis" [ref=e2029] [cursor=pointer]:
+                        - /url: /wiki/2024%E2%80%93present_Georgian_political_crisis
+                    - listitem [ref=e2030]:
+                      - link "Iranian domestic" [ref=e2031] [cursor=pointer]:
+                        - /url: /wiki/2025%E2%80%932026_Iranian_protests
+                      - text: and
+                      - link "diaspora protests" [ref=e2032] [cursor=pointer]:
+                        - /url: /wiki/2026_Iranian_diaspora_protests
+                  - link "edit section" [ref=e2034] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/Sidebar&action=edit
+              - region [ref=e2035]:
+                - button "[hide]" [expanded] [ref=e2036] [cursor=pointer]
+                - heading "Elections and referendums" [level=2] [ref=e2039]:
+                  - link "Elections and referendums" [ref=e2040] [cursor=pointer]:
+                    - /url: /wiki/2026_national_electoral_calendar
+                - generic [ref=e2041]:
+                  - definition [ref=e2043]:
+                    - heading "Recent" [level=3] [ref=e2045]
+                  - list [ref=e2046]:
+                    - listitem [ref=e2047]: March
+                  - generic [ref=e2048]:
+                    - definition [ref=e2049]:
+                      - list [ref=e2050]:
+                        - listitem [ref=e2051]:
+                          - text: "22:"
+                          - link "Slovenia" [ref=e2053] [cursor=pointer]:
+                            - /url: /wiki/Elections_in_Slovenia
+                          - text: ","
+                          - link "National Assembly" [ref=e2054] [cursor=pointer]:
+                            - /url: /wiki/2026_Slovenian_parliamentary_election
+                        - listitem [ref=e2055]:
+                          - text: "22–23:"
+                          - link "Italy" [ref=e2057] [cursor=pointer]:
+                            - /url: /wiki/Elections_in_Italy
+                          - text: ","
+                          - link "Constitutional referendum" [ref=e2058] [cursor=pointer]:
+                            - /url: /wiki/2026_Italian_constitutional_referendum
+                        - listitem [ref=e2059]:
+                          - text: "24:"
+                          - link "Denmark" [ref=e2061] [cursor=pointer]:
+                            - /url: /wiki/Elections_in_Denmark
+                          - text: ","
+                          - link "Folketing" [ref=e2062] [cursor=pointer]:
+                            - /url: /wiki/2026_Danish_general_election
+                        - listitem [ref=e2063]:
+                          - text: "26:"
+                          - link "Faroe Islands" [ref=e2065] [cursor=pointer]:
+                            - /url: /wiki/Elections_in_the_Faroe_Islands
+                          - text: ","
+                          - link "Løgting" [ref=e2067] [cursor=pointer]:
+                            - /url: /wiki/2026_Faroese_general_election
+                    - definition [ref=e2068]:
+                      - heading "Upcoming" [level=3] [ref=e2070]
+                  - list [ref=e2071]:
+                    - listitem [ref=e2072]: April
+                  - definition [ref=e2074]:
+                    - list [ref=e2075]:
+                      - listitem [ref=e2076]:
+                        - text: "4:"
+                        - link "Maldives" [ref=e2078] [cursor=pointer]:
+                          - /url: /wiki/Elections_in_the_Maldives
+                        - text: ","
+                        - link "Constitutional referendum" [ref=e2079] [cursor=pointer]:
+                          - /url: /wiki/2026_Maldivian_constitutional_referendum
+                      - listitem [ref=e2080]:
+                        - text: "10:"
+                        - link "Djibouti" [ref=e2082] [cursor=pointer]:
+                          - /url: /wiki/Elections_in_Djibouti
+                        - text: ","
+                        - link "President" [ref=e2083] [cursor=pointer]:
+                          - /url: /wiki/2026_Djiboutian_presidential_election
+                      - listitem [ref=e2084]:
+                        - text: "12:"
+                        - link "Benin" [ref=e2086] [cursor=pointer]:
+                          - /url: /wiki/Elections_in_Benin
+                        - text: ","
+                        - link "President" [ref=e2087] [cursor=pointer]:
+                          - /url: /wiki/2026_Beninese_presidential_election
+                      - listitem [ref=e2088]:
+                        - text: "12:"
+                        - link "Hungary" [ref=e2090] [cursor=pointer]:
+                          - /url: /wiki/Elections_in_Hungary
+                        - text: ","
+                        - link "National Assembly" [ref=e2091] [cursor=pointer]:
+                          - /url: /wiki/2026_Hungarian_parliamentary_election
+                      - listitem [ref=e2092]:
+                        - text: "12:"
+                        - link "Peru" [ref=e2094] [cursor=pointer]:
+                          - /url: /wiki/Elections_in_Peru
+                        - text: ","
+                        - link "President, Senate, Chamber of Deputies" [ref=e2095] [cursor=pointer]:
+                          - /url: /wiki/2026_Peruvian_general_election
+                  - link "edit section" [ref=e2097] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/Sidebar&action=edit
+              - region [ref=e2098]:
+                - button "[hide]" [expanded] [ref=e2099] [cursor=pointer]
+                - heading "Sports" [level=2] [ref=e2102]:
+                  - link "Sports" [ref=e2103] [cursor=pointer]:
+                    - /url: /wiki/2026_in_sports
+                - generic [ref=e2104]:
+                  - list [ref=e2105]:
+                    - listitem [ref=e2106]:
+                      - link "Association football" [ref=e2107] [cursor=pointer]:
+                        - /url: /wiki/2026_in_association_football
+                  - definition [ref=e2109]:
+                    - list [ref=e2110]:
+                      - listitem [ref=e2111]:
+                        - link "2025–26 UEFA Champions League" [ref=e2112] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_UEFA_Champions_League
+                      - listitem [ref=e2113]:
+                        - link "2025–26 UEFA Europa League" [ref=e2114] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_UEFA_Europa_League
+                      - listitem [ref=e2115]:
+                        - link "2025–26 UEFA Conference League" [ref=e2116] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_UEFA_Conference_League
+                      - listitem [ref=e2117]:
+                        - link "2025–26 UEFA Women's Champions League" [ref=e2118] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_UEFA_Women%27s_Champions_League
+                      - listitem [ref=e2119]:
+                        - link "2025–26 UEFA Women's Europa Cup" [ref=e2120] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_UEFA_Women%27s_Europa_Cup
+                      - listitem [ref=e2121]:
+                        - link "2025–26 Premier League" [ref=e2122] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_Premier_League
+                      - listitem [ref=e2123]:
+                        - link "2025–26 La Liga" [ref=e2124] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_La_Liga
+                      - listitem [ref=e2125]:
+                        - link "2025–26 Serie A" [ref=e2126] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_Serie_A
+                      - listitem [ref=e2127]:
+                        - link "2025–26 Bundesliga" [ref=e2128] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_Bundesliga
+                      - listitem [ref=e2129]:
+                        - link "2025–26 Ligue 1" [ref=e2130] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_Ligue_1
+                      - listitem [ref=e2131]:
+                        - link "2026 Copa Libertadores" [ref=e2132] [cursor=pointer]:
+                          - /url: /wiki/2026_Copa_Libertadores
+                      - listitem [ref=e2133]:
+                        - link "2026 Major League Soccer season" [ref=e2134] [cursor=pointer]:
+                          - /url: /wiki/2026_Major_League_Soccer_season
+                      - listitem [ref=e2135]:
+                        - link "2026 National Women's Soccer League season" [ref=e2136] [cursor=pointer]:
+                          - /url: /wiki/2026_National_Women%27s_Soccer_League_season
+                      - listitem [ref=e2137]:
+                        - link "2025–26 Women's Super League" [ref=e2138] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_Women%27s_Super_League
+                  - list [ref=e2139]:
+                    - listitem [ref=e2140]: Australian rules football
+                  - definition [ref=e2142]:
+                    - list [ref=e2143]:
+                      - listitem [ref=e2144]:
+                        - link "2026 AFL season" [ref=e2145] [cursor=pointer]:
+                          - /url: /wiki/2026_AFL_season
+                  - list [ref=e2146]:
+                    - listitem [ref=e2147]:
+                      - link "Baseball" [ref=e2148] [cursor=pointer]:
+                        - /url: /wiki/2026_in_baseball
+                  - definition [ref=e2150]:
+                    - list [ref=e2151]:
+                      - listitem [ref=e2152]:
+                        - link "2026 Major League Baseball season" [ref=e2153] [cursor=pointer]:
+                          - /url: /wiki/2026_Major_League_Baseball_season
+                      - listitem [ref=e2154]:
+                        - link "2026 NCAA Division I baseball season" [ref=e2155] [cursor=pointer]:
+                          - /url: /wiki/2026_NCAA_Division_I_baseball_season
+                  - list [ref=e2156]:
+                    - listitem [ref=e2157]:
+                      - link "Basketball" [ref=e2158] [cursor=pointer]:
+                        - /url: /wiki/2026_in_basketball
+                  - definition [ref=e2160]:
+                    - list [ref=e2161]:
+                      - listitem [ref=e2162]:
+                        - link "2025–26 EuroLeague" [ref=e2163] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_EuroLeague
+                      - listitem [ref=e2164]:
+                        - link "2025–26 NBA season" [ref=e2165] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_NBA_season
+                      - listitem [ref=e2166]:
+                        - link "2025–26 EuroLeague Women" [ref=e2167] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_EuroLeague_Women
+                      - listitem [ref=e2168]:
+                        - link "2026 NCAA Division I men's tournament" [ref=e2169] [cursor=pointer]:
+                          - /url: /wiki/2026_NCAA_Division_I_men%27s_basketball_tournament
+                      - listitem [ref=e2170]:
+                        - link "2026 NCAA Division I women's tournament" [ref=e2171] [cursor=pointer]:
+                          - /url: /wiki/2026_NCAA_Division_I_women%27s_basketball_tournament
+                  - list [ref=e2172]:
+                    - listitem [ref=e2173]:
+                      - link "International cricket" [ref=e2174] [cursor=pointer]:
+                        - /url: /wiki/International_cricket_in_2026
+                  - definition [ref=e2176]:
+                    - list [ref=e2177]:
+                      - listitem [ref=e2178]:
+                        - link "2025–27 ICC World Test Championship" [ref=e2179] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%932027_World_Test_Championship
+                  - list [ref=e2180]:
+                    - listitem [ref=e2181]: Golf
+                  - definition [ref=e2183]:
+                    - list [ref=e2184]:
+                      - listitem [ref=e2185]:
+                        - link "2026 PGA Tour" [ref=e2186] [cursor=pointer]:
+                          - /url: /wiki/2026_PGA_Tour
+                      - listitem [ref=e2187]:
+                        - link "2026 European Tour" [ref=e2188] [cursor=pointer]:
+                          - /url: /wiki/2026_European_Tour
+                      - listitem [ref=e2189]:
+                        - link "2026 LPGA Tour" [ref=e2190] [cursor=pointer]:
+                          - /url: /wiki/2026_LPGA_Tour
+                  - list [ref=e2191]:
+                    - listitem [ref=e2192]:
+                      - link "Ice hockey" [ref=e2193] [cursor=pointer]:
+                        - /url: /wiki/2026_in_ice_hockey
+                  - definition [ref=e2195]:
+                    - list [ref=e2196]:
+                      - listitem [ref=e2197]:
+                        - link "2025–26 NHL season" [ref=e2198] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_NHL_season
+                      - listitem [ref=e2199]:
+                        - link "2025–26 PWHL season" [ref=e2200] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_PWHL_season
+                  - list [ref=e2201]:
+                    - listitem [ref=e2202]: Motorsport
+                  - definition [ref=e2204]:
+                    - list [ref=e2205]:
+                      - listitem [ref=e2206]:
+                        - link "2026 Formula One World Championship" [ref=e2207] [cursor=pointer]:
+                          - /url: /wiki/2026_Formula_One_World_Championship
+                      - listitem [ref=e2208]:
+                        - link "2026 NASCAR Cup Series" [ref=e2209] [cursor=pointer]:
+                          - /url: /wiki/2026_NASCAR_Cup_Series
+                      - listitem [ref=e2210]:
+                        - link "2026 MotoGP World Championship" [ref=e2211] [cursor=pointer]:
+                          - /url: /wiki/2026_MotoGP_World_Championship
+                      - listitem [ref=e2212]:
+                        - link "2026 IndyCar Series" [ref=e2213] [cursor=pointer]:
+                          - /url: /wiki/2026_IndyCar_Series
+                  - list [ref=e2214]:
+                    - listitem [ref=e2215]: Rugby league
+                  - definition [ref=e2217]:
+                    - list [ref=e2218]:
+                      - listitem [ref=e2219]:
+                        - link "2026 NRL season" [ref=e2220] [cursor=pointer]:
+                          - /url: /wiki/2026_NRL_season
+                      - listitem [ref=e2221]:
+                        - link "2026 Super League season" [ref=e2222] [cursor=pointer]:
+                          - /url: /wiki/2026_Super_League_season
+                  - list [ref=e2223]:
+                    - listitem [ref=e2224]: Rugby union
+                  - definition [ref=e2226]:
+                    - list [ref=e2227]:
+                      - listitem [ref=e2228]:
+                        - link "2025–26 Premiership Rugby" [ref=e2229] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_Premiership_Rugby
+                      - listitem [ref=e2230]:
+                        - link "2025–26 United Rugby Championship" [ref=e2231] [cursor=pointer]:
+                          - /url: /wiki/2025%E2%80%9326_United_Rugby_Championship
+                      - listitem [ref=e2232]:
+                        - link "2026 Super Rugby Pacific" [ref=e2233] [cursor=pointer]:
+                          - /url: /wiki/2026_Super_Rugby_Pacific_season
+                  - list [ref=e2234]:
+                    - listitem [ref=e2235]:
+                      - link "Tennis" [ref=e2236] [cursor=pointer]:
+                        - /url: /wiki/2026_in_tennis
+                  - definition [ref=e2238]:
+                    - list [ref=e2239]:
+                      - listitem [ref=e2240]:
+                        - link "2026 ATP Tour" [ref=e2241] [cursor=pointer]:
+                          - /url: /wiki/2026_ATP_Tour
+                      - listitem [ref=e2242]:
+                        - link "2026 WTA Tour" [ref=e2243] [cursor=pointer]:
+                          - /url: /wiki/2026_WTA_Tour
+                  - generic [ref=e2244]:
+                    - text: More details –
+                    - link "current sports events" [ref=e2245] [cursor=pointer]:
+                      - /url: /wiki/Portal:Current_events/Sports
+                  - link "edit section" [ref=e2247] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/Sidebar&action=edit
+              - region "Recent deaths" [ref=e2248]:
+                - button "[hide]" [expanded] [ref=e2249] [cursor=pointer]
+                - heading "Recent deaths" [level=2] [ref=e2252]
+                - generic [ref=e2253]:
+                  - generic [ref=e2254]:
+                    - definition [ref=e2256]:
+                      - heading "March" [level=3] [ref=e2258]:
+                        - link "March" [ref=e2259] [cursor=pointer]:
+                          - /url: /wiki/Deaths_in_March_2026
+                    - list [ref=e2260]:
+                      - listitem [ref=e2261]:
+                        - text: "31:"
+                        - link "Stephen Lewis" [ref=e2262] [cursor=pointer]:
+                          - /url: /wiki/Stephen_Lewis
+                      - listitem [ref=e2263]:
+                        - text: "30:"
+                        - link "Chan Santokhi" [ref=e2264] [cursor=pointer]:
+                          - /url: /wiki/Chan_Santokhi
+                      - listitem [ref=e2265]:
+                        - text: "28:"
+                        - link "Marinella" [ref=e2266] [cursor=pointer]:
+                          - /url: /wiki/Marinella
+                      - listitem [ref=e2267]:
+                        - text: "28:"
+                        - link "Mary Beth Hurt" [ref=e2268] [cursor=pointer]:
+                          - /url: /wiki/Mary_Beth_Hurt
+                      - listitem [ref=e2269]:
+                        - text: "28:"
+                        - link "Liamine Zéroual" [ref=e2270] [cursor=pointer]:
+                          - /url: /wiki/Liamine_Z%C3%A9roual
+                      - listitem [ref=e2271]:
+                        - text: "27:"
+                        - link "Henry Lee" [ref=e2272] [cursor=pointer]:
+                          - /url: /wiki/Henry_Lee_(forensic_scientist)
+                      - listitem [ref=e2273]:
+                        - text: "27:"
+                        - link "Mary Rand" [ref=e2274] [cursor=pointer]:
+                          - /url: /wiki/Mary_Rand
+                      - listitem [ref=e2275]:
+                        - text: "26:"
+                        - link "Noelia Castillo" [ref=e2276] [cursor=pointer]:
+                          - /url: /wiki/Noelia_Castillo
+                      - listitem [ref=e2277]:
+                        - text: "26:"
+                        - link "Barret Robbins" [ref=e2278] [cursor=pointer]:
+                          - /url: /wiki/Barret_Robbins
+                      - listitem [ref=e2279]:
+                        - text: "26:"
+                        - link "James Tolkan" [ref=e2280] [cursor=pointer]:
+                          - /url: /wiki/James_Tolkan
+                      - listitem [ref=e2281]:
+                        - text: "26:"
+                        - link "Epeli Nailatikau" [ref=e2282] [cursor=pointer]:
+                          - /url: /wiki/Epeli_Nailatikau
+                      - listitem [ref=e2283]:
+                        - text: "25:"
+                        - link "Dash Crofts" [ref=e2284] [cursor=pointer]:
+                          - /url: /wiki/Dash_Crofts
+                      - listitem [ref=e2285]:
+                        - text: "24:"
+                        - link "Biruté Galdikas" [ref=e2286] [cursor=pointer]:
+                          - /url: /wiki/Birut%C3%A9_Galdikas
+                      - listitem [ref=e2287]:
+                        - text: "24:"
+                        - link "Tracy Kidder" [ref=e2288] [cursor=pointer]:
+                          - /url: /wiki/Tracy_Kidder
+                      - listitem [ref=e2289]:
+                        - text: "23:"
+                        - link "Mel Schilling" [ref=e2290] [cursor=pointer]:
+                          - /url: /wiki/Mel_Schilling
+                      - listitem [ref=e2291]:
+                        - text: "23:"
+                        - link "Valerie Perrine" [ref=e2292] [cursor=pointer]:
+                          - /url: /wiki/Valerie_Perrine
+                      - listitem [ref=e2293]:
+                        - text: "23:"
+                        - link "Chip Taylor" [ref=e2294] [cursor=pointer]:
+                          - /url: /wiki/Chip_Taylor
+                      - listitem [ref=e2295]:
+                        - text: "22:"
+                        - link "Lionel Jospin" [ref=e2296] [cursor=pointer]:
+                          - /url: /wiki/Lionel_Jospin
+                      - listitem [ref=e2297]:
+                        - text: "21:"
+                        - link "Michael Lyster" [ref=e2298] [cursor=pointer]:
+                          - /url: /wiki/Michael_Lyster
+                      - listitem [ref=e2299]:
+                        - text: "21:"
+                        - link "Rhoda Roberts" [ref=e2300] [cursor=pointer]:
+                          - /url: /wiki/Rhoda_Roberts
+                      - listitem [ref=e2301]:
+                        - text: "20:"
+                        - link "Nicholas Brendon" [ref=e2302] [cursor=pointer]:
+                          - /url: /wiki/Nicholas_Brendon
+                      - listitem [ref=e2303]:
+                        - text: "20:"
+                        - link "Filaret of Kyiv" [ref=e2304] [cursor=pointer]:
+                          - /url: /wiki/Filaret_Denysenko
+                      - listitem [ref=e2305]:
+                        - text: "20:"
+                        - link "Robert Mueller" [ref=e2306] [cursor=pointer]:
+                          - /url: /wiki/Robert_Mueller
+                      - listitem [ref=e2307]:
+                        - text: "20:"
+                        - link "Leonid Radvinsky" [ref=e2308] [cursor=pointer]:
+                          - /url: /wiki/Leonid_Radvinsky
+                      - listitem [ref=e2309]:
+                        - text: "19:"
+                        - link "Michael Hartono" [ref=e2310] [cursor=pointer]:
+                          - /url: /wiki/Michael_Bambang_Hartono
+                      - listitem [ref=e2311]:
+                        - text: "19:"
+                        - link "Umberto Bossi" [ref=e2312] [cursor=pointer]:
+                          - /url: /wiki/Umberto_Bossi
+                      - listitem [ref=e2313]:
+                        - text: "19:"
+                        - link "Nicholas Haysom" [ref=e2314] [cursor=pointer]:
+                          - /url: /wiki/Nicholas_Haysom
+                      - listitem [ref=e2315]:
+                        - text: "19:"
+                        - link "Chuck Norris" [ref=e2316] [cursor=pointer]:
+                          - /url: /wiki/Chuck_Norris
+                      - listitem [ref=e2317]:
+                        - text: "19:"
+                        - link "Jeff Webb" [ref=e2318] [cursor=pointer]:
+                          - /url: /wiki/Jeff_Webb_(entrepreneur)
+                      - listitem [ref=e2319]:
+                        - text: "17:"
+                        - link "Ilia II of Georgia" [ref=e2320] [cursor=pointer]:
+                          - /url: /wiki/Ilia_II_of_Georgia
+                      - listitem [ref=e2321]:
+                        - text: "17:"
+                        - link "Ali Larijani" [ref=e2322] [cursor=pointer]:
+                          - /url: /wiki/Ali_Larijani
+                      - listitem [ref=e2323]:
+                        - text: "16:"
+                        - link "Dolores Keane" [ref=e2324] [cursor=pointer]:
+                          - /url: /wiki/Dolores_Keane
+                      - listitem [ref=e2325]:
+                        - text: "15:"
+                        - link "Len Deighton" [ref=e2326] [cursor=pointer]:
+                          - /url: /wiki/Len_Deighton
+                      - listitem [ref=e2327]:
+                        - text: "15:"
+                        - link "Sam Kieth" [ref=e2328] [cursor=pointer]:
+                          - /url: /wiki/Sam_Kieth
+                      - listitem [ref=e2329]:
+                        - text: "14:"
+                        - link "Phil Campbell" [ref=e2330] [cursor=pointer]:
+                          - /url: /wiki/Phil_Campbell_(musician)
+                      - listitem [ref=e2331]:
+                        - text: "14:"
+                        - link "Jürgen Habermas" [ref=e2332] [cursor=pointer]:
+                          - /url: /wiki/J%C3%BCrgen_Habermas
+                      - listitem [ref=e2333]:
+                        - text: "13:"
+                        - link "Paul R. Ehrlich" [ref=e2334] [cursor=pointer]:
+                          - /url: /wiki/Paul_R._Ehrlich
+                      - listitem [ref=e2335]:
+                        - text: "13:"
+                        - link "İlber Ortaylı" [ref=e2336] [cursor=pointer]:
+                          - /url: /wiki/%C4%B0lber_Ortayl%C4%B1
+                      - listitem [ref=e2337]:
+                        - text: "12:"
+                        - link "Ernie Anastos" [ref=e2338] [cursor=pointer]:
+                          - /url: /wiki/Ernie_Anastos
+                      - listitem [ref=e2339]:
+                        - text: "11:"
+                        - link "Ron Delany" [ref=e2340] [cursor=pointer]:
+                          - /url: /wiki/Ron_Delany
+                      - listitem [ref=e2341]:
+                        - text: "11:"
+                        - link "Salih Muslim" [ref=e2342] [cursor=pointer]:
+                          - /url: /wiki/Salih_Muslim
+                      - listitem [ref=e2343]:
+                        - text: "11:"
+                        - link "Judy Pace" [ref=e2344] [cursor=pointer]:
+                          - /url: /wiki/Judy_Pace
+                      - listitem [ref=e2345]:
+                        - text: "9:"
+                        - link "Alexander Butterfield" [ref=e2346] [cursor=pointer]:
+                          - /url: /wiki/Alexander_Butterfield
+                      - listitem [ref=e2347]:
+                        - text: "7:"
+                        - link "Vidi Aldiano" [ref=e2348] [cursor=pointer]:
+                          - /url: /wiki/Vidi_Aldiano
+                      - listitem [ref=e2349]:
+                        - text: "7:"
+                        - link "Country Joe McDonald" [ref=e2350] [cursor=pointer]:
+                          - /url: /wiki/Country_Joe_McDonald
+                      - listitem [ref=e2351]:
+                        - text: "7:"
+                        - link "Ian Huntley" [ref=e2352] [cursor=pointer]:
+                          - /url: /wiki/Soham_murders#Ian_Huntley
+                      - listitem [ref=e2353]:
+                        - text: "7:"
+                        - link "Troy Murray" [ref=e2354] [cursor=pointer]:
+                          - /url: /wiki/Troy_Murray
+                      - listitem [ref=e2355]:
+                        - text: "6:"
+                        - link "Jennifer Runyon" [ref=e2356] [cursor=pointer]:
+                          - /url: /wiki/Jennifer_Runyon
+                      - listitem [ref=e2357]:
+                        - text: "5:"
+                        - link "Jane Lapotaire" [ref=e2358] [cursor=pointer]:
+                          - /url: /wiki/Jane_Lapotaire
+                      - listitem [ref=e2359]:
+                        - text: "4:"
+                        - link "Dennis Cometti" [ref=e2360] [cursor=pointer]:
+                          - /url: /wiki/Dennis_Cometti
+                  - link "edit section" [ref=e2362] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/Sidebar&action=edit
+              - region "Ongoing conflicts" [ref=e2363]:
+                - button "[hide]" [expanded] [ref=e2364] [cursor=pointer]
+                - heading "Ongoing conflicts" [level=2] [ref=e2367]:
+                  - link "Ongoing conflicts" [ref=e2368] [cursor=pointer]:
+                    - /url: /wiki/List_of_ongoing_armed_conflicts
+                - generic [ref=e2369]:
+                  - definition [ref=e2371]:
+                    - heading "Global" [level=3] [ref=e2373]
+                  - list [ref=e2374]:
+                    - listitem [ref=e2375]:
+                      - link "War against the Islamic State" [ref=e2376] [cursor=pointer]:
+                        - /url: /wiki/War_against_the_Islamic_State
+                  - definition [ref=e2378]:
+                    - heading "Africa" [level=3] [ref=e2380]
+                  - list [ref=e2381]:
+                    - listitem [ref=e2382]:
+                      - link "Democratic Republic of the Congo and Rwanda" [ref=e2383] [cursor=pointer]:
+                        - /url: /wiki/Democratic_Republic_of_the_Congo%E2%80%93Rwanda_conflict_(2022%E2%80%93present)
+                  - definition [ref=e2385]:
+                    - list [ref=e2386]:
+                      - listitem [ref=e2387]:
+                        - link "M23 campaign" [ref=e2388] [cursor=pointer]:
+                          - /url: /wiki/M23_campaign_(2022%E2%80%93present)
+                  - list [ref=e2389]:
+                    - listitem [ref=e2390]: Cameroon
+                  - definition [ref=e2392]:
+                    - list [ref=e2393]:
+                      - listitem [ref=e2394]:
+                        - link "Anglophone Crisis" [ref=e2395] [cursor=pointer]:
+                          - /url: /wiki/Anglophone_Crisis
+                  - list [ref=e2396]:
+                    - listitem [ref=e2397]: Central African Republic
+                  - definition [ref=e2399]:
+                    - list [ref=e2400]:
+                      - listitem [ref=e2401]:
+                        - link "Civil war" [ref=e2402] [cursor=pointer]:
+                          - /url: /wiki/Central_African_Republic_Civil_War
+                  - list [ref=e2403]:
+                    - listitem [ref=e2404]:
+                      - link "Ethiopia" [ref=e2405] [cursor=pointer]:
+                        - /url: /wiki/Ethiopian_civil_conflict_(2018%E2%80%93present)
+                  - definition [ref=e2407]:
+                    - list [ref=e2408]:
+                      - listitem [ref=e2409]:
+                        - link "Fano insurgency" [ref=e2410] [cursor=pointer]:
+                          - /url: /wiki/Fano_insurgency
+                  - list [ref=e2411]:
+                    - listitem [ref=e2412]:
+                      - link "Sahel" [ref=e2413] [cursor=pointer]:
+                        - /url: /wiki/War_in_the_Sahel
+                  - generic [ref=e2414]:
+                    - definition [ref=e2416]:
+                      - list [ref=e2417]:
+                        - listitem [ref=e2418]:
+                          - link "Burkina Faso" [ref=e2419] [cursor=pointer]:
+                            - /url: /wiki/Islamist_insurgency_in_Burkina_Faso
+                        - listitem [ref=e2420]:
+                          - link "Chad Basin" [ref=e2421] [cursor=pointer]:
+                            - /url: /wiki/Boko_Haram_insurgency
+                    - list [ref=e2422]:
+                      - listitem [ref=e2423]:
+                        - link "Mali" [ref=e2424] [cursor=pointer]:
+                          - /url: /wiki/Mali_War
+                      - listitem [ref=e2425]:
+                        - link "Niger" [ref=e2426] [cursor=pointer]:
+                          - /url: /wiki/Islamist_insurgency_in_Niger
+                  - list [ref=e2427]:
+                    - listitem [ref=e2428]:
+                      - link "Somalia" [ref=e2429] [cursor=pointer]:
+                        - /url: /wiki/Somali_Civil_War
+                  - definition [ref=e2431]:
+                    - list [ref=e2432]:
+                      - listitem [ref=e2433]:
+                        - link "Civil war" [ref=e2434] [cursor=pointer]:
+                          - /url: /wiki/Somali_Civil_War_(2009%E2%80%93present)
+                  - list [ref=e2435]:
+                    - listitem [ref=e2436]:
+                      - link "Sudan" [ref=e2437] [cursor=pointer]:
+                        - /url: /wiki/Sudanese_civil_war_(2023%E2%80%93present)
+                  - generic [ref=e2438]:
+                    - definition [ref=e2440]:
+                      - list [ref=e2441]:
+                        - listitem [ref=e2442]:
+                          - link "Darfur campaign" [ref=e2443] [cursor=pointer]:
+                            - /url: /wiki/Darfur_campaign_(2023%E2%80%93present)
+                    - list [ref=e2444]:
+                      - listitem [ref=e2445]:
+                        - link "Kordofan campaign" [ref=e2446] [cursor=pointer]:
+                          - /url: /wiki/Kordofan_campaign_(2023%E2%80%93present)
+                  - definition [ref=e2448]:
+                    - heading "Americas" [level=3] [ref=e2450]
+                  - list [ref=e2451]:
+                    - listitem [ref=e2452]:
+                      - link "Haiti" [ref=e2453] [cursor=pointer]:
+                        - /url: /wiki/Haitian_crisis_(2018%E2%80%93present)
+                  - definition [ref=e2455]:
+                    - list [ref=e2456]:
+                      - listitem [ref=e2457]:
+                        - link "Gang war" [ref=e2458] [cursor=pointer]:
+                          - /url: /wiki/Haitian_conflict
+                  - list [ref=e2459]:
+                    - listitem [ref=e2460]: Mexico
+                  - definition [ref=e2462]:
+                    - list [ref=e2463]:
+                      - listitem [ref=e2464]:
+                        - link "Mexican drug war" [ref=e2465] [cursor=pointer]:
+                          - /url: /wiki/Mexican_drug_war
+                  - list [ref=e2466]:
+                    - listitem [ref=e2467]:
+                      - link "Venezuela" [ref=e2468] [cursor=pointer]:
+                        - /url: /wiki/Crisis_in_Venezuela
+                  - definition [ref=e2470]:
+                    - list [ref=e2471]:
+                      - listitem [ref=e2472]:
+                        - link "United States intervention" [ref=e2473] [cursor=pointer]:
+                          - /url: /wiki/Operation_Southern_Spear
+                  - definition [ref=e2475]:
+                    - heading "Asia−Pacific" [level=3] [ref=e2477]: Asia−Pacific
+                  - list [ref=e2478]:
+                    - listitem [ref=e2479]:
+                      - link "Afghanistan and Pakistan" [ref=e2480] [cursor=pointer]:
+                        - /url: /wiki/Afghanistan%E2%80%93Pakistan_clashes_(2024%E2%80%93present)
+                  - definition [ref=e2482]:
+                    - list [ref=e2483]:
+                      - listitem [ref=e2484]:
+                        - link "Border conflict" [ref=e2485] [cursor=pointer]:
+                          - /url: /wiki/2026_Afghanistan%E2%80%93Pakistan_conflict
+                  - list [ref=e2486]:
+                    - listitem [ref=e2487]:
+                      - link "Myanmar" [ref=e2488] [cursor=pointer]:
+                        - /url: /wiki/Myanmar_conflict
+                  - definition [ref=e2490]:
+                    - list [ref=e2491]:
+                      - listitem [ref=e2492]:
+                        - link "Civil war" [ref=e2493] [cursor=pointer]:
+                          - /url: /wiki/Myanmar_civil_war_(2021%E2%80%93present)
+                  - definition [ref=e2495]:
+                    - heading "Europe" [level=3] [ref=e2497]
+                  - list [ref=e2498]:
+                    - listitem [ref=e2499]:
+                      - link "Russia and Ukraine" [ref=e2500] [cursor=pointer]:
+                        - /url: /wiki/Russo-Ukrainian_war
+                  - definition [ref=e2502]:
+                    - list [ref=e2503]:
+                      - listitem [ref=e2504]:
+                        - link "Russo-Ukrainian war" [ref=e2505] [cursor=pointer]:
+                          - /url: /wiki/Russo-Ukrainian_war_(2022%E2%80%93present)
+                  - definition [ref=e2507]:
+                    - heading "Middle East" [level=3] [ref=e2509]
+                  - list [ref=e2510]:
+                    - listitem [ref=e2511]:
+                      - link "Middle Eastern crisis" [ref=e2512] [cursor=pointer]:
+                        - /url: /wiki/Middle_Eastern_crisis_(2023%E2%80%93present)
+                  - generic [ref=e2513]:
+                    - definition [ref=e2515]:
+                      - list [ref=e2516]:
+                        - listitem [ref=e2517]:
+                          - link "Syrian conflict" [ref=e2518] [cursor=pointer]:
+                            - /url: /wiki/Syrian_conflict_(2024%E2%80%93present)
+                        - listitem [ref=e2519]:
+                          - link "Lebanon war" [ref=e2520] [cursor=pointer]:
+                            - /url: /wiki/2026_Lebanon_war
+                    - list [ref=e2521]:
+                      - listitem [ref=e2522]:
+                        - link "Iran war" [ref=e2523] [cursor=pointer]:
+                          - /url: /wiki/2026_Iran_war
+                      - listitem [ref=e2524]:
+                        - link "Gaza war" [ref=e2525] [cursor=pointer]:
+                          - /url: /wiki/Gaza_war
+                  - list [ref=e2526]:
+                    - listitem [ref=e2527]:
+                      - link "Yemen" [ref=e2528] [cursor=pointer]:
+                        - /url: /wiki/Yemeni_crisis
+                  - definition [ref=e2530]:
+                    - list [ref=e2531]:
+                      - listitem [ref=e2532]:
+                        - link "Civil war" [ref=e2533] [cursor=pointer]:
+                          - /url: /wiki/Yemeni_civil_war_(2014%E2%80%93present)
+                  - generic [ref=e2534]:
+                    - text: See also –
+                    - link "List of ongoing proxy wars" [ref=e2535] [cursor=pointer]:
+                      - /url: /wiki/List_of_ongoing_proxy_wars
+                  - link "edit section" [ref=e2537] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/Sidebar&action=edit
+              - region "Ongoing events" [ref=e2538]:
+                - button "[hide]" [expanded] [ref=e2539] [cursor=pointer]
+                - heading "2026 events and developments by topic" [level=2] [ref=e2542]:
+                  - link "2026" [ref=e2543] [cursor=pointer]:
+                    - /url: /wiki/2026
+                  - text: events and developments by topic
+                - generic [ref=e2544]:
+                  - generic [ref=e2545]:
+                    - heading "Arts" [level=3] [ref=e2547]:
+                      - link "Arts" [ref=e2550] [cursor=pointer]:
+                        - /url: /wiki/2026_in_art
+                    - list [ref=e2552]:
+                      - listitem [ref=e2553]:
+                        - link "Animation" [ref=e2554] [cursor=pointer]:
+                          - /url: /wiki/2026_in_animation
+                        - text: (
+                        - link "Anime" [ref=e2555] [cursor=pointer]:
+                          - /url: /wiki/2026_in_anime
+                        - text: ) ·
+                      - listitem [ref=e2556]:
+                        - link "Architecture" [ref=e2557] [cursor=pointer]:
+                          - /url: /wiki/2026_in_architecture
+                        - text: ·
+                      - listitem [ref=e2558]:
+                        - link "Comics" [ref=e2559] [cursor=pointer]:
+                          - /url: /wiki/2026_in_comics
+                        - text: ·
+                      - listitem [ref=e2560]:
+                        - link "Film" [ref=e2561] [cursor=pointer]:
+                          - /url: /wiki/2026_in_film
+                        - text: (
+                        - link "Horror" [ref=e2562] [cursor=pointer]:
+                          - /url: /wiki/List_of_horror_films_of_2026
+                        - text: ","
+                        - link "Science fiction" [ref=e2563] [cursor=pointer]:
+                          - /url: /wiki/2026_in_science_fiction_film
+                        - text: ) ·
+                      - listitem [ref=e2564]:
+                        - link "Literature" [ref=e2565] [cursor=pointer]:
+                          - /url: /wiki/2026_in_literature
+                        - text: (
+                        - link "Poetry" [ref=e2566] [cursor=pointer]:
+                          - /url: /wiki/2026_in_poetry
+                        - text: ) ·
+                      - listitem [ref=e2567]:
+                        - link "Music" [ref=e2568] [cursor=pointer]:
+                          - /url: /wiki/2026_in_music
+                        - text: (
+                        - link "Classical" [ref=e2569] [cursor=pointer]:
+                          - /url: /wiki/2026_in_classical_music
+                        - text: ","
+                        - link "Country" [ref=e2570] [cursor=pointer]:
+                          - /url: /wiki/2026_in_country_music
+                        - text: ","
+                        - link "Hip hop" [ref=e2571] [cursor=pointer]:
+                          - /url: /wiki/2026_in_hip_hop_music
+                        - text: ","
+                        - link "Jazz" [ref=e2572] [cursor=pointer]:
+                          - /url: /wiki/2026_in_jazz
+                        - text: ","
+                        - link "Latin" [ref=e2573] [cursor=pointer]:
+                          - /url: /wiki/2026_in_Latin_music
+                        - text: ","
+                        - link "Metal" [ref=e2574] [cursor=pointer]:
+                          - /url: /wiki/2026_in_heavy_metal_music
+                        - text: ","
+                        - link "Rock" [ref=e2575] [cursor=pointer]:
+                          - /url: /wiki/2026_in_rock_music
+                        - text: ","
+                        - link "UK" [ref=e2576] [cursor=pointer]:
+                          - /url: /wiki/2026_in_British_music
+                        - text: ","
+                        - link "US" [ref=e2577] [cursor=pointer]:
+                          - /url: /wiki/2026_in_American_music
+                        - text: ","
+                        - link "Korea" [ref=e2578] [cursor=pointer]:
+                          - /url: /wiki/2026_in_South_Korean_music
+                        - text: ) ·
+                      - listitem [ref=e2579]:
+                        - link "Radio" [ref=e2580] [cursor=pointer]:
+                          - /url: /wiki/2026_in_radio
+                        - text: ·
+                      - listitem [ref=e2581]:
+                        - link "Television" [ref=e2582] [cursor=pointer]:
+                          - /url: /wiki/2026_in_television
+                        - text: (
+                        - link "Australia" [ref=e2583] [cursor=pointer]:
+                          - /url: /w/index.php?title=2026_in_Australian_television&action=edit&redlink=1
+                        - text: ","
+                        - link "Canada" [ref=e2584] [cursor=pointer]:
+                          - /url: /wiki/2026_in_Canadian_television
+                        - text: ","
+                        - link "Ireland" [ref=e2585] [cursor=pointer]:
+                          - /url: /wiki/2026_in_Irish_television
+                        - text: ","
+                        - link "UK" [ref=e2586] [cursor=pointer]:
+                          - /url: /wiki/2026_in_British_television
+                        - text: ","
+                        - link "Scotland" [ref=e2587] [cursor=pointer]:
+                          - /url: /wiki/2026_in_Scottish_television
+                        - text: ","
+                        - link "US" [ref=e2588] [cursor=pointer]:
+                          - /url: /wiki/2026_in_American_television
+                        - text: ) ·
+                      - listitem [ref=e2589]:
+                        - link "Video games" [ref=e2590] [cursor=pointer]:
+                          - /url: /wiki/2026_in_video_games
+                    - heading "Politics and government" [level=3] [ref=e2592]:
+                      - link "Politics and government" [ref=e2595] [cursor=pointer]:
+                        - /url: /wiki/2026_in_politics_and_government
+                    - list [ref=e2597]:
+                      - listitem [ref=e2598]:
+                        - link "Elections" [ref=e2599] [cursor=pointer]:
+                          - /url: /wiki/List_of_elections_in_2026
+                        - text: ·
+                      - listitem [ref=e2600]:
+                        - link "International leaders" [ref=e2601] [cursor=pointer]:
+                          - /url: /wiki/List_of_state_leaders_in_2026
+                        - text: ·
+                      - listitem [ref=e2602]:
+                        - link "Sovereign states" [ref=e2603] [cursor=pointer]:
+                          - /url: /wiki/List_of_sovereign_states_in_2026
+                        - text: ·
+                      - listitem [ref=e2604]:
+                        - link "Sovereign state leaders" [ref=e2605] [cursor=pointer]:
+                          - /url: /wiki/List_of_state_leaders_in_the_21st_century
+                        - text: ·
+                      - listitem [ref=e2606]:
+                        - link "Territorial governors" [ref=e2607] [cursor=pointer]:
+                          - /url: /wiki/List_of_governors_of_dependent_territories_in_the_21st_century
+                    - heading "Science and technology" [level=3] [ref=e2609]:
+                      - link "Science and technology" [ref=e2612] [cursor=pointer]:
+                        - /url: /wiki/2026_in_science
+                    - list [ref=e2614]:
+                      - listitem [ref=e2615]:
+                        - link "Archaeology" [ref=e2616] [cursor=pointer]:
+                          - /url: /wiki/2026_in_archaeology
+                        - text: ·
+                      - listitem [ref=e2617]:
+                        - link "Biotechnology" [ref=e2618] [cursor=pointer]:
+                          - /url: /wiki/2026_in_biotechnology
+                        - text: ·
+                      - listitem [ref=e2619]:
+                        - link "Computing" [ref=e2620] [cursor=pointer]:
+                          - /url: /wiki/2026_in_computing
+                        - text: ·
+                      - listitem [ref=e2621]:
+                        - link "Palaeontology" [ref=e2622] [cursor=pointer]:
+                          - /url: /wiki/2026_in_paleontology
+                        - text: ·
+                      - listitem [ref=e2623]:
+                        - link "Quantum computing and communication" [ref=e2624] [cursor=pointer]:
+                          - /url: /wiki/2026_in_quantum_computing_and_communication
+                        - text: ·
+                      - listitem [ref=e2625]:
+                        - link "Senescence research" [ref=e2626] [cursor=pointer]:
+                          - /url: /wiki/2026_in_senescence_research
+                        - text: ·
+                      - listitem [ref=e2627]:
+                        - link "Space/Astronomy" [ref=e2628] [cursor=pointer]:
+                          - /url: /wiki/Template:2026_in_space
+                        - text: ·
+                      - listitem [ref=e2629]:
+                        - link "Spaceflight" [ref=e2630] [cursor=pointer]:
+                          - /url: /wiki/2026_in_spaceflight
+                        - text: ·
+                      - listitem [ref=e2631]:
+                        - link "Sustainable energy research" [ref=e2632] [cursor=pointer]:
+                          - /url: /wiki/2020s_in_sustainable_energy_research
+                    - heading "Environment and environmental sciences" [level=3] [ref=e2634]:
+                      - link "Environment and environmental sciences" [ref=e2637] [cursor=pointer]:
+                        - /url: /wiki/2026_in_the_environment
+                    - list [ref=e2639]:
+                      - listitem [ref=e2640]:
+                        - link "Climate change" [ref=e2641] [cursor=pointer]:
+                          - /url: /wiki/2026_in_climate_change
+                        - text: ·
+                      - listitem [ref=e2642]:
+                        - link "Weather" [ref=e2643] [cursor=pointer]:
+                          - /url: /wiki/Weather_of_2026#Timeline
+                        - text: (
+                        - link "Heat waves" [ref=e2644] [cursor=pointer]:
+                          - /url: /wiki/2026_heat_waves
+                        - text: ·
+                      - listitem [ref=e2645]:
+                        - link "Tornadoes" [ref=e2646] [cursor=pointer]:
+                          - /url: /wiki/Tornadoes_of_2026
+                        - text: ·
+                      - listitem [ref=e2647]:
+                        - link "Wildfires" [ref=e2648] [cursor=pointer]:
+                          - /url: /wiki/Wildfires_in_2026
+                        - text: )
+                    - heading "Transportation" [level=3] [ref=e2650]:
+                      - link "Transportation" [ref=e2653] [cursor=pointer]:
+                        - /url: /wiki/Category:2026_in_transport
+                    - list [ref=e2655]:
+                      - listitem [ref=e2656]:
+                        - link "Aviation" [ref=e2657] [cursor=pointer]:
+                          - /url: /wiki/2026_in_aviation
+                        - text: ·
+                      - listitem [ref=e2658]:
+                        - link "Rail transport" [ref=e2659] [cursor=pointer]:
+                          - /url: /wiki/2026_in_rail_transport
+                        - text: ·
+                      - listitem [ref=e2660]:
+                        - link "Transportation technology" [ref=e2661] [cursor=pointer]:
+                          - /url: /wiki/Timeline_of_transportation_technology#2020s
+                    - generic [ref=e2662]:
+                      - button "[show]" [ref=e2663] [cursor=pointer]
+                      - link "By place" [ref=e2667] [cursor=pointer]:
+                        - /url: /wiki/Category:2026_by_continent
+                      - text: · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+                    - heading "Establishments and disestablishments categories" [level=3] [ref=e2669]:
+                      - generic [ref=e2670]: Establishments and disestablishments categories
+                    - list [ref=e2672]:
+                      - listitem [ref=e2673]:
+                        - link "Establishments" [ref=e2674] [cursor=pointer]:
+                          - /url: /wiki/Category:2026_establishments
+                        - text: ·
+                      - listitem [ref=e2675]:
+                        - link "Disestablishments" [ref=e2676] [cursor=pointer]:
+                          - /url: /wiki/Category:2026_disestablishments
+                    - heading "Works and introductions categories" [level=3] [ref=e2678]:
+                      - generic [ref=e2679]: Works and introductions categories
+                    - list [ref=e2681]:
+                      - listitem [ref=e2682]:
+                        - link "Works" [ref=e2683] [cursor=pointer]:
+                          - /url: /wiki/Category:2026_works
+                        - text: ·
+                      - listitem [ref=e2684]:
+                        - link "Introductions" [ref=e2685] [cursor=pointer]:
+                          - /url: /wiki/Category:2026_introductions
+                        - text: ·
+                      - listitem [ref=e2686]:
+                        - link "Works entering the public domain" [ref=e2687] [cursor=pointer]:
+                          - /url: /wiki/2026_in_public_domain
+                    - navigation "sister projects" [ref=e2688]:
+                      - generic [ref=e2689]:
+                        - generic [ref=e2690]: "2026"
+                        - text: at Wikipedia's
+                        - link "sister projects" [ref=e2691] [cursor=pointer]:
+                          - /url: /wiki/Wikipedia:Wikimedia_sister_projects
+                      - list [ref=e2694]:
+                        - listitem [ref=e2695]:
+                          - link "Wikimedia Commons logo" [ref=e2698] [cursor=pointer]:
+                            - /url: /wiki/File:Commons-logo.svg
+                            - img "Wikimedia Commons logo" [ref=e2699]
+                          - generic [ref=e2700]:
+                            - link "Media" [ref=e2701] [cursor=pointer]:
+                              - /url: https://commons.wikimedia.org/wiki/Category:2026
+                            - text: from Commons
+                        - listitem [ref=e2702]:
+                          - link "Wikinews logo" [ref=e2705] [cursor=pointer]:
+                            - /url: /wiki/File:Wikinews-logo.svg
+                            - img "Wikinews logo" [ref=e2706]
+                          - generic [ref=e2707]:
+                            - link "News" [ref=e2708] [cursor=pointer]:
+                              - /url: https://en.wikinews.org/wiki/Special:Search/Category:2026
+                            - text: from Wikinews
+                        - listitem [ref=e2709]:
+                          - generic [ref=e2713]:
+                            - link "Quotations" [ref=e2714] [cursor=pointer]:
+                              - /url: https://en.wikiquote.org/wiki/Category:2026
+                            - text: from Wikiquote
+                        - listitem [ref=e2715]:
+                          - link "Wikisource logo" [ref=e2718] [cursor=pointer]:
+                            - /url: /wiki/File:Wikisource-logo.svg
+                            - img "Wikisource logo" [ref=e2719]
+                          - generic [ref=e2720]:
+                            - link "Texts" [ref=e2721] [cursor=pointer]:
+                              - /url: https://en.wikisource.org/wiki/Category:2026_works
+                            - text: from Wikisource
+                        - listitem [ref=e2722]:
+                          - link "Wikispecies logo" [ref=e2725] [cursor=pointer]:
+                            - /url: /wiki/File:Wikispecies-logo.svg
+                            - img "Wikispecies logo" [ref=e2726]
+                          - generic [ref=e2727]:
+                            - link "Taxa" [ref=e2728] [cursor=pointer]:
+                              - /url: https://species.wikimedia.org/wiki/Category:New_species_2026
+                            - text: from Wikispecies
+                        - listitem [ref=e2729]:
+                          - generic [ref=e2733]:
+                            - link "Discussions" [ref=e2734] [cursor=pointer]:
+                              - /url: https://meta.wikimedia.org/wiki/Special:Search/Category:2026
+                            - text: from Meta-Wiki
+                    - link "...more" [ref=e2736] [cursor=pointer]:
+                      - /url: /wiki/Category:2026
+                  - link "edit section" [ref=e2738] [cursor=pointer]:
+                    - /url: https://en.wikipedia.org/w/index.php?title=Portal:Current_events/Sidebar&action=edit
+          - navigation "Current events by month" [ref=e2739]:
+            - table [ref=e2740]:
+              - rowgroup [ref=e2741]:
+                - row "[show] v · t · e Current events by month" [ref=e2742]:
+                  - columnheader "[show] v · t · e Current events by month" [ref=e2743]:
+                    - button "[show]" [ref=e2744] [cursor=pointer]
+                    - list [ref=e2746]:
+                      - listitem [ref=e2747]:
+                        - link "v" [ref=e2748] [cursor=pointer]:
+                          - /url: /wiki/Portal:Current_events/Events_by_month
+                        - text: ·
+                      - listitem [ref=e2749]:
+                        - link "t" [ref=e2750] [cursor=pointer]:
+                          - /url: /wiki/Portal_talk:Current_events/Events_by_month
+                        - text: ·
+                      - listitem [ref=e2751]:
+                        - link "e" [ref=e2752] [cursor=pointer]:
+                          - /url: /wiki/Special:EditPage/Portal:Current_events/Events_by_month
+                    - generic [ref=e2753]: Current events by month
+                - row: · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: · · · · · · · · · · ·
+                - row: ·
+          - generic [ref=e2756]:
+            - text: Discover Wikipedia using
+            - link "portals" [ref=e2757] [cursor=pointer]:
+              - /url: /wiki/Wikipedia:Portal
+          - list [ref=e2759]:
+            - listitem [ref=e2760]:
+              - figure [ref=e2762]:
+                - link "icon" [ref=e2763] [cursor=pointer]:
+                  - /url: /wiki/File:Lorentzian_Wormhole.svg
+                  - img "icon" [ref=e2764]
+              - link "List of all portals" [ref=e2767] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:Contents/Portals
+            - listitem [ref=e2768]:
+              - link "icon" [ref=e2771] [cursor=pointer]:
+                - /url: /wiki/File:Nuvola_apps_package_graphics.png
+                - img "icon" [ref=e2772]
+              - link "The arts portal" [ref=e2775] [cursor=pointer]:
+                - /url: /wiki/Portal:The_arts
+            - listitem [ref=e2776]:
+              - link "Biography portal" [ref=e2782] [cursor=pointer]:
+                - /url: /wiki/Portal:Biography
+            - listitem [ref=e2783]:
+              - generic [ref=e2788]: Current events portal
+            - listitem [ref=e2789]:
+              - img "icon" [ref=e2793]
+              - link "Geography portal" [ref=e2796] [cursor=pointer]:
+                - /url: /wiki/Portal:Geography
+            - listitem [ref=e2797]:
+              - link "History portal" [ref=e2803] [cursor=pointer]:
+                - /url: /wiki/Portal:History
+            - listitem [ref=e2804]:
+              - link "icon" [ref=e2807] [cursor=pointer]:
+                - /url: /wiki/File:Nuvola_apps_edu_mathematics_blue-p.svg
+                - img "icon" [ref=e2808]
+              - link "Mathematics portal" [ref=e2811] [cursor=pointer]:
+                - /url: /wiki/Portal:Mathematics
+            - listitem [ref=e2812]:
+              - link "icon" [ref=e2815] [cursor=pointer]:
+                - /url: /wiki/File:Nuvola_apps_kalzium.svg
+                - img "icon" [ref=e2816]
+              - link "Science portal" [ref=e2819] [cursor=pointer]:
+                - /url: /wiki/Portal:Science
+            - listitem [ref=e2820]:
+              - link "icon" [ref=e2823] [cursor=pointer]:
+                - /url: /wiki/File:Social_sciences.svg
+                - img "icon" [ref=e2824]
+              - link "Society portal" [ref=e2827] [cursor=pointer]:
+                - /url: /wiki/Portal:Society
+            - listitem [ref=e2828]:
+              - link "icon" [ref=e2831] [cursor=pointer]:
+                - /url: /wiki/File:Noun-technology.svg
+                - img "icon" [ref=e2832]
+              - link "Technology portal" [ref=e2835] [cursor=pointer]:
+                - /url: /wiki/Portal:Technology
+            - listitem [ref=e2836]:
+              - figure [ref=e2838]:
+                - link "icon" [ref=e2839] [cursor=pointer]:
+                  - /url: /wiki/File:Random_font_awesome.svg
+                  - img "icon" [ref=e2840]
+              - link "Random portal" [ref=e2843] [cursor=pointer]:
+                - /url: /wiki/Special:RandomInCategory/All_portals
+            - listitem [ref=e2844]:
+              - figure [ref=e2846]:
+                - link "icon" [ref=e2847] [cursor=pointer]:
+                  - /url: /wiki/File:Portal.svg
+                  - img "icon" [ref=e2848]
+              - link "WikiProject Portals" [ref=e2851] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:WikiProject_Portals
+            - listitem
+        - generic [ref=e2853]:
+          - link "Categories" [ref=e2854] [cursor=pointer]:
+            - /url: /wiki/Help:Category
+          - text: ":"
+          - list [ref=e2855]:
+            - listitem [ref=e2856]:
+              - link "All portals" [ref=e2857] [cursor=pointer]:
+                - /url: /wiki/Category:All_portals
+            - listitem [ref=e2858]:
+              - link "2026 by day" [ref=e2859] [cursor=pointer]:
+                - /url: /wiki/Category:2026_by_day
+            - listitem [ref=e2860]:
+              - link "Current events portal" [ref=e2861] [cursor=pointer]:
+                - /url: /wiki/Category:Current_events_portal
+            - listitem [ref=e2862]:
+              - link "2026" [ref=e2863] [cursor=pointer]:
+                - /url: /wiki/Category:2026
+            - listitem [ref=e2864]:
+              - link "Current events" [ref=e2865] [cursor=pointer]:
+                - /url: /wiki/Category:Current_events
+            - listitem [ref=e2866]:
+              - link "WikiProject Current events" [ref=e2867] [cursor=pointer]:
+                - /url: /wiki/Category:WikiProject_Current_events
+            - listitem [ref=e2868]:
+              - link "History portals" [ref=e2869] [cursor=pointer]:
+                - /url: /wiki/Category:History_portals
+    - contentinfo [ref=e2871]:
+      - list [ref=e2872]:
+        - listitem [ref=e2873]: This page was last edited on 15 July 2024, at 23:17 (UTC).
+        - listitem [ref=e2874]:
+          - text: Text is available under the
+          - link "Creative Commons Attribution-ShareAlike 4.0 License" [ref=e2875] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License
+          - text: ; additional terms may apply. By using this site, you agree to the
+          - link "Terms of Use" [ref=e2876] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: and
+          - link "Privacy Policy" [ref=e2877] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+          - text: . Wikipedia® is a registered trademark of the
+          - link "Wikimedia Foundation, Inc." [ref=e2878] [cursor=pointer]:
+            - /url: https://wikimediafoundation.org/
+          - text: ", a non-profit organization."
+      - list:
+        - listitem [ref=e2879]:
+          - link "Privacy policy" [ref=e2880] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e2881]:
+          - link "About Wikipedia" [ref=e2882] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:About
+        - listitem [ref=e2883]:
+          - link "Disclaimers" [ref=e2884] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e2885]:
+          - link "Contact Wikipedia" [ref=e2886] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e2887]:
+          - link "Legal & safety contacts" [ref=e2888] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e2889]:
+          - link "Code of Conduct" [ref=e2890] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e2891]:
+          - link "Developers" [ref=e2892] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e2893]:
+          - link "Statistics" [ref=e2894] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e2895]:
+          - link "Cookie statement" [ref=e2896] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e2897]:
+          - link "Mobile view" [ref=e2898] [cursor=pointer]:
+            - /url: //en.wikipedia.org/w/index.php?title=Portal:Current_events&mobileaction=toggle_view_mobile
+      - list [ref=e2899]:
+        - listitem [ref=e2900]:
+          - link "Wikimedia Foundation" [ref=e2901] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e2903]
+        - listitem [ref=e2904]:
+          - link "Powered by MediaWiki" [ref=e2905] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e2907]
+  - generic [ref=e2908]:
+    - list
+```

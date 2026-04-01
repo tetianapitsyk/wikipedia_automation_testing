@@ -1,19 +1,54 @@
 {
 
   "name": "wikipedia",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "regression": "npx playwright test --grep '@regression'",
-    "smokeTests": "npx playwright test --grep @smoke" 
 
+  "version": "1.0.0",
+
+  "description": "",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "regression": "npx playwright test --grep '@regression'",
+
+    "smokeTests": "npx playwright test --grep @smoke",
+
+    "testing": "npx playwright test",
+
+    "generate-report": "npx allure generate allure-results --clean",
+
+    "open-report": "npx allure open",
+
+    "allure-go": "run-s  --continue-on-error testing  generate-report  open-report"
 
   },
+
   "author": "tania",
+
   "license": "ISC",
+
   "devDependencies": {
+
+    "@eslint/js": "^10.0.1",
+
     "@playwright/test": "^1.57.0",
-    "@types/node": "^25.0.3"  
+
+    "@types/node": "^25.0.3",
+
+    "allure-commandline": "^2.38.1",
+
+    "allure-playwright": "^3.6.0",
+
+    "eslint": "^10.1.0",
+
+    "globals": "^17.4.0",
+
+    "npm-run-all": "^4.1.5",
+
+    "typescript-eslint": "^8.58.0"
+
   }
+
 }
+

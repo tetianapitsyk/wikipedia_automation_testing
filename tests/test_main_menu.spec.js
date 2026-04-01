@@ -36,14 +36,12 @@ test('@regression test Hide main menu', async ({ page, wikiHeader, mainMenuWP })
 
 
 test('@regression test Current event from main menu', async ({ page, wikiHeader, mainMenuWP, currentEventsPage }) => {
-
     await page.goto('/wiki/Main_Page')
     await wikiHeader.mainMenuBtn.click()
     await mainMenuWP.currentEvents.click()
-    await currentEventsPage.calendarBackBtn.click()
-    const day = '5'
-    await currentEventsPage.calendarDay.filter({ hasText: '11' }).click()
-    await expect(currentEventsPage.article).toBeInViewport()
+    await currentEventsPage.calendarDay.waitFor()
+    await currentEventsPage.calendarDay.click()
+    await currentEventsPage.checkCorrespondingChapterIsOpenedPerDay()
 })
 
 
