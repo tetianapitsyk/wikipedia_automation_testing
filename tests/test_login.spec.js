@@ -1,9 +1,9 @@
 import { test, expect } from "../testData/fixtures";
 import { credentials } from "../testData/userTestData";
 
-test('@regression test LogIn page by getBy... locators', async ({ page, wikiHeader, login }) => {
+test('@regression test LogIn page by getBy... locators', async ({ page, basicPage, login }) => {
     await page.goto('wiki/Main_Page')
-    await wikiHeader.logInButton.click()
+    await basicPage.wikiHeader.logInButton.click()
     await login.userLoginBox.waitFor()
     await login.enterUsernameAndPassword(credentials.invalidCredsWithNumbers.username, credentials.invalidCredsWithNumbers.password)
     await login.loginBtn.click()

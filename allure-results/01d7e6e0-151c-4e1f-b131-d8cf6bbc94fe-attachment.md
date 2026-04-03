@@ -1,0 +1,184 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Jump to content" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Site" [ref=e6]:
+        - generic "Main menu" [ref=e7]:
+          - button "Main menu" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Main menu
+      - link "Wikipedia The Free Encyclopedia" [ref=e12] [cursor=pointer]:
+        - /url: https://en.wikipedia.org/wiki/Main_Page
+        - img [ref=e13]
+        - generic [ref=e14]:
+          - img "Wikipedia" [ref=e15]
+          - img "The Free Encyclopedia" [ref=e16]
+    - generic [ref=e17]:
+      - search [ref=e18]:
+        - generic [ref=e21]:
+          - searchbox "Search Wikipedia" [ref=e24]
+          - button "Search" [ref=e26]
+      - navigation "Personal tools" [ref=e27]:
+        - list [ref=e31]:
+          - listitem [ref=e32]:
+            - link "Donate" [ref=e33] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=auth.wikimedia.org&uselang=en
+          - listitem [ref=e34]:
+            - link "Create account" [ref=e35] [cursor=pointer]:
+              - /url: /enwiki/w/index.php?title=Special:CreateAccount&returnto=Main+Page&centralauthLoginToken=4c5dc5e74e832320456756fc6d019d46&usesul3=1&useformat=desktop
+          - listitem [ref=e36]:
+            - link "Log in" [ref=e37] [cursor=pointer]:
+              - /url: /enwiki/w/index.php?title=Special:UserLogin&returnto=Main+Page&centralauthLoginToken=4c5dc5e74e832320456756fc6d019d46&usesul3=1&useformat=desktop
+  - generic [ref=e39]:
+    - main [ref=e43]:
+      - heading "Log in" [level=1] [ref=e45]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - navigation "Namespaces"
+        - generic [ref=e49]:
+          - navigation "Views"
+          - navigation "Page tools" [ref=e50]:
+            - generic [ref=e51]:
+              - button "Tools" [ref=e52] [cursor=pointer]
+              - generic [ref=e54] [cursor=pointer]: Tools
+      - navigation "Appearance" [ref=e57]:
+        - generic [ref=e59]:
+          - generic [ref=e60]:
+            - generic [ref=e61]: Appearance
+            - button "hide" [ref=e62] [cursor=pointer]
+          - generic [ref=e63]:
+            - generic [ref=e64]: Birthday mode (Baby Globe)
+            - list [ref=e66]:
+              - listitem [ref=e67]:
+                - generic [ref=e68]:
+                  - generic [ref=e69]:
+                    - generic [ref=e70]:
+                      - radio "Disabled" [ref=e71]
+                      - generic [ref=e74]: Disabled
+                    - generic [ref=e75]:
+                      - radio "Enabled" [checked] [ref=e76]
+                      - generic [ref=e79]: Enabled
+                  - link "Learn more about Birthday mode" [ref=e81] [cursor=pointer]:
+                    - /url: https://wikimediafoundation.org/wikipedia25/wikipedia-mascot/?utm_campaign=wpam&utm_source=wpam&utm_medium=wpamen
+          - generic [ref=e82]:
+            - generic [ref=e83]: Text
+            - list [ref=e85]:
+              - listitem [ref=e86]:
+                - generic [ref=e87]:
+                  - generic [ref=e88]:
+                    - generic [ref=e89]:
+                      - radio "Small" [disabled] [ref=e90]
+                      - generic [ref=e93]: Small
+                    - generic [ref=e94]:
+                      - radio "Standard" [disabled] [ref=e95]
+                      - generic [ref=e98]: Standard
+                    - generic [ref=e99]:
+                      - radio "Large" [disabled] [ref=e100]
+                      - generic [ref=e103]: Large
+                  - paragraph [ref=e104]: This page always uses small font size
+          - generic [ref=e105]:
+            - generic [ref=e106]: Width
+            - list [ref=e108]:
+              - listitem [ref=e109]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]:
+                    - radio "Standard" [checked] [ref=e113]
+                    - generic [ref=e116]: Standard
+                  - generic [ref=e117]:
+                    - radio "Wide" [ref=e118]
+                    - generic [ref=e121]: Wide
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - text: Color
+              - generic [ref=e124]: (beta)
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - generic [ref=e129]:
+                  - generic [ref=e130]:
+                    - radio "Automatic" [ref=e131]
+                    - generic [ref=e134]: Automatic
+                  - generic [ref=e135]:
+                    - radio "Light" [checked] [ref=e136]
+                    - generic [ref=e139]: Light
+                  - generic [ref=e140]:
+                    - radio "Dark" [ref=e141]
+                    - generic [ref=e144]: Dark
+      - generic "Log in" [ref=e145]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e152]: Username
+            - textbox "Username" [ref=e155]:
+              - /placeholder: Enter your username
+              - text: "123"
+          - generic [ref=e156]:
+            - generic [ref=e158]: Password
+            - textbox "Password" [ref=e161]:
+              - /placeholder: Enter your password
+              - text: "321"
+          - generic [ref=e164]:
+            - checkbox "Keep me logged in (for up to one year)" [ref=e165]
+            - generic [ref=e167]: Keep me logged in (for up to one year)
+          - generic [ref=e168]:
+            - generic [ref=e170]: CAPTCHA Security check
+            - generic [ref=e172]:
+              - generic [ref=e175] [cursor=pointer]: Refresh
+              - textbox "CAPTCHA Security check" [active] [ref=e177]:
+                - /placeholder: Enter the text you see on the image
+          - generic [ref=e179]: Use your security key or follow your browser's instructions.
+          - button "Log in" [ref=e182] [cursor=pointer]
+          - link "Help with logging in" [ref=e185] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/wiki/Special:MyLanguage/Help:Logging_in
+          - link "Forgot your password?" [ref=e188] [cursor=pointer]:
+            - /url: /enwiki/w/index.php?title=Special:PasswordReset&returnto=Main+Page&centralauthLoginToken=4c5dc5e74e832320456756fc6d019d46&usesul3=1&useformat=desktop
+          - generic [ref=e191]:
+            - text: Don't have an account?
+            - link "Join Wikipedia" [ref=e192] [cursor=pointer]:
+              - /url: /enwiki/w/index.php?title=Special:CreateAccount&returnto=Main+Page&centralauthLoginToken=4c5dc5e74e832320456756fc6d019d46&usesul3=1&useformat=desktop&campaign=loginCTA
+    - contentinfo [ref=e194]:
+      - list
+      - list:
+        - listitem [ref=e195]:
+          - link "Privacy policy" [ref=e196] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e197]:
+          - link "About Wikipedia" [ref=e198] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Wikipedia:About
+        - listitem [ref=e199]:
+          - link "Disclaimers" [ref=e200] [cursor=pointer]:
+            - /url: https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+        - listitem [ref=e201]:
+          - link "Contact Wikipedia" [ref=e202] [cursor=pointer]:
+            - /url: //en.wikipedia.org/wiki/Wikipedia:Contact_us
+        - listitem [ref=e203]:
+          - link "Legal & safety contacts" [ref=e204] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information
+        - listitem [ref=e205]:
+          - link "Code of Conduct" [ref=e206] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e207]:
+          - link "Developers" [ref=e208] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e209]:
+          - link "Statistics" [ref=e210] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/en.wikipedia.org
+        - listitem [ref=e211]:
+          - link "Cookie statement" [ref=e212] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e213]:
+          - link "Mobile view" [ref=e214] [cursor=pointer]:
+            - /url: //auth.wikimedia.org/enwiki/w/index.php?title=Special:UserLogin&centralauthLoginToken=4c5dc5e74e832320456756fc6d019d46&returnto=Main+Page&usesul3=1&mobileaction=toggle_view_mobile
+      - list [ref=e215]:
+        - listitem [ref=e216]:
+          - link "Wikimedia Foundation" [ref=e217] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e219]
+        - listitem [ref=e220]:
+          - link "Powered by MediaWiki" [ref=e221] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e223]
+  - generic [ref=e224]:
+    - list
+```

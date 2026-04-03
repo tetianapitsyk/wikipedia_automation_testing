@@ -5,10 +5,21 @@ export class CurrentEventsPage {
         this.calendar = this.page.locator('table.current-events-calendar')
         this.calendarDay = this.calendar.locator('tbody tr td a').filter({ hasText: /\d/ }).first()
         this.article = this.page.locator('.current-events span.summary')
+        this.monthy = this.calendar.locator('a[title^="Portal:Current events"]').nth(1)
     }
 
+
+    async rememberMonth(){
+        //let month = ''
+        let month = await this.monthy.textContent()
+        return month
+
+    }
+    
     async checkCorrespondingChapterIsOpenedPerDay() {
         let day = await this.calendarDay.textContent()
-        await expect(this.article.filter({ hasText: day })).toBeInViewport()
+        let monthAndYearText = await this.rememberMonth()
+        let arrayOfmonthAndYearText = monthAndYearText.split(' ')
+        await expect(this.article.filter({ hasText: day }).filter({hasText: arrayOfmonthAndYearText[0]})).toBeVisible()
     }
 }

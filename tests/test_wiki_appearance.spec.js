@@ -1,23 +1,23 @@
 import { test, expect } from "../testData/fixtures"
 
 
-test('@UI test Appearance - text radiobtns', async ({ page, wikiAppearance }) => {
+test('@UI test Appearance - text radiobtns', async ({ page, basicPage }) => {
     await page.goto('/wiki/Main_Page')
-    await wikiAppearance.largeRB.click()
-    await expect(wikiAppearance.largeRB).toBeChecked()
-    await wikiAppearance.smallRB.click()
-    await expect(wikiAppearance.smallRB).toBeChecked()
-    await wikiAppearance.standartlRB.click()
-    await expect(wikiAppearance.standartlRB).toBeChecked()
+    await basicPage.wikiAppearance.largeRB.click()
+    await expect(basicPage.wikiAppearance.largeRB).toBeChecked()
+    await basicPage.wikiAppearance.smallRB.click()
+    await expect(basicPage.wikiAppearance.smallRB).toBeChecked()
+    await basicPage.wikiAppearance.standartlRB.click()
+    await expect(basicPage.wikiAppearance.standartlRB).toBeChecked()
 })
 
 
-test('@UI test Appearance - color radiobtns', async ({ page, wikiAppearance }) => {
+test('@UI test Appearance - color radiobtns', async ({ page, basicPage }) => {
     await page.goto('/wiki/Main_Page')
-    await wikiAppearance.automaticColor.click()
-    await expect(wikiAppearance.automaticColor).toBeChecked()
-    await wikiAppearance.lightColor.click()
-    await expect(wikiAppearance.lightColor).toBeChecked()
-    await wikiAppearance.darkColor.click()
-    await expect(wikiAppearance.darkColor).toBeChecked()
+    await basicPage.wikiAppearance.automaticColor.click()
+    await expect(basicPage.wikiAppearance.automaticColor).toBeChecked()
+    await basicPage.wikiAppearance.lightColor.click()
+    await expect(basicPage.wikiAppearance.lightColor).toBeChecked()
+    await basicPage.wikiAppearance.darkColor.click()
+    await expect(basicPage.wikiAppearance.darkColor).toBeChecked()
 })
