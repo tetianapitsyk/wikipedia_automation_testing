@@ -13,4 +13,3 @@ test('@regression test LogIn page by getBy... locators', async ({ page, basicPag
     await login.loginBtn.click()
 })
 
-//comment for test
