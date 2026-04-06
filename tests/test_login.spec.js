@@ -1,5 +1,5 @@
 import { test, expect } from "../testData/fixtures";
-import { credentials } from "../testData/userTestData";
+import { credentials } from "../data/userTestData";
 
 test('@regression test LogIn page by getBy... locators', async ({ page, basicPage, login }) => {
     await page.goto('wiki/Main_Page')
