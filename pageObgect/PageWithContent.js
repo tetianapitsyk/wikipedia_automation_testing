@@ -1,10 +1,11 @@
+
 export class PageWithContent {
     constructor(page) {
         this.page = page
         this.sectionWithContent = this.page.locator('div.mw-body-content div.mw-content-ltr')
         this.banner1 = this.sectionWithContent.locator('div#mp-topbanner')
         this.bannerLeft = this.sectionWithContent.locator('div#mp-upper div#mp-left')
-        this.linkOnBannerLeft = this.bannerLeft.locator('a').nth(5)
+        this.linkOnBannerLeft = this.bannerLeft.locator('a').nth(4)
         this.bannerLeftUp = this.bannerLeft.locator('div#mp-tfa')
         this.bannerLeftUpButton1 = this.bannerLeftUp.locator('ul li').nth(0)
         this.bannerLeftDown = this.bannerLeft.locator('div#mp-dyk')
@@ -20,6 +21,7 @@ export class PageWithContent {
         this.savePreviewSettings = this.previewsDialog.locator('button').filter({ hasText: 'Save' })
         this.finishPreviewSettings = this.page.locator('button').getByText('Done')
         this.onThisDayTitle = this.page.locator('h2#mp-otd-h2')
+        this.editPreviewSetting = this.page.locator('a').filter({hasText: 'Edit preview settings'})
     }
 }
 

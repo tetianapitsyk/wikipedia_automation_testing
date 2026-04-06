@@ -12,7 +12,7 @@ test('@smoke all default sections are present on main screen', async ({ page, pa
 })
 
 
-test.skip('@regression observe link preview', async ({ page, pageWithContent }) => {
+test('@regression observe link preview', async ({ page, pageWithContent }) => {
     await page.goto('/wiki/Main_Page')
     await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
@@ -21,7 +21,7 @@ test.skip('@regression observe link preview', async ({ page, pageWithContent }) 
     await expect(pageWithContent.previewsDialog).toContainText('Get quick previews of a topic while reading a page.')
 })
 
-test.skip('@regression disable link preview', async ({ page, pageWithContent }) => {
+test('@regression disable link preview', async ({ page, pageWithContent }) => {
     await page.goto('/wiki/Main_Page')
     await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
@@ -30,7 +30,14 @@ test.skip('@regression disable link preview', async ({ page, pageWithContent }) 
     await pageWithContent.enablePreviewBtn.uncheck()
     await pageWithContent.savePreviewSettings.click()
     await pageWithContent.finishPreviewSettings.click()
-    await pageWithContent.linkOnBannerLeft.hover()
+    await pageWithContent.editPreviewSetting.click()
+    await pageWithContent.previewsDialog.waitFor()
+    await expect(pageWithContent.enablePreviewBtn).not.toBeChecked()
+    await pageWithContent.savePreviewSettings.click()
+    await pageWithContent.bannerLeft.waitFor()
+    
     await expect(pageWithContent.linkPreviewFrame).toBeHidden()
-    await page.pause()
+    await pageWithContent.linkOnBannerLeft.hover()
+    await expect(pageWithContent.linkPreviewFrame).toBeHidden({ timeout: 5000 })
+   
 })
