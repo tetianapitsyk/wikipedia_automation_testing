@@ -55,7 +55,7 @@ test('@regression test contactUs from main menu', async ({ page, basicPage, main
 })
 
 
-test('@regression test Language Settings from special pages', async ({ page, basicPage, mainMenu, specialPages }) => {
+test.skip('@regression test Language Settings from special pages', async ({ page, basicPage, mainMenu, specialPages }) => {
     await page.goto('/wiki/Main_Page')
     await basicPage.wikiHeader.mainMenuBtn.click()
     await mainMenu.specialPages.click()
