@@ -1,4 +1,4 @@
-import { test, expect } from '../testData/fixtures'
+import {test, expect} from "../fixture/fixtures"
 
 test('@smoke all default sections are present on main screen', async ({ page, pageWithContent }) => {
     await page.goto('/wiki/Main_Page')

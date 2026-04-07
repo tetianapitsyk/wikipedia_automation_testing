@@ -1,3 +1,5 @@
+import { BasicPage } from "../compositeObject/BasicPage"
+
 
 export class PageWithContent {
     constructor(page) {
@@ -22,6 +24,7 @@ export class PageWithContent {
         this.finishPreviewSettings = this.page.locator('button').getByText('Done')
         this.onThisDayTitle = this.page.locator('h2#mp-otd-h2')
         this.editPreviewSetting = this.page.locator('a').filter({hasText: 'Edit preview settings'})
+        this.basicPage = new BasicPage(page)    
     }
 }
 

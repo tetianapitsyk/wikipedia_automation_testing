@@ -1,4 +1,5 @@
 import { expect } from "@playwright/test"
+import { BasicPage } from "../compositeObject/BasicPage"
 export class CurrentEventsPage {
     constructor(page) {
         this.page = page
@@ -6,11 +7,11 @@ export class CurrentEventsPage {
         this.calendarDay = this.calendar.locator('tbody tr td a').filter({ hasText: /\d/ }).first()
         this.article = this.page.locator('.current-events span.summary')
         this.monthy = this.calendar.locator('a[title^="Portal:Current events"]').nth(1)
+        this.basicPage = new BasicPage(page)    
     }
 
 
     async rememberMonth(){
-        //let month = ''
         let month = await this.monthy.textContent()
         return month
 

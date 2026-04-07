@@ -1,4 +1,4 @@
-import { test, expect } from "../testData/fixtures"
+import {test, expect} from "../fixture/fixtures"
 
 
 test('@UI test Appearance - text radiobtns', async ({ page, basicPage }) => {

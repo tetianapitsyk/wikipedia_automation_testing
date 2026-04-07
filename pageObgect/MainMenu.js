@@ -1,3 +1,5 @@
+
+import { BasicPage } from "../compositeObject/BasicPage"
 import { expect } from "@playwright/test"
 
 export class MainMenu {
@@ -14,6 +16,8 @@ export class MainMenu {
         this.mainMenuOnSideBar = page.locator('.vector-column-start')
         this.mainMenuOnSideBarLI = this.mainMenuOnSideBar.locator('li')
         this.HideButtonOnMainMenuOnSideBar = this.page.locator('button').filter({ hasText: 'hide' }).first()
+        this.basicPage = new BasicPage(page)    
+
     }
 
 

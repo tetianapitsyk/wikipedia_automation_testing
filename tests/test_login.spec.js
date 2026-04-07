@@ -1,4 +1,4 @@
-import { test, expect } from "../testData/fixtures";
+import {test, expect} from "../fixture/fixtures"
 import { credentials } from "../data/userTestData";
 
 test('@regression test LogIn page by getBy... locators', async ({ page, basicPage, login }) => {
@@ -12,4 +12,3 @@ test('@regression test LogIn page by getBy... locators', async ({ page, basicPag
     await login.keepMeCHkBox.check()
     await login.loginBtn.click()
 })
-

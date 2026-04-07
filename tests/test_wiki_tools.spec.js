@@ -1,4 +1,4 @@
-import { test, expect } from "../testData/fixtures";
+import {test, expect} from "../fixture/fixtures"
 
 
 test('@regression test contents on page information', async ({ page, basicPage, pageInformation }) => {
@@ -20,7 +20,6 @@ test('@regression test get Shortened URL by XPASS', async ({ page, basicPage, pa
     await pageInformation.copyBtn.waitFor()
     await pageInformation.copyBtn.click()
     await expect(pageInformation.confirmationMessage).toHaveText("URL copied to clipboard.")
-}
-)
+})
 
 

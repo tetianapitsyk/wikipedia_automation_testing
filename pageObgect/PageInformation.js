@@ -1,4 +1,8 @@
 import { expect } from "@playwright/test"
+import { BasicPage } from "../compositeObject/BasicPage"
+
+
+
 export class PageInformation {
     constructor(page) {
         this.page = page
@@ -20,16 +24,14 @@ export class PageInformation {
         this.shortenedUrlDialog = this.page.locator('//div[@class="oo-ui-window-body"]')
         this.copyBtn = this.page.locator('//span[@class="oo-ui-actionFieldLayout-button"]')
         this.confirmationMessage = this.page.locator('//div[@class="mw-notification-content"]')
+        this.basicPage = new BasicPage(page)    
+        
     }
 
     async verifyIfTableOfContentOpensNecessaryChapter() {
         let buttons = [this.basicInformation, this.pageProtection, this.editHistory, this.pageProperties, this.externalTools]
         let tables = [this.basicInformationTable, this.pageProtectionTable, this.editHistoryTable, this.pagePropertiesTable, this.externalToolsTable]
         for (let n = 0; n < buttons.length; n++) {
-            // if (buttons[n].textContent() == 'Basic information') {
-            //     await buttons[n].click()
-            //     await expect(tables[n]).toBeInViewport()
-            // }
             await buttons[n].click()
             await expect(tables[n]).toBeInViewport()
         }

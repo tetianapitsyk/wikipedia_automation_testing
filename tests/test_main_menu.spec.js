@@ -1,4 +1,4 @@
-import { test, expect } from '../testData/fixtures'
+import {test, expect} from "../fixture/fixtures"
 import { MainMenu } from '../pageObgect/MainMenu'
 import { WikiHeader } from '../componentObject/WikiHeader'
 

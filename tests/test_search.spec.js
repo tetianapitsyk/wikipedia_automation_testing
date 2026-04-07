@@ -1,4 +1,4 @@
-import { test, expect } from '../testData/fixtures'
+import {test, expect} from "../fixture/fixtures"
 
 test(' @smoke wiki search', async ({ page, searchBlock }) => {
   await page.goto('/wiki/Main_Page')
