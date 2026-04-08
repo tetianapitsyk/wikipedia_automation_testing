@@ -2,8 +2,9 @@
 import { BasicPage } from "../compositeObject/BasicPage"
 import { expect } from "@playwright/test"
 
-export class MainMenu {
+export class MainMenu extends BasicPage {
     constructor(page) {
+        super(page)
         this.page = page
         this.mainMenuContainer = this.page.locator('div.vector-dropdown-content div#vector-main-menu-unpinned-container')
         this.linkFromMainMenuContainerPart1 = this.page.locator('#vector-main-menu #p-navigation ul li')
@@ -16,8 +17,6 @@ export class MainMenu {
         this.mainMenuOnSideBar = page.locator('.vector-column-start')
         this.mainMenuOnSideBarLI = this.mainMenuOnSideBar.locator('li')
         this.HideButtonOnMainMenuOnSideBar = this.page.locator('button').filter({ hasText: 'hide' }).first()
-        this.basicPage = new BasicPage(page)    
-
     }
 
 

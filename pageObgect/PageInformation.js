@@ -1,10 +1,9 @@
 import { expect } from "@playwright/test"
 import { BasicPage } from "../compositeObject/BasicPage"
 
-
-
-export class PageInformation {
+export class PageInformation extends BasicPage {
     constructor(page) {
+        super(page)
         this.page = page
         this.infoTable = this.page.locator('.wikitable mw-page-info')
         this.infoPageTitle = this.page.locator('h1#firstHeading')
@@ -24,8 +23,6 @@ export class PageInformation {
         this.shortenedUrlDialog = this.page.locator('//div[@class="oo-ui-window-body"]')
         this.copyBtn = this.page.locator('//span[@class="oo-ui-actionFieldLayout-button"]')
         this.confirmationMessage = this.page.locator('//div[@class="mw-notification-content"]')
-        this.basicPage = new BasicPage(page)    
-        
     }
 
     async verifyIfTableOfContentOpensNecessaryChapter() {

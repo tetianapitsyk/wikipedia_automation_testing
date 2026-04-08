@@ -1,8 +1,8 @@
 import { BasicPage } from "../compositeObject/BasicPage"
 
-
-export class PageWithContent {
+export class PageWithContent extends BasicPage {
     constructor(page) {
+        super(page)
         this.page = page
         this.sectionWithContent = this.page.locator('div.mw-body-content div.mw-content-ltr')
         this.banner1 = this.sectionWithContent.locator('div#mp-topbanner')
@@ -23,8 +23,7 @@ export class PageWithContent {
         this.savePreviewSettings = this.previewsDialog.locator('button').filter({ hasText: 'Save' })
         this.finishPreviewSettings = this.page.locator('button').getByText('Done')
         this.onThisDayTitle = this.page.locator('h2#mp-otd-h2')
-        this.editPreviewSetting = this.page.locator('a').filter({hasText: 'Edit preview settings'})
-        this.basicPage = new BasicPage(page)    
+        this.editPreviewSetting = this.page.locator('a').filter({ hasText: 'Edit preview settings' })
     }
 }
 

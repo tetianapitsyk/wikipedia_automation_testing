@@ -1,4 +1,0 @@
-locator.click: Test timeout of 30000ms exceeded.
-Call log:
-  - waiting for locator('.uls-settings-trigger')
-

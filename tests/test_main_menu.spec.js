@@ -64,7 +64,7 @@ test.skip('@regression test Language Settings from special pages', async ({ page
     await specialPages.specialPagesMainMenu.waitFor()
     await specialPages.specialPagesMainMenu.click()
     try{
-         await specialPages.languageSettingButton.click()
+        await specialPages.languageSettingButton.click()
         await specialPages.languageSettingDialog.waitFor()
         await specialPages.fontsButton.click()
         await expect(specialPages.languageSettingDialog).toContainText('Download fonts when needed')
