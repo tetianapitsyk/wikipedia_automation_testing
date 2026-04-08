@@ -22,4 +22,12 @@ test('@regression test get Shortened URL by XPASS', async ({ page, basicPage, pa
     await expect(pageInformation.confirmationMessage).toHaveText("URL copied to clipboard.")
 })
 
-
+test('@regression test tools list is shorter on Special pages', async ({ page, basicPage, mainMenu }) => {
+    await page.goto('/wiki/Main_Page')
+    await basicPage.wikiHeader.mainMenuBtn.click()
+    await mainMenu.specialPages.click()
+    await basicPage.toolsDropdown.toolsButton.click()
+    await basicPage.toolsDropdown.getShortenedUrl.waitFor()
+    await basicPage.toolsDropdown.checkIfOptionIsPresentInContainer('Printable version')   
+    await basicPage.toolsDropdown.checkIfOptionIsPresentInContainer('Get shortened URL') 
+})
