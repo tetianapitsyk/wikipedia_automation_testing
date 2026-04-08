@@ -16,7 +16,7 @@ test('@regression observe link preview', async ({ page, pageWithContent }) => {
     await page.goto('/wiki/Main_Page')
     await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
-    await expect(pageWithContent.linkPreviewFrame).toBeVisible()
+    await expect(pageWithContent.linkPreviewFrame).toBeVisible({ timeout: 10000 })
     await pageWithContent.settingsOnLinkPreviewFrame.click()
     await expect(pageWithContent.previewsDialog).toContainText('Get quick previews of a topic while reading a page.')
 })

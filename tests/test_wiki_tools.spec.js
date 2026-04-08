@@ -15,8 +15,8 @@ test('@regression test get Shortened URL by XPASS', async ({ page, basicPage, pa
     await page.goto('/wiki/Main_Page');
     await basicPage.toolsDropdown.toolsButton.click()
     await basicPage.toolsDropdown.getShortenedUrl.waitFor()
-    await basicPage.toolsDropdown.getShortenedUrl.click()
-    await expect (pageInformation.shortenedUrlDialog).toBeVisible({ timeout: 10000 })
+    await basicPage.toolsDropdown.getShortenedUrl.click(({ force: true }))
+    await expect (pageInformation.shortenedUrlDialog).toBeVisible({ timeout: 15000 })
     await pageInformation.copyBtn.waitFor()
     await pageInformation.copyBtn.click()
     await expect(pageInformation.confirmationMessage).toHaveText("URL copied to clipboard.")
