@@ -1,7 +1,9 @@
 import {test, expect} from "../fixture/fixtures"
+import { wikiUrl } from "../data/wikiUrl"
+
 
 test('@smoke all default sections are present on main screen', async ({ page, pageWithContent }) => {
-    await page.goto('/wiki/Main_Page')
+    await page.goto(wikiUrl.wikipediaUrl)
     await expect(pageWithContent.banner1).toContainText('Welcome')
     await expect(pageWithContent.bannerLeft).toBeVisible()
     await expect(pageWithContent.bannerLeftUp).toBeVisible()
@@ -13,7 +15,7 @@ test('@smoke all default sections are present on main screen', async ({ page, pa
 
 
 test('@regression observe link preview', async ({ page, pageWithContent }) => {
-    await page.goto('/wiki/Main_Page')
+    await page.goto(wikiUrl.wikipediaUrl)
     await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeVisible({ timeout: 10000 })
@@ -22,7 +24,7 @@ test('@regression observe link preview', async ({ page, pageWithContent }) => {
 })
 
 test('@regression disable link preview', async ({ page, pageWithContent }) => {
-    await page.goto('/wiki/Main_Page')
+    await page.goto(wikiUrl.wikipediaUrl)
     await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeVisible()
@@ -38,5 +40,4 @@ test('@regression disable link preview', async ({ page, pageWithContent }) => {
     await expect(pageWithContent.linkPreviewFrame).toBeHidden()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeHidden({ timeout: 5000 })
-   
 })

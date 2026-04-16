@@ -1,12 +1,12 @@
 import { test, expect } from "../fixture/fixtures"
 import { BasicPage } from "../compositeObject/BasicPage"
+import { wikiUrl } from "../data/wikiUrl"
 
 
 
 test('@UI test Appearance - text radiobtns', async ({ page }) => {
     let basicPage = new BasicPage(page)
-
-    await page.goto('/wiki/Main_Page')
+    await page.goto(wikiUrl.wikipediaUrl)
     await basicPage.wikiAppearance.largeRB.click()
     await expect(page.locator('html')).toHaveClass(/clientpref-2/)
     await basicPage.wikiAppearance.smallRB.click()
@@ -18,7 +18,7 @@ test('@UI test Appearance - text radiobtns', async ({ page }) => {
 
 test('@UI test Appearance - color radiobtns', async ({ page }) => {
     let basicPage = new BasicPage(page)
-    await page.goto('/wiki/Main_Page')
+    await page.goto(wikiUrl.wikipediaUrl)
     await basicPage.wikiAppearance.automaticColor.click()
     await expect(page.locator('html')).toHaveClass(/skin-theme-clientpref-os/)
     await basicPage.wikiAppearance.lightColor.click()
