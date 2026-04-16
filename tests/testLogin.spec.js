@@ -1,7 +1,9 @@
 import {test, expect} from "../fixture/fixtures"
 import { credentials } from "../data/userTestData";
+import { BasicPage} from "../compositeObject/BasicPage";
 
-test('@regression test LogIn page by getBy... locators', async ({ page, basicPage, login }) => {
+test('@regression test LogIn page by getBy... locators', async ({ page, login }) => {
+    let basicPage = new BasicPage(page)
     await page.goto('wiki/Main_Page')
     await basicPage.wikiHeader.logInButton.click()
     await login.userLoginBox.waitFor()

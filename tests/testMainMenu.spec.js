@@ -1,6 +1,7 @@
 import {test, expect} from "../fixture/fixtures"
 import { MainMenu } from '../pageObgect/MainMenu'
 import { WikiHeader } from '../componentObject/WikiHeader'
+import { BasicPage } from "../compositeObject/BasicPage"
 
 
 test('@regression test Move main menu before refactoring', async ({ page }) => {
@@ -15,7 +16,9 @@ test('@regression test Move main menu before refactoring', async ({ page }) => {
 
 
 
-test('@regression test Move main menu after refactoring', async ({ page, basicPage, mainMenu }) => {
+test('@regression test Move main menu after refactoring', async ({ page, mainMenu }) => {
+        let basicPage = new BasicPage(page)
+
     await page.goto('/wiki/Main_Page')
     await basicPage.wikiHeader.mainMenuBtn.click()
     await mainMenu.moveToSideBarButton.click()
@@ -25,7 +28,9 @@ test('@regression test Move main menu after refactoring', async ({ page, basicPa
 })
 
 
-test('@regression test Hide main menu', async ({ page, basicPage, mainMenu }) => {
+test('@regression test Hide main menu', async ({ page, mainMenu }) => {
+        let basicPage = new BasicPage(page)
+
     await page.goto('/wiki/Main_Page')
     await basicPage.wikiHeader.mainMenuBtn.click()
     await mainMenu.moveToSideBarButton.click()
@@ -35,7 +40,9 @@ test('@regression test Hide main menu', async ({ page, basicPage, mainMenu }) =>
 })
 
 
-test('@regression test Current event from main menu', async ({ page, basicPage, mainMenu, currentEventsPage }) => {
+test('@regression test Current event from main menu', async ({ page, mainMenu, currentEventsPage }) => {
+        let basicPage = new BasicPage(page)
+
     await page.goto('/wiki/Main_Page')
     await basicPage.wikiHeader.mainMenuBtn.click()
     await mainMenu.currentEvents.click()
@@ -45,7 +52,9 @@ test('@regression test Current event from main menu', async ({ page, basicPage, 
 })
 
 
-test('@regression test contactUs from main menu', async ({ page, basicPage, mainMenu, contactUsPage }) => {
+test('@regression test contactUs from main menu', async ({ page, mainMenu, contactUsPage }) => {
+        let basicPage = new BasicPage(page)
+
 
     await page.goto('/wiki/Main_Page')
     await basicPage.wikiHeader.mainMenuBtn.click()
@@ -55,7 +64,9 @@ test('@regression test contactUs from main menu', async ({ page, basicPage, main
 })
 
 
-test.skip('@regression test Language Settings from special pages', async ({ page, basicPage, mainMenu, specialPages }) => {
+test.skip('@regression test Language Settings from special pages', async ({ page, mainMenu, specialPages }) => {
+        let basicPage = new BasicPage(page)
+
     await page.goto('/wiki/Main_Page')
     await basicPage.wikiHeader.mainMenuBtn.click()
     await mainMenu.specialPages.click()

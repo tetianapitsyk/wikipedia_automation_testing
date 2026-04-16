@@ -13,11 +13,8 @@ export class LogInPage extends BasicPage {
         this.errorMsg = this.page.locator('.cdx-message--block').first()
     }
 
-
     async enterUsernameAndPassword(username, password) {
         await this.username.fill(username)
         await this.password.fill(password)
     }
 }
-
-

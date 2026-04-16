@@ -26,5 +26,3 @@ export class PageWithContent extends BasicPage {
         this.editPreviewSetting = this.page.locator('a').filter({ hasText: 'Edit preview settings' })
     }
 }
-
-

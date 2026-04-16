@@ -35,7 +35,6 @@ test('@regression disable link preview', async ({ page, pageWithContent }) => {
     await expect(pageWithContent.enablePreviewBtn).not.toBeChecked()
     await pageWithContent.savePreviewSettings.click()
     await pageWithContent.bannerLeft.waitFor()
-    
     await expect(pageWithContent.linkPreviewFrame).toBeHidden()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeHidden({ timeout: 5000 })
