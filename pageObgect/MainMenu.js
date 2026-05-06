@@ -25,13 +25,11 @@ export class MainMenu extends BasicPage {
         let container1 = ['Main page', 'Contents', 'Current events', 'Random article', 'About Wikipedia', 'Contact us']
         let container2 = ['Help', 'Learn to edit', 'Community portal', 'Recent changes', 'Upload file', 'Special pages']
         let numberOfMenuOptions = await this.linkFromMainMenuContainerPart1.count()
-        console.log(numberOfMenuOptions)
         for (let el = 0; el < numberOfMenuOptions; el++) {
             await expect(await this.linkFromMainMenuContainerPart1.nth(el)).toContainText(container1[el])
         }
 
         numberOfMenuOptions = await this.linkFromMainMenuContainerPart2.count()
-        console.log(numberOfMenuOptions)
         for (let el = 0; el < numberOfMenuOptions; el++) {
             await expect(await this.linkFromMainMenuContainerPart2.nth(el)).toContainText(container2[el])
         }

@@ -3,7 +3,6 @@ import { BasicPage } from "../compositeObject/BasicPage"
 import { wikiUrl } from "../data/wikiUrl"
 
 
-
 test('@regression test contents on page information', async ({ page, pageInformation }) => {
     let basicPage = new BasicPage(page)
     await page.goto(wikiUrl.wikipediaUrl)
@@ -23,6 +22,7 @@ test('@regression test get Shortened URL by XPASS', async ({ page, pageInformati
     await pageInformation.copyBtn.click()
     await expect(pageInformation.confirmationMessage).toHaveText("URL copied to clipboard.")
 })
+
 
 test('@regression test short tools list on Special pages', async ({ page, mainMenu }) => {
     let basicPage = new BasicPage(page)

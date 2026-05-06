@@ -19,9 +19,9 @@ test('@regression test Move main menu before refactoring', async ({ page }) => {
 
 
 test('@regression test Move main menu after refactoring', async ({ page, mainMenu }) => {
-    let basicPage = new BasicPage(page)
+    //let basicPage = new BasicPage(page)  воно є у всіх інших класах PO
     await page.goto(wikiUrl.wikipediaUrl)
-    await basicPage.wikiHeader.mainMenuBtn.click()
+    await mainMenu.wikiHeader.mainMenuBtn.click()
     await mainMenu.moveToSideBarButton.click()
     await expect(mainMenu.mainMenuOnSideBar).toBeVisible()
     await mainMenu.verifyAllMenuOptionsArePresent()

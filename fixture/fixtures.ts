@@ -23,8 +23,6 @@ type MyFixtures = {
 
 //lang capabilities of playwrighth
 export const test = base.extend<MyFixtures>({
-
-
     mainMenu: async ({ page }, use) => {
     await use(new MainMenu(page));
   },
