@@ -81,5 +81,4 @@ test.skip('@regression test Language Settings from special pages', async ({ page
     catch (e) {
         console.log(e.message)
     }
-
 })
