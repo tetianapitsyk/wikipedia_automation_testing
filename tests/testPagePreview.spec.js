@@ -1,0 +1,39 @@
+import {test, expect} from "../fixture/fixtures"
+import { wikiUrl } from "../data/wikiUrl"
+
+
+test('@smoke all default sections are present on main screen', async ({ page, pageWithContent }) => {
+    await page.goto(wikiUrl.wikipediaUrl)
+    await expect(pageWithContent.banner1).toContainText('Welcome')
+    await expect(pageWithContent.bannerLeft).toBeVisible()
+    await expect(pageWithContent.bannerLeftUp).toBeVisible()
+    await expect(pageWithContent.bannerLeftDown).toBeVisible()
+    await expect(pageWithContent.bannerRight).toBeVisible()
+    await expect(pageWithContent.bannerRightUp).toBeVisible()
+    await expect(pageWithContent.bannerRightDown).toBeVisible()
+})
+
+
+test('@regression observe link preview', async ({ page, pageWithContent }) => {
+    await page.goto(wikiUrl.wikipediaUrl)
+    await pageWithContent.linkOnBannerLeft.hover()
+    await expect(pageWithContent.linkPreviewFrame).toBeVisible({ timeout: 10000 })
+    await pageWithContent.settingsOnLinkPreviewFrame.click()
+    await expect(pageWithContent.previewsDialog).toContainText('Get quick previews of a topic while reading a page.')
+})
+
+test('@regression disable link preview', async ({ page, pageWithContent }) => {
+    await page.goto(wikiUrl.wikipediaUrl)
+    await pageWithContent.linkOnBannerLeft.hover()
+    await expect(pageWithContent.linkPreviewFrame).toBeVisible()
+    await pageWithContent.settingsOnLinkPreviewFrame.click()
+    await pageWithContent.enablePreviewBtn.uncheck()
+    await pageWithContent.savePreviewSettings.click()
+    await pageWithContent.finishPreviewSettings.click()
+    await pageWithContent.editPreviewSetting.click()
+    await expect(pageWithContent.enablePreviewBtn).not.toBeChecked()
+    await pageWithContent.savePreviewSettings.click()
+    await expect(pageWithContent.linkPreviewFrame).toBeHidden()
+    await pageWithContent.linkOnBannerLeft.hover()
+    await expect(pageWithContent.linkPreviewFrame).toBeHidden({ timeout: 5000 })
+})

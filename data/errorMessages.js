@@ -1,0 +1,1 @@
+  export const errorMsg = "Incorrect username or password entered. Please try again."
