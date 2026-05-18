@@ -16,7 +16,6 @@ test('@smoke all default sections are present on main screen', async ({ page, pa
 
 test('@regression observe link preview', async ({ page, pageWithContent }) => {
     await page.goto(wikiUrl.wikipediaUrl)
-    await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeVisible({ timeout: 10000 })
     await pageWithContent.settingsOnLinkPreviewFrame.click()
@@ -25,7 +24,6 @@ test('@regression observe link preview', async ({ page, pageWithContent }) => {
 
 test('@regression disable link preview', async ({ page, pageWithContent }) => {
     await page.goto(wikiUrl.wikipediaUrl)
-    await pageWithContent.onThisDayTitle.waitFor()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeVisible()
     await pageWithContent.settingsOnLinkPreviewFrame.click()
@@ -33,10 +31,8 @@ test('@regression disable link preview', async ({ page, pageWithContent }) => {
     await pageWithContent.savePreviewSettings.click()
     await pageWithContent.finishPreviewSettings.click()
     await pageWithContent.editPreviewSetting.click()
-    await pageWithContent.previewsDialog.waitFor()
     await expect(pageWithContent.enablePreviewBtn).not.toBeChecked()
     await pageWithContent.savePreviewSettings.click()
-    await pageWithContent.bannerLeft.waitFor()
     await expect(pageWithContent.linkPreviewFrame).toBeHidden()
     await pageWithContent.linkOnBannerLeft.hover()
     await expect(pageWithContent.linkPreviewFrame).toBeHidden({ timeout: 5000 })

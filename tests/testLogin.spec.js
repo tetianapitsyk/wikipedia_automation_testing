@@ -8,7 +8,7 @@ test('@regression test LogIn page by getBy... locators', {tag: '@smoke',}, async
     let basicPage = new BasicPage(page)
     await page.goto(wikiUrl.wikipediaUrl)
     await basicPage.wikiHeader.logInButton.click()
-    await login.userLoginBox.waitFor()
+   // await login.userLoginBox.waitFor()
     await login.enterUsernameAndPassword(credentials.invalidCredsWithNumbers.username, credentials.invalidCredsWithNumbers.password)
     await login.loginBtn.click()
     await expect (login.errorMsg).toContainText(errorMsg)
