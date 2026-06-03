@@ -47,9 +47,7 @@ export const test = base.extend<MyFixtures>({
   login: async({page}, use)=>{
     await use (new LogInPage(page))
   },
-  //  basicPage: async({page}, use)=>{
-  //    await use (new BasicPage(page))
-  //  }
+  
 });
 
 export { expect } from '@playwright/test';
